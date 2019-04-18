@@ -1,115 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110f99f9-1b62-4ced-b9f1-9cbc70b9f2a0" name="Default" comment="remove code that is not required any more">
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/facebook_cover_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/facebook_cover_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/facebook_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/instagram_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/linkedin_banner_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/linkedin_banner_image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/linkedin_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/logo_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/pinterest_board_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/pinterest_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/twitter_header_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/twitter_header_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/twitter_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (1)/youtube_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/facebook_cover_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/facebook_cover_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/facebook_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/instagram_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/linkedin_banner_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/linkedin_banner_image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/linkedin_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/logo_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/pinterest_board_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/pinterest_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/twitter_header_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/twitter_header_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/twitter_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All (2)/youtube_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/facebook_cover_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/facebook_cover_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/facebook_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/instagram_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/linkedin_banner_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/linkedin_banner_image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/linkedin_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/logo-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/logo_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/pinterest_board_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/pinterest_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/twitter_header_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/twitter_header_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/twitter_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All-dark/youtube_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/facebook_cover_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/facebook_cover_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/facebook_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/instagram_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/linkedin_banner_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/linkedin_banner_image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/linkedin_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/logo_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/pinterest_board_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/pinterest_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/twitter_header_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/twitter_header_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/twitter_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/HatchfulExport-All/youtube_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/facebook_cover_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/facebook_cover_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/facebook_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/instagram_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/linkedin_banner_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/linkedin_banner_image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/linkedin_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/logo-114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/logo-144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/logo-57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/logo-72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/pinterest_board_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/pinterest_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/twitter_header_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/twitter_header_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/twitter_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/material/currentLogos/youtube_profile_image.png" afterDir="false" />
+    <list default="true" id="110f99f9-1b62-4ced-b9f1-9cbc70b9f2a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/facebook_cover_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/facebook_cover_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/facebook_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/instagram_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/linkedin_banner_image_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/linkedin_banner_image_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/linkedin_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/logo_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/pinterest_board_photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/pinterest_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/twitter_header_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/twitter_header_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/twitter_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/logos/youtube_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,8 +16,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="48" column="75" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
+            <state relative-caret-position="323">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -178,6 +71,7 @@
       <find>bg2</find>
       <find>20190315</find>
       <find>20190315(2)</find>
+      <find>empow</find>
     </findStrings>
     <replaceStrings>
       <replace>logo-144.png</replace>
@@ -262,16 +156,6 @@
               <item name="Cococatty.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cococatty.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Cococatty.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cococatty.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cococatty.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cococatty.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -332,7 +216,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555412154106</updated>
-      <workItem from="1555412155689" duration="25757000" />
+      <workItem from="1555412155689" duration="26816000" />
     </task>
     <task id="LOCAL-00001" summary="updated info">
       <created>1555412830139</created>
@@ -411,11 +295,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555592237629</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated graphs setup">
+      <created>1555595842535</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555595842535</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update slogan">
+      <created>1555596449796</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555596449796</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25757000" />
+    <option name="totallyTimeSpent" value="26816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-7" width="1936" height="1056" extended-state="6" />
@@ -431,7 +329,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20208333" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.36893204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29881337" />
@@ -477,7 +375,9 @@
     <MESSAGE value="put head section in head.html" />
     <MESSAGE value="remove code that is not required any more" />
     <MESSAGE value="update import url - use https instead" />
-    <option name="LAST_COMMIT_MESSAGE" value="update import url - use https instead" />
+    <MESSAGE value="updated graphs setup" />
+    <MESSAGE value="update slogan" />
+    <option name="LAST_COMMIT_MESSAGE" value="update slogan" />
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://JavaScript-modules-diagram/C:/Projects/Cococatty.github.io/pricing.html">
@@ -744,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="48" column="75" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
+        <state relative-caret-position="323">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
