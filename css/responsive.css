@@ -35,11 +35,11 @@
     padding-right: 0;
   }
 
-  .recent-work-wrap .recent-work-inner h3 a {
+  .recent-trip-wrap .recent-trip-inner h3 a {
     font-size: 20px;
   }
 
-  .recent-work-wrap .overlay{
+  .recent-trip-wrap .overlay{
     padding: 15px;
   }
 
@@ -71,7 +71,7 @@
     margin-right: -10px;
   }
 
-  .recent-work-wrap .overlay .preview{
+  .recent-trip-wrap .overlay .preview{
     line-height: inherit;
   }
 
@@ -143,11 +143,11 @@
     padding: 40px 0 40px 30px;
   }
 
-  .recent-work-wrap .overlay{
+  .recent-trip-wrap .overlay{
    padding: 15px;
   }
 
-  .recent-work-wrap .recent-work-inner h3 a {
+  .recent-trip-wrap .recent-trip-inner h3 a {
     font-size: 20px;
   }
 
@@ -347,7 +347,7 @@
   }
 
   .portfolio-item, 
-  #recent-works .col-xs-12.col-sm-4.col-md-3{
+  #recent-trips .col-xs-12.col-sm-4.col-md-3{
     padding:0 15px;
   }
 

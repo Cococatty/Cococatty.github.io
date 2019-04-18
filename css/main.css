@@ -568,28 +568,28 @@ input.search-form:hover {
     color: #707070;
 }
 
-#recent-works {
+#recent-trips {
     background-color: #FAFAFA;
 }
 
-#recent-works .single-work {
+#recent-trips .single-work {
     padding: 0;
 }
 
-#recent-works {
+#recent-trips {
     padding-bottom: 70px;
 }
 
-.recent-work-wrap {
+.recent-trip-wrap {
     position: relative;
     overflow: hidden;
 }
 
-.recent-work-wrap img {
+.recent-trip-wrap img {
     width: 100%;
 }
 
-.recent-work-wrap .recent-work-inner {
+.recent-trip-wrap .recent-trip-inner {
     top: 0;
     background: transparent;
     opacity: .8;
@@ -598,7 +598,7 @@ input.search-form:hover {
     margin-bottom: 0;
 }
 
-.recent-work-wrap .overlay {
+.recent-trip-wrap .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -625,7 +625,7 @@ input.search-form:hover {
     justify-content: center;
 }
 
-.recent-work-wrap .overlay .preview {
+.recent-trip-wrap .overlay .preview {
     color: #fff;
     height: 50px;
     width: 50px;
@@ -635,7 +635,7 @@ input.search-form:hover {
     line-height: 50px;
 }
 
-.recent-work-wrap:hover .overlay {
+.recent-trip-wrap:hover .overlay {
     opacity: 1;
 }
 
