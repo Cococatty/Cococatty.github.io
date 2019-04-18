@@ -3,4 +3,7 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="TerminalProjectOptionsProvider">
+    <option name="myStartingDirectory" value="C:\Projects\Cococatty.github.io" />
+  </component>
 </project>
