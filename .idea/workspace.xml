@@ -1,98 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110f99f9-1b62-4ced-b9f1-9cbc70b9f2a0" name="Default" comment="refresh images">
+    <list default="true" id="110f99f9-1b62-4ced-b9f1-9cbc70b9f2a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-Carina.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-Carina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1).zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/facebook_cover_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/facebook_cover_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/facebook_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/instagram_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/linkedin_banner_image_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/linkedin_banner_image_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/linkedin_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/logo_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/pinterest_board_photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/pinterest_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/twitter_header_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/twitter_header_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/twitter_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (1)/youtube_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2).zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/facebook_cover_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/facebook_cover_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/facebook_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/instagram_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/linkedin_banner_image_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/linkedin_banner_image_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/linkedin_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/logo_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/pinterest_board_photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/pinterest_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/twitter_header_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/twitter_header_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/twitter_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All (2)/youtube_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/facebook_cover_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/facebook_cover_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/facebook_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/instagram_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/linkedin_banner_image_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/linkedin_banner_image_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/linkedin_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/logo-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/logo_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/pinterest_board_photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/pinterest_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/twitter_header_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/twitter_header_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/twitter_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All-dark/youtube_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/facebook_cover_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/facebook_cover_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/facebook_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/instagram_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/linkedin_banner_image_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/linkedin_banner_image_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/linkedin_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/logo_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/pinterest_board_photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/pinterest_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/twitter_header_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/twitter_header_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/twitter_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/HatchfulExport-All/youtube_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/facebook_cover_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/facebook_cover_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/facebook_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/instagram_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/linkedin_banner_image_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/linkedin_banner_image_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/linkedin_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/logo-114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/logo-144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/logo-57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/logo-72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/pinterest_board_photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/pinterest_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/twitter_header_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/twitter_header_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/twitter_profile_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/currentLogos/youtube_profile_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/portrait/2019Beijing.JPEG" beforeDir="false" afterPath="$PROJECT_DIR$/images/portrait/2019Beijing.JPEG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neptuneX.html" beforeDir="false" afterPath="$PROJECT_DIR$/neptuneX.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendemail.php" beforeDir="false" afterPath="$PROJECT_DIR$/sendemail.php" afterDir="false" />
     </list>
     <ignored path="rawMaterial/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="31" column="99" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="99" />
+            <state relative-caret-position="374">
+              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="n#ol#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -167,19 +85,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neptuneX.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="neptuneX.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neptuneX.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="215">
+              <caret line="247" column="69" selection-start-line="247" selection-start-column="69" selection-end-line="247" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-Carina.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about-Carina.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="33" column="117" selection-start-line="33" selection-start-column="117" selection-end-line="33" selection-end-column="117" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-704">
+              <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -189,58 +158,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
               <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/draft/temp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="n#section#0;n#!!top" />
-                <element signature="n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#section#1;n#!!top" />
-                <element signature="n#div#0;n#section#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -256,16 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>apple-touch-icon-72-precomposed.png</find>
-      <find>apple-touch-icon-57-precomposed.png</find>
-      <find>Our Skills</find>
-      <find>favicon.ico</find>
-      <find>googl</find>
-      <find>http:</find>
-      <find>favico.ico</find>
-      <find>favico</find>
-      <find>fav</find>
-      <find>recent-work</find>
       <find>item-1.png</find>
       <find>20180828</find>
       <find>20180829</find>
@@ -281,11 +188,21 @@
       <find>our Service</find>
       <find>blog</find>
       <find>blo</find>
-      <find>skill</find>
       <find>about-Cococatty</find>
       <find>por</find>
       <find>Learn</find>
       <find>nept</find>
+      <find>22</find>
+      <find>top-</find>
+      <find>top-number</find>
+      <find>top-location</find>
+      <find>fa-pho</find>
+      <find>font-a</find>
+      <find>about</find>
+      <find>some</find>
+      <find>fas-</find>
+      <find>font-awesome</find>
+      <find>skill</find>
     </findStrings>
     <replaceStrings>
       <replace>logo-144.png</replace>
@@ -300,6 +217,8 @@
       <replace>20190315-2</replace>
       <replace>logo</replace>
       <replace>favicon.png</replace>
+      <replace>top-location</replace>
+      <replace>fontawesome</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Projects\Cococatty.github.io\images</dir>
@@ -318,23 +237,25 @@
         <option value="$PROJECT_DIR$/blog-item.html" />
         <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/diyProjects.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/about-Carina.html" />
         <option value="$PROJECT_DIR$/about-Cococatty.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/about-CococattyLtd.html" />
         <option value="$PROJECT_DIR$/draft/bottom.html" />
-        <option value="$PROJECT_DIR$/head.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/draft/temp.html" />
         <option value="$PROJECT_DIR$/portfolio.html" />
-        <option value="$PROJECT_DIR$/draft/pricing.html" />
         <option value="$PROJECT_DIR$/blog-travel.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/neptuneX.html" />
+        <option value="$PROJECT_DIR$/sendemail.php" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/about-Carina.html" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/header.html" />
+        <option value="$PROJECT_DIR$/draft/pricing.html" />
+        <option value="$PROJECT_DIR$/head.html" />
       </list>
     </option>
   </component>
@@ -440,7 +361,7 @@
       <updated>1555412154106</updated>
       <workItem from="1555412155689" duration="39110000" />
       <workItem from="1555643951695" duration="2000" />
-      <workItem from="1555644047276" duration="2289000" />
+      <workItem from="1555644047276" duration="6581000" />
     </task>
     <task id="LOCAL-00001" summary="updated info">
       <created>1555412830139</created>
@@ -554,26 +475,34 @@
       <option name="project" value="LOCAL" />
       <updated>1555643565216</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="refresh images">
+      <created>1555646500259</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555646500260</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41401000" />
+    <option name="totallyTimeSpent" value="45693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-7" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20208333" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.18554477" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20208333" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.36893204" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29881337" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -583,7 +512,6 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32901832" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.36893204" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -623,9 +551,11 @@
     <MESSAGE value="updated graphs setup" />
     <MESSAGE value="update slogan" />
     <MESSAGE value="refresh commit" />
-    <MESSAGE value="refresh images" />
     <MESSAGE value="adding content" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding content" />
+    <MESSAGE value="refresh images" />
+    <option name="LAST_COMMIT_MESSAGE" value="refresh images" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -699,7 +629,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -927,9 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendemail.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/ads/ad1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -976,24 +902,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about-CreativeCat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="29" column="87" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-Carina.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="104" column="41" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1018,24 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/head.html">
+    <entry file="file://$PROJECT_DIR$/sendemail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        <state relative-caret-position="88">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -1071,6 +969,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/neptuneX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="247" column="69" selection-start-line="247" selection-start-column="69" selection-end-line="247" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-Carina.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="117" selection-start-line="33" selection-start-column="117" selection-end-line="33" selection-end-column="117" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19610">
+          <caret line="402" column="7" selection-start-line="402" selection-start-column="7" selection-end-line="402" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-travel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1080,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="31" column="99" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="99" />
+        <state relative-caret-position="374">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="n#ol#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -1135,28 +1128,6 @@
             <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neptuneX.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
