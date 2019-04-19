@@ -375,13 +375,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\Cococatty.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Cococatty.github.io\setup" />
       <recent name="C:\Projects\Cococatty.github.io\draft" />
       <recent name="C:\Projects\Cococatty.github.io" />
       <recent name="C:\Projects\Cococatty.github.io\Draft" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Cococatty.github.io" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,7 +398,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="header.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cococatty.github.io/header.html" />
+    <configuration name="header.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cococatty.github.io/setup/header.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cococatty.github.io/index.html" />
     <list>
       <item itemvalue="JavaScript Debug.header.html" />
