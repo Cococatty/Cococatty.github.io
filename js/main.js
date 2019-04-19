@@ -122,4 +122,18 @@ jQuery(function ($) {
 
         $('.digital-clock').text(h + ':' + m + ':' + s)
     }
+
+    function nzClock() {
+        // create Date object for current location
+        var date = new Date();
+
+        // convert to milliseconds, add local time zone offset and get UTC time in milliseconds
+        var utcTime = date.getTime() + (date.getTimezoneOffset() * 60000);
+
+        // time offset for New Zealand is +12
+        var timeOffset = 12;
+
+        // create new Date object for a different timezone using supplied its GMT offset.
+        var NewZealandTime = new Date(utcTime + (3600000 * timeOffset));
+    }
 });
