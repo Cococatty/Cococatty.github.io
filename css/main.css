@@ -170,11 +170,6 @@ body>section {
     padding: 60px 0;
 }
 
-/*.page-titleN{*/
-    /*padding: 60px 0;*/
-    /*height: 40px;*/
-/*}*/
-
 .page-title h1{
     color: #fff;
     margin: 0;
@@ -202,11 +197,11 @@ body>section {
     line-height: 28px;
 }
 
-.top-number {
+.top-location {
     color: #fff;
 }
 
-.top-number p {
+.top-location p {
     margin: 0
 }
 
