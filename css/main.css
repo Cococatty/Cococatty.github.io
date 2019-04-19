@@ -1140,14 +1140,15 @@ a.accordion-toggle i {
     background-color: #FAFAFA;
 }
 
-.single-team img{
+.single-project img {
     width: 100%;
 }
 
-.single-team{
+.single-project {
     margin-bottom: 30px;
 }
-.single-team .inner{
+
+.single-project .inner {
     background: #fff;
     text-align: center;    
     color: #989898;
@@ -1158,25 +1159,27 @@ a.accordion-toggle i {
     overflow: hidden;
 }
 
-.single-team .inner:hover{
+.single-project .inner:hover {
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-
-.single-team .team-content{
+.single-project .project-content-grid {
     padding: 30px 0;
 }
-.single-team h4{
+
+.single-project h4 {
     font-size: 20px;
     font-weight: 700;
     color: #333;
     margin-top: 0;
 }
-.single-team .team-social{
+
+.single-project .team-social {
     margin-top: 15px;
 }
-.single-team .team-social a{
+
+.single-project .team-social a {
     color: #989898;
     padding: 5px;
     margin: 0 10px;
@@ -1184,7 +1187,7 @@ a.accordion-toggle i {
     transition: .4s;
 }
 
-.single-team .team-social a:hover{
+.single-project .team-social a:hover {
     color: #EC5538;
 }
 
