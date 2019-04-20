@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110f99f9-1b62-4ced-b9f1-9cbc70b9f2a0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/interactiveMap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neptuneX.html" beforeDir="false" afterPath="$PROJECT_DIR$/neptuneX.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/setup/header.html" afterDir="false" />
     </list>
     <ignored path="rawMaterial/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,81 +48,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test executor.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/draft/test executor.html">
+      <file leaf-file-name="interactiveMap.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interactiveMap.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/draft/temp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4488">
-              <caret line="204" column="74" selection-start-line="202" selection-start-column="28" selection-end-line="204" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog-trips.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-trips.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="198">
+              <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="neptuneX.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/neptuneX.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prettyPhoto.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/prettyPhoto.css">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3498">
-              <caret line="159" column="56" selection-start-line="159" selection-start-column="56" selection-end-line="159" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.prettyPhoto.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jquery.prettyPhoto.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11132">
-              <caret line="511" column="57" selection-start-line="511" selection-start-column="57" selection-end-line="511" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banner.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup/banner.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="6" selection-start-line="3" selection-end-line="5" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="191">
+              <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -137,8 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>font-a</find>
-      <find>about</find>
       <find>some</find>
       <find>fas-</find>
       <find>font-awesome</find>
@@ -167,6 +113,8 @@
       <find>e,t</find>
       <find>single-work</find>
       <find>col-xs-12</find>
+      <find>https://cococatty.shinyapps.io/NeptuneX/</find>
+      <find>neptune</find>
     </findStrings>
     <replaceStrings>
       <replace>logo-144.png</replace>
@@ -189,6 +137,7 @@
       <replace>top-location</replace>
       <replace>201802CHN</replace>
       <replace>single-item</replace>
+      <replace>https://cococatty.shinyapps.io/InteractiveMap_Release/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Projects\Cococatty.github.io\images</dir>
@@ -232,7 +181,6 @@
         <option value="$PROJECT_DIR$/diyGarden.html" />
         <option value="$PROJECT_DIR$/setup/head.html" />
         <option value="$PROJECT_DIR$/setup/footer.html" />
-        <option value="$PROJECT_DIR$/setup/header.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/draft/test executor.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -240,6 +188,8 @@
         <option value="$PROJECT_DIR$/js/jquery.prettyPhoto.js" />
         <option value="$PROJECT_DIR$/blog-trips.html" />
         <option value="$PROJECT_DIR$/neptuneX.html" />
+        <option value="$PROJECT_DIR$/setup/header.html" />
+        <option value="$PROJECT_DIR$/interactiveMap.html" />
       </list>
     </option>
   </component>
@@ -323,17 +273,17 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\Cococatty.github.io" />
-      <recent name="C:\Projects\Cococatty.github.io\setup" />
-      <recent name="C:\Projects\Cococatty.github.io\diy" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\Cococatty.github.io" />
       <recent name="C:\Projects\Cococatty.github.io\diy" />
       <recent name="C:\Projects\Cococatty.github.io\blogs" />
       <recent name="C:\Projects\Cococatty.github.io\assets" />
       <recent name="C:\Projects\Cococatty.github.io\setup" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Cococatty.github.io" />
+      <recent name="C:\Projects\Cococatty.github.io\setup" />
+      <recent name="C:\Projects\Cococatty.github.io\diy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,7 +330,7 @@
       <workItem from="1555644047276" duration="10314000" />
       <workItem from="1555661216485" duration="22357000" />
       <workItem from="1555742292310" duration="659000" />
-      <workItem from="1555747793637" duration="540000" />
+      <workItem from="1555747793637" duration="3410000" />
     </task>
     <task id="LOCAL-00001" summary="updated info">
       <created>1555412830139</created>
@@ -613,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555742640665</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="embed Neptune X from Shiny.io">
+      <created>1555748369161</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1555748369161</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72982000" />
+    <option name="totallyTimeSpent" value="75852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -706,18 +663,12 @@
     <MESSAGE value="add images" />
     <MESSAGE value="add images and more content" />
     <MESSAGE value="build connection to Shiny.io for Neptune X" />
-    <option name="LAST_COMMIT_MESSAGE" value="build connection to Shiny.io for Neptune X" />
+    <MESSAGE value="embed Neptune X from Shiny.io" />
+    <option name="LAST_COMMIT_MESSAGE" value="embed Neptune X from Shiny.io" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/draft/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1430">
@@ -971,16 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="6" selection-start-line="3" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diy/gardenItem-vegPallet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1022,10 +963,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="3" column="19396" lean-forward="true" selection-start-line="3" selection-start-column="19396" selection-end-line="3" selection-end-column="19396" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="204" column="74" selection-start-line="202" selection-start-column="28" selection-end-line="204" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/test executor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neptuneX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="66" column="10" lean-forward="true" selection-end-line="300" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-trips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/prettyPhoto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="159" column="56" selection-start-line="159" selection-start-column="56" selection-end-line="159" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.prettyPhoto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="511" column="57" selection-start-line="511" selection-start-column="57" selection-end-line="511" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="6" selection-start-line="3" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        <state relative-caret-position="191">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1059,71 +1079,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft/test executor.html">
+    <entry file="file://$PROJECT_DIR$/interactiveMap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="3" column="19396" lean-forward="true" selection-start-line="3" selection-start-column="19396" selection-end-line="3" selection-end-column="19396" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/prettyPhoto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3498">
-          <caret line="159" column="56" selection-start-line="159" selection-start-column="56" selection-end-line="159" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.prettyPhoto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11132">
-          <caret line="511" column="57" selection-start-line="511" selection-start-column="57" selection-end-line="511" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4488">
-          <caret line="204" column="74" selection-start-line="202" selection-start-column="28" selection-end-line="204" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-trips.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="198">
+          <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neptuneX.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
