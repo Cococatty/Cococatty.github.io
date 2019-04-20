@@ -68,7 +68,7 @@
       <file leaf-file-name="blog-trips.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-trips.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="396">
               <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,12 +80,16 @@
       <file leaf-file-name="neptuneX.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neptuneX.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="59" column="119" selection-start-line="59" selection-start-column="119" selection-end-line="59" selection-end-column="119" />
+            <state relative-caret-position="376">
+              <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -271,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,7 +312,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="header.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cococatty.github.io/setup/header.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cococatty.github.io/index.html" />
     <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/js" />
@@ -375,7 +379,8 @@
       <workItem from="1555643951695" duration="2000" />
       <workItem from="1555644047276" duration="10314000" />
       <workItem from="1555661216485" duration="22357000" />
-      <workItem from="1555742292310" duration="310000" />
+      <workItem from="1555742292310" duration="659000" />
+      <workItem from="1555747793637" duration="540000" />
     </task>
     <task id="LOCAL-00001" summary="updated info">
       <created>1555412830139</created>
@@ -601,11 +606,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555716636521</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="build connection to Shiny.io for Neptune X">
+      <created>1555742640665</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1555742640665</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72093000" />
+    <option name="totallyTimeSpent" value="72982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,23 +657,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.159375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.47239584" visible="true" weight="0.3171521" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.36893204" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52760416" side_tool="true" weight="0.18554477" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.47239584" visible="true" weight="0.3171521" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29881337" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32901832" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,7 +705,8 @@
     <MESSAGE value="updated files structure" />
     <MESSAGE value="add images" />
     <MESSAGE value="add images and more content" />
-    <option name="LAST_COMMIT_MESSAGE" value="add images and more content" />
+    <MESSAGE value="build connection to Shiny.io for Neptune X" />
+    <option name="LAST_COMMIT_MESSAGE" value="build connection to Shiny.io for Neptune X" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1090,7 +1103,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-trips.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="396">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1100,12 +1113,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neptuneX.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="59" column="119" selection-start-line="59" selection-start-column="119" selection-end-line="59" selection-end-column="119" />
+        <state relative-caret-position="376">
+          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
