@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="110f99f9-1b62-4ced-b9f1-9cbc70b9f2a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neptuneX.html" beforeDir="false" afterPath="$PROJECT_DIR$/neptuneX.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-CococattyLtd.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-CococattyLtd.html" afterDir="false" />
     </list>
     <ignored path="rawMaterial/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neptuneX.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="neptuneX.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neptuneX.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+            <state relative-caret-position="496">
+              <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,6 +78,15 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-CococattyLtd.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about-CococattyLtd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -189,7 +198,6 @@
         <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/about-Carina.html" />
-        <option value="$PROJECT_DIR$/about-CococattyLtd.html" />
         <option value="$PROJECT_DIR$/about-CreativeCat.html" />
         <option value="$PROJECT_DIR$/blogs/blog-item.html" />
         <option value="$PROJECT_DIR$/setup/banner.html" />
@@ -207,6 +215,7 @@
         <option value="$PROJECT_DIR$/setup/header.html" />
         <option value="$PROJECT_DIR$/interactiveMap.html" />
         <option value="$PROJECT_DIR$/neptuneX.html" />
+        <option value="$PROJECT_DIR$/about-CococattyLtd.html" />
       </list>
     </option>
   </component>
@@ -229,10 +238,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2589" />
+    <option name="y" value="-22" />
+    <option name="width" value="1549" />
+    <option name="height" value="845" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -349,7 +358,9 @@
       <workItem from="1555742292310" duration="659000" />
       <workItem from="1555747793637" duration="4139000" />
       <workItem from="1555752266587" duration="723000" />
-      <workItem from="1555845503370" duration="22000" />
+      <workItem from="1555845503370" duration="108000" />
+      <workItem from="1555845767309" duration="600000" />
+      <workItem from="1556146396882" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="updated info">
       <created>1555412830139</created>
@@ -603,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555752313511</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="updated description to Neptune X">
+      <created>1555845560929</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1555845560929</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77326000" />
+    <option name="totallyTimeSpent" value="78141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,10 +637,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-7" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.159375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12708333" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.52760416" side_tool="true" weight="0.18554477" />
@@ -673,7 +691,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="centralized header and footer" />
     <MESSAGE value="put head section in head.html" />
     <MESSAGE value="remove code that is not required any more" />
     <MESSAGE value="update import url - use https instead" />
@@ -698,7 +715,8 @@
     <MESSAGE value="embed Neptune X from Shiny.io" />
     <MESSAGE value="updated interactive map page" />
     <MESSAGE value="fixed spelling mistake" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed spelling mistake" />
+    <MESSAGE value="updated description to Neptune X" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated description to Neptune X" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -914,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-CococattyLtd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about-CreativeCat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1107,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neptuneX.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        <state relative-caret-position="496">
+          <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1118,6 +1129,13 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-CococattyLtd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
         </state>
       </provider>
     </entry>
