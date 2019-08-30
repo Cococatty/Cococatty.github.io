@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Creative Cat</title>
-    <link href="https://Cococatty.github.io/Cococatty.github.io/feed.xml" rel="self" />
-    <link href="https://Cococatty.github.io/Cococatty.github.io" />
-    <updated>2019-08-31T01:08:15+12:00</updated>
+    <link href="https://Cococatty.github.io/feed.xml" rel="self" />
+    <link href="https://Cococatty.github.io" />
+    <updated>2019-08-31T01:23:55+12:00</updated>
     <author>
         <name>Carina Zheng</name>
     </author>
-    <id>https://Cococatty.github.io/Cococatty.github.io</id>
+    <id>https://Cococatty.github.io</id>
 
     <entry>
         <title>Children</title>
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/Cococatty.github.io/children.html"/>
-        <id>https://Cococatty.github.io/Cococatty.github.io/children.html</id>
+        <link href="https://Cococatty.github.io/children.html"/>
+        <id>https://Cococatty.github.io/children.html</id>
 
         <updated>2019-08-31T00:45:51+12:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                 <div class="gallery"   >
-<figure class="gallery__item"><a href="https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children.png" ><img src="https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children-thumbnail.png" alt="" width="720" height="458"></a></figure>
-<figure class="gallery__item"><a href="https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children2.png" ><img src="https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children2-thumbnail.png" alt="" width="720" height="639"></a></figure>
-<figure class="gallery__item"><a href="https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children3.png" ><img src="https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children3-thumbnail.png" alt="" width="720" height="407"></a></figure>
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children.png" ><img src="https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children-thumbnail.png" alt="" width="720" height="458"></a></figure>
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children2.png" ><img src="https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children2-thumbnail.png" alt="" width="720" height="639"></a></figure>
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children3.png" ><img src="https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children3-thumbnail.png" alt="" width="720" height="407"></a></figure>
 </div>
             ]]>
         </content>
@@ -34,19 +34,19 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/Cococatty.github.io/neptunex.html"/>
-        <id>https://Cococatty.github.io/Cococatty.github.io/neptunex.html</id>
+        <link href="https://Cococatty.github.io/neptunex.html"/>
+        <id>https://Cococatty.github.io/neptunex.html</id>
 
         <updated>2019-08-31T00:58:17+12:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://Cococatty.github.io/Cococatty.github.io/media/posts/5/facebook_profile_image.png" alt="" />
+                        <img src="https://Cococatty.github.io/media/posts/5/facebook_profile_image.png" alt="" />
                     NeptuneX
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://Cococatty.github.io/Cococatty.github.io/media/posts/5/facebook_profile_image.png" alt="" />
+                    <img src="https://Cococatty.github.io/media/posts/5/facebook_profile_image.png" alt="" />
                 <a href="https://cococatty.shinyapps.io/NeptuneX/" target="_blank" rel="noopener noreferrer" title="NeptuneX">NeptuneX</a>
             ]]>
         </content>
@@ -56,8 +56,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/Cococatty.github.io/amazon-is-on-fire.html"/>
-        <id>https://Cococatty.github.io/Cococatty.github.io/amazon-is-on-fire.html</id>
+        <link href="https://Cococatty.github.io/amazon-is-on-fire.html"/>
+        <id>https://Cococatty.github.io/amazon-is-on-fire.html</id>
 
         <updated>2019-08-31T00:41:33+12:00</updated>
             <summary>
@@ -76,8 +76,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/Cococatty.github.io/about-creative-cat.html"/>
-        <id>https://Cococatty.github.io/Cococatty.github.io/about-creative-cat.html</id>
+        <link href="https://Cococatty.github.io/about-creative-cat.html"/>
+        <id>https://Cococatty.github.io/about-creative-cat.html</id>
 
         <updated>2019-08-31T00:44:01+12:00</updated>
             <summary></summary>
@@ -88,8 +88,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/Cococatty.github.io/about-cococatty-ltd.html"/>
-        <id>https://Cococatty.github.io/Cococatty.github.io/about-cococatty-ltd.html</id>
+        <link href="https://Cococatty.github.io/about-cococatty-ltd.html"/>
+        <id>https://Cococatty.github.io/about-cococatty-ltd.html</id>
 
         <updated>2019-08-31T00:44:27+12:00</updated>
             <summary></summary>
@@ -100,8 +100,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/Cococatty.github.io/hello-world.html"/>
-        <id>https://Cococatty.github.io/Cococatty.github.io/hello-world.html</id>
+        <link href="https://Cococatty.github.io/hello-world.html"/>
+        <id>https://Cococatty.github.io/hello-world.html</id>
 
         <updated>2019-08-31T00:05:40+12:00</updated>
             <summary>

@@ -2,18 +2,18 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Creative Cat",
     "description": "",
-    "home_page_url": "https://Cococatty.github.io/Cococatty.github.io",
-    "feed_url": "https://Cococatty.github.io/Cococatty.github.io/feed.json",
+    "home_page_url": "https://Cococatty.github.io",
+    "feed_url": "https://Cococatty.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "Carina Zheng"
     },
     "items": [
         {
-            "id": "https://Cococatty.github.io/Cococatty.github.io/children.html",
-            "url": "https://Cococatty.github.io/Cococatty.github.io/children.html",
+            "id": "https://Cococatty.github.io/children.html",
+            "url": "https://Cococatty.github.io/children.html",
             "title": "Children",
-            "content_html": "<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children.png\" ><img src=\"https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children-thumbnail.png\" alt=\"\" width=\"720\" height=\"458\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children2.png\" ><img src=\"https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children2-thumbnail.png\" alt=\"\" width=\"720\" height=\"639\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children3.png\" ><img src=\"https://Cococatty.github.io/Cococatty.github.io/media/posts/6/gallery/Tableau-Children3-thumbnail.png\" alt=\"\" width=\"720\" height=\"407\"></a></figure>\n</div>",
+            "content_html": "<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children.png\" ><img src=\"https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children-thumbnail.png\" alt=\"\" width=\"720\" height=\"458\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children2.png\" ><img src=\"https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children2-thumbnail.png\" alt=\"\" width=\"720\" height=\"639\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children3.png\" ><img src=\"https://Cococatty.github.io/media/posts/6/gallery/Tableau-Children3-thumbnail.png\" alt=\"\" width=\"720\" height=\"407\"></a></figure>\n</div>",
             "author": {
                 "name": "Carina Zheng"
             },
@@ -23,12 +23,12 @@
             "date_modified": "2019-08-31T00:45:51+12:00"
         },
         {
-            "id": "https://Cococatty.github.io/Cococatty.github.io/neptunex.html",
-            "url": "https://Cococatty.github.io/Cococatty.github.io/neptunex.html",
+            "id": "https://Cococatty.github.io/neptunex.html",
+            "url": "https://Cococatty.github.io/neptunex.html",
             "title": "NeptuneX",
             "summary": "NeptuneX",
             "content_html": "<a href=\"https://cococatty.shinyapps.io/NeptuneX/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"NeptuneX\">NeptuneX</a>",
-            "image": "https://Cococatty.github.io/Cococatty.github.io/media/posts/5/facebook_profile_image.png",
+            "image": "https://Cococatty.github.io/media/posts/5/facebook_profile_image.png",
             "author": {
                 "name": "Carina Zheng"
             },
@@ -38,8 +38,8 @@
             "date_modified": "2019-08-31T00:58:17+12:00"
         },
         {
-            "id": "https://Cococatty.github.io/Cococatty.github.io/amazon-is-on-fire.html",
-            "url": "https://Cococatty.github.io/Cococatty.github.io/amazon-is-on-fire.html",
+            "id": "https://Cococatty.github.io/amazon-is-on-fire.html",
+            "url": "https://Cococatty.github.io/amazon-is-on-fire.html",
             "title": "Amazon is ON FIRE",
             "summary": "DATA423_Assignment2",
             "content_html": "<a href=\"https://cococatty.shinyapps.io/DATA423_Assignment2/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"DATA423_Assignment2\">DATA423_Assignment2</a>",
@@ -52,8 +52,8 @@
             "date_modified": "2019-08-31T00:41:33+12:00"
         },
         {
-            "id": "https://Cococatty.github.io/Cococatty.github.io/about-creative-cat.html",
-            "url": "https://Cococatty.github.io/Cococatty.github.io/about-creative-cat.html",
+            "id": "https://Cococatty.github.io/about-creative-cat.html",
+            "url": "https://Cococatty.github.io/about-creative-cat.html",
             "title": "About Creative Cat",
             "author": {
                 "name": "Carina Zheng"
@@ -64,10 +64,10 @@
             "date_modified": "2019-08-31T00:44:01+12:00"
         },
         {
-            "id": "https://Cococatty.github.io/Cococatty.github.io/about-cococatty-ltd.html",
-            "url": "https://Cococatty.github.io/Cococatty.github.io/about-cococatty-ltd.html",
+            "id": "https://Cococatty.github.io/about-cococatty-ltd.html",
+            "url": "https://Cococatty.github.io/about-cococatty-ltd.html",
             "title": "About Cococatty Ltd.",
-            "image": "https://Cococatty.github.io/Cococatty.github.io/media/posts/2/logo.png",
+            "image": "https://Cococatty.github.io/media/posts/2/logo.png",
             "author": {
                 "name": "Carina Zheng"
             },
@@ -77,8 +77,8 @@
             "date_modified": "2019-08-31T00:44:27+12:00"
         },
         {
-            "id": "https://Cococatty.github.io/Cococatty.github.io/hello-world.html",
-            "url": "https://Cococatty.github.io/Cococatty.github.io/hello-world.html",
+            "id": "https://Cococatty.github.io/hello-world.html",
+            "url": "https://Cococatty.github.io/hello-world.html",
             "title": "Hello World",
             "summary": "Hello World Publii! Not like the general \"the very first post\", this one is delegated to Publii! I am going to publish my applications, analysis, projects, thoughts and blogs via Publii for a while. So let's see how well and far it will go ;) See you&hellip;",
             "content_html": "<p>Hello <span style=\"text-decoration: line-through;\">World</span> Publii!</p>\n<p>Not like the general \"the very first post\", this one is delegated to Publii!</p>\n<p>I am going to publish my applications, analysis, projects, thoughts and blogs via Publii for a while.</p>\n<p>So let's see how well and far it will go ;)</p>\n<p>See you soon!</p>\n<p> </p>\n<p>xx</p>\n<p>Carina</p>",
