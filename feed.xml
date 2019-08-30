@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Cococatty.github.io</title>
-    <link href="https://github.com/Cococatty/Cococatty.github.io/feed.xml" rel="self" />
-    <link href="https://github.com/Cococatty/Cococatty.github.io" />
-    <updated>2019-08-31T00:24:23+12:00</updated>
+    <link href="https://Cococatty.github.io/Cococatty.github.io/feed.xml" rel="self" />
+    <link href="https://Cococatty.github.io/Cococatty.github.io" />
+    <updated>2019-08-31T00:31:39+12:00</updated>
     <author>
         <name>Carina Zheng</name>
     </author>
-    <id>https://github.com/Cococatty/Cococatty.github.io</id>
+    <id>https://Cococatty.github.io/Cococatty.github.io</id>
 
     <entry>
         <title>About Creative Cat</title>
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://github.com/Cococatty/Cococatty.github.io/about-creative-cat.html"/>
-        <id>https://github.com/Cococatty/Cococatty.github.io/about-creative-cat.html</id>
+        <link href="https://Cococatty.github.io/Cococatty.github.io/about-creative-cat.html"/>
+        <id>https://Cococatty.github.io/Cococatty.github.io/about-creative-cat.html</id>
 
         <updated>2019-08-31T00:20:19+12:00</updated>
             <summary></summary>
@@ -26,8 +26,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://github.com/Cococatty/Cococatty.github.io/about-cococatty-ltd.html"/>
-        <id>https://github.com/Cococatty/Cococatty.github.io/about-cococatty-ltd.html</id>
+        <link href="https://Cococatty.github.io/Cococatty.github.io/about-cococatty-ltd.html"/>
+        <id>https://Cococatty.github.io/Cococatty.github.io/about-cococatty-ltd.html</id>
 
         <updated>2019-08-31T00:19:59+12:00</updated>
             <summary></summary>
@@ -38,8 +38,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://github.com/Cococatty/Cococatty.github.io/hello-world.html"/>
-        <id>https://github.com/Cococatty/Cococatty.github.io/hello-world.html</id>
+        <link href="https://Cococatty.github.io/Cococatty.github.io/hello-world.html"/>
+        <id>https://Cococatty.github.io/Cococatty.github.io/hello-world.html</id>
 
         <updated>2019-08-31T00:05:40+12:00</updated>
             <summary>

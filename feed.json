@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Cococatty.github.io",
     "description": "",
-    "home_page_url": "https://github.com/Cococatty/Cococatty.github.io",
-    "feed_url": "https://github.com/Cococatty/Cococatty.github.io/feed.json",
+    "home_page_url": "https://Cococatty.github.io/Cococatty.github.io",
+    "feed_url": "https://Cococatty.github.io/Cococatty.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "Carina Zheng"
     },
     "items": [
         {
-            "id": "https://github.com/Cococatty/Cococatty.github.io/about-creative-cat.html",
-            "url": "https://github.com/Cococatty/Cococatty.github.io/about-creative-cat.html",
+            "id": "https://Cococatty.github.io/Cococatty.github.io/about-creative-cat.html",
+            "url": "https://Cococatty.github.io/Cococatty.github.io/about-creative-cat.html",
             "title": "About Creative Cat",
             "author": {
                 "name": "Carina Zheng"
@@ -22,8 +22,8 @@
             "date_modified": "2019-08-31T00:20:19+12:00"
         },
         {
-            "id": "https://github.com/Cococatty/Cococatty.github.io/about-cococatty-ltd.html",
-            "url": "https://github.com/Cococatty/Cococatty.github.io/about-cococatty-ltd.html",
+            "id": "https://Cococatty.github.io/Cococatty.github.io/about-cococatty-ltd.html",
+            "url": "https://Cococatty.github.io/Cococatty.github.io/about-cococatty-ltd.html",
             "title": "About Cococatty Ltd.",
             "author": {
                 "name": "Carina Zheng"
@@ -34,8 +34,8 @@
             "date_modified": "2019-08-31T00:19:59+12:00"
         },
         {
-            "id": "https://github.com/Cococatty/Cococatty.github.io/hello-world.html",
-            "url": "https://github.com/Cococatty/Cococatty.github.io/hello-world.html",
+            "id": "https://Cococatty.github.io/Cococatty.github.io/hello-world.html",
+            "url": "https://Cococatty.github.io/Cococatty.github.io/hello-world.html",
             "title": "Hello World",
             "summary": "Hello World Publii! Not like the general \"the very first post\", this one is delegated to Publii! I am going to publish my applications, analysis, projects, thoughts and blogs via Publii for a while. So let's see how well and far it will go ;) See you&hellip;",
             "content_html": "<p>Hello <span style=\"text-decoration: line-through;\">World</span> Publii!</p>\n<p>Not like the general \"the very first post\", this one is delegated to Publii!</p>\n<p>I am going to publish my applications, analysis, projects, thoughts and blogs via Publii for a while.</p>\n<p>So let's see how well and far it will go ;)</p>\n<p>See you soon!</p>\n<p> </p>\n<p>xx</p>\n<p>Carina</p>",
