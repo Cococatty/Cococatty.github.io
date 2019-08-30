@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://Cococatty.github.io/about-carina.html",
+            "url": "https://Cococatty.github.io/about-carina.html",
+            "title": "About Carina",
+            "summary": " ",
+            "content_html": "<table class=\" align-left\" style=\"height: 249px;\" border=\"0\" width=\"189\">\n<tbody>\n<tr>\n<td style=\"width: 652px;\" rowspan=\"6\">\n<p><img class=\"post__image\" src=\"https://Cococatty.github.io/media/posts/7/2019Beijing.JPEG\" alt=\"\" width=\"368\" height=\"447\"></p>\n</td>\n<td style=\"width: 652px;\">A Chinese-NewZealander who appreciates life and loves to love.</td>\n</tr>\n<tr>\n<td style=\"width: 652px;\">Has a loving and lovely mum, an energic cat named Bella, faithful friends.</td>\n</tr>\n<tr>\n<td style=\"width: 652px;\">Part-time geeky, full-time magician (that's what they call me at work because I get the jobs done efficiently.</td>\n</tr>\n<tr>\n<td style=\"width: 652px;\">Passionate about Data Science.</td>\n</tr>\n<tr>\n<td style=\"width: 652px;\">Definitely passionate about Squash, languages and Hanfu, gardener, cook, photographer.</td>\n</tr>\n<tr>\n<td style=\"width: 652px;\">\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>",
+            "author": {
+                "name": "Carina Zheng"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-08-31T09:32:50+12:00",
+            "date_modified": "2019-08-31T09:47:25+12:00"
+        },
+        {
             "id": "https://Cococatty.github.io/children.html",
             "url": "https://Cococatty.github.io/children.html",
             "title": "What I learn from Data + Art STEAM Project",
@@ -28,8 +42,8 @@
             "id": "https://Cococatty.github.io/neptunex.html",
             "url": "https://Cococatty.github.io/neptunex.html",
             "title": "NeptuneX",
-            "summary": "NeptuneX",
-            "content_html": "<a href=\"https://cococatty.shinyapps.io/NeptuneX/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"NeptuneX\">NeptuneX</a>",
+            "summary": "I build this application by using R and Shiny to obtain better understanding of my spending habit by using deconfidentialized data. A live application can be run at my Shiny.io server NeptuneX.",
+            "content_html": "<p>I build this application by using R and Shiny to obtain better understanding of my spending habit by using deconfidentialized data.</p>\n<p>A live application can be run at my Shiny.io server <a href=\"https://cococatty.shinyapps.io/NeptuneX/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"NeptuneX\">NeptuneX</a>.</p>",
             "image": "https://Cococatty.github.io/media/posts/5/facebook_profile_image.png",
             "author": {
                 "name": "Carina Zheng"
@@ -37,7 +51,7 @@
             "tags": [
             ],
             "date_published": "2019-08-31T00:40:34+12:00",
-            "date_modified": "2019-08-31T00:58:17+12:00"
+            "date_modified": "2019-08-31T09:50:13+12:00"
         },
         {
             "id": "https://Cococatty.github.io/amazon-is-on-fire.html",
