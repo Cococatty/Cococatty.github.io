@@ -58,14 +58,14 @@
             "title": "Interactive Map Scholarship Project",
             "summary": "What is this map?This interactive map was part of the deliveries of&hellip;",
             "content_html": "<h2 id=\"mcetoc_1djippsa10\">What is this map?</h2>\n<p>This interactive map was part of the deliveries of my scholarship project, carried out from November 2015 to February 2016, supervised by University of Canterbury Adjunct Fellow and Statistics New Zealand Senior Researcher, Richard Penny, funded by Statistics New Zealand. The purpose of this project was to build an interactive map that shows how people commuted to work on the censused day in New Zealand.</p>\n<p>Key features:</p>\n<ol>\n<li>Source data was retrieved from Statistics New Zealand website.</li>\n<li>Geospatial techniques involved</li>\n<li>Data cleansing</li>\n<li>Exploratory Data Analysis</li>\n<li>Data modelling</li>\n<li>One-mean table and map</li>\n<li>Two-mean table and map</li>\n<li>Interactive Scatterplot</li>\n</ol>\n<p>The other deliveries items were a project report and presentation to Statistics New Zealand. Statistics New Zealand has then further developed this topic.</p>\n<figure class=\"post__image post__image--center\" ><img src=\"https://Cococatty.github.io/media/posts/8/interactiveMap_set.jpg\" alt=\"After the Presentation\" width=\"412\" height=\"650\">\n<figcaption >With Richard, my supervisor, after successfully delivered the presentation to Statistics New Zealand</figcaption>\n</figure>\n<p>Gain from this project:</p>\n<ul>\n<li>I learnt how to build a Shiny application during the project by myself.</li>\n<li>A highly open project with guideline and inspiration provided by top expert, Richard.</li>\n</ul>\n<p><strong>Interested? <a href=\"#embedInteractiveMap\">Full presentation PowerPoint is available here</a>. Or click <a href=\"https://cococatty.shinyapps.io/InteractiveMap_Release/\">here to explore the application.</a> Thanks Shiny.io for hosting it.</strong></p>\n<p> </p>\n<figure class=\"post__video\"><video width=\"300\" height=\"150\" poster=\"https://Cococatty.github.io/media/posts/8/Zheng-Carina-Stat-NZ.pptx\" controls=\"controls\" >\n<source src=\"https://Cococatty.github.io/media/posts/8/Zheng-Carina-Stat-NZ.pptx\" /></video></figure>\n<figure class=\"post__video\"><video width=\"300\" height=\"150\" poster=\"https://Cococatty.github.io/media/posts/8/DemoInteractiveMap.mp4\" controls=\"controls\" >\n<source src=\"https://Cococatty.github.io/media/posts/8/DemoInteractiveMap.mp4\" type=\"video/mp4\" /></video></figure>\n<p> </p>",
-            "image": "https://Cococatty.github.io/media/posts/8/interactiveMap_set.jpg",
+            "image": "https://Cococatty.github.io/media/posts/8/interactiveMap_feature-Copy.jpg",
             "author": {
                 "name": "Carina Zheng"
             },
             "tags": [
             ],
             "date_published": "2019-08-31T15:16:51+12:00",
-            "date_modified": "2019-08-31T17:01:43+12:00"
+            "date_modified": "2019-08-31T17:35:07+12:00"
         },
         {
             "id": "https://Cococatty.github.io/about-carina/",
