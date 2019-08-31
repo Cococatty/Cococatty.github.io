@@ -3,21 +3,101 @@
     <title>Creative Cat</title>
     <link href="https://Cococatty.github.io/feed.xml" rel="self" />
     <link href="https://Cococatty.github.io" />
-    <updated>2019-08-31T10:01:40+12:00</updated>
+    <updated>2019-08-31T16:09:30+12:00</updated>
     <author>
         <name>Carina Zheng</name>
     </author>
     <id>https://Cococatty.github.io</id>
 
     <entry>
+        <title>Beijing 2019 March</title>
+        <author>
+            <name>Carina Zheng</name>
+        </author>
+        <link href="https://Cococatty.github.io/beijing-2019-march/"/>
+        <id>https://Cococatty.github.io/beijing-2019-march/</id>
+
+        <updated>2019-08-31T15:56:19+12:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <div class="gallery"   >
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/10/gallery/IMG_3213.JPG" ><img src="https://Cococatty.github.io/media/posts/10/gallery/IMG_3213-thumbnail.JPG" alt="" width="720" height="540"></a></figure>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Veggie Pallet</title>
+        <author>
+            <name>Carina Zheng</name>
+        </author>
+        <link href="https://Cococatty.github.io/veggie-pallet/"/>
+        <id>https://Cococatty.github.io/veggie-pallet/</id>
+
+        <updated>2019-08-31T15:50:54+12:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <img class="post__image--center align-left" src="https://Cococatty.github.io/media/posts/9/veggie-pallet.jpg" alt="" width="570" height="1521">
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Interactive Map Scholarship Project</title>
+        <author>
+            <name>Carina Zheng</name>
+        </author>
+        <link href="https://Cococatty.github.io/interactive-map-scholarship-project/"/>
+        <id>https://Cococatty.github.io/interactive-map-scholarship-project/</id>
+
+        <updated>2019-08-31T15:38:45+12:00</updated>
+            <summary>
+                <![CDATA[
+                    What is this map?This interactive map was part of the deliveries of my scholarship project, carried out from November 2015 to February 2016, supervised by University of Canterbury Adjunct Fellow and Statistics New Zealand Senior Researcher, Richard Penny, funded by Statistics New Zealand. The purpose of&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 id="mcetoc_1djippsa10">What is this map?</h2>
+<p>This interactive map was part of the deliveries of my scholarship project, carried out from November 2015 to February 2016, supervised by University of Canterbury Adjunct Fellow and Statistics New Zealand Senior Researcher, Richard Penny, funded by Statistics New Zealand. The purpose of this project was to build an interactive map that shows how people commuted to work on the censused day in New Zealand.</p>
+<p>Key features:</p>
+<ol>
+<li>Source data was retrieved from Statistics New Zealand website.</li>
+<li>Geospatial techniques involved</li>
+<li>Data cleansing</li>
+<li>Exploratory Data Analysis</li>
+<li>Data modelling</li>
+<li>One-mean table and map</li>
+<li>Two-mean table and map</li>
+<li>Interactive Scatterplot</li>
+</ol>
+<p>The other deliveries items were a project report and presentation to Statistics New Zealand. Statistics New Zealand has then further developed this topic.</p>
+<p> </p>
+<p>Gain from this project:</p>
+<ul>
+<li>I learnt how to build a Shiny application during the project by myself.</li>
+<li>A highly open project with guideline and inspiration provided by top expert, Richard.</li>
+</ul>
+<p><strong>Interested? <a href="#embedInteractiveMap">Full presentation PowerPoint is available here</a>. Or click <a href="https://cococatty.shinyapps.io/InteractiveMap_Release/">here to explore the application.</a> Thanks Shiny.io for hosting it.</strong></p>
+<p> </p>
+<figure class="post__video"><video width="300" height="150" poster="https://Cococatty.github.io/media/posts/8/Zheng-Carina-Stat-NZ.pptx" controls="controls" >
+<source src="https://Cococatty.github.io/media/posts/8/Zheng-Carina-Stat-NZ.pptx" /></video></figure>
+<figure class="post__video"><video width="300" height="150" poster="https://Cococatty.github.io/media/posts/8/DemoInteractiveMap.mp4" controls="controls" >
+<source src="https://Cococatty.github.io/media/posts/8/DemoInteractiveMap.mp4" type="video/mp4" /></video></figure>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>About Carina</title>
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/about-carina.html"/>
-        <id>https://Cococatty.github.io/about-carina.html</id>
+        <link href="https://Cococatty.github.io/about-carina/"/>
+        <id>https://Cococatty.github.io/about-carina/</id>
 
-        <updated>2019-08-31T09:47:25+12:00</updated>
+        <updated>2019-08-31T15:47:45+12:00</updated>
             <summary>
                 <![CDATA[
                      
@@ -37,13 +117,13 @@
 <td style="width: 652px;">Has a loving and lovely mum, an energic cat named Bella, faithful friends.</td>
 </tr>
 <tr>
-<td style="width: 652px;">Part-time geeky, full-time magician (that's what they call me at work because I get the jobs done efficiently.</td>
+<td style="width: 652px;">Part-time geeky, full-time magician (that's what they call me at work because I get the jobs done efficiently).</td>
 </tr>
 <tr>
 <td style="width: 652px;">Passionate about Data Science.</td>
 </tr>
 <tr>
-<td style="width: 652px;">Definitely passionate about Squash, languages and Hanfu, gardener, cook, photographer.</td>
+<td style="width: 652px;">Definitely crazy about Squash, languages and Hanfu; interested in gardening, cooking, photographer.</td>
 </tr>
 <tr>
 <td style="width: 652px;">
@@ -52,6 +132,10 @@
 </tr>
 </tbody>
 </table>
+<figure class="post__image post__image--left" ><img src="https://Cococatty.github.io/media/posts/7/Beijing-selfie.jpg" alt="Interesting portrait machine in Beijing" width="2065" height="2753">
+<figcaption >Interesting portrait machine in Beijing</figcaption>
+</figure>
+<p> </p>
 <p> </p>
             ]]>
         </content>
@@ -61,10 +145,10 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/children.html"/>
-        <id>https://Cococatty.github.io/children.html</id>
+        <link href="https://Cococatty.github.io/children/"/>
+        <id>https://Cococatty.github.io/children/</id>
 
-        <updated>2019-08-31T09:23:30+12:00</updated>
+        <updated>2019-08-31T15:38:59+12:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://Cococatty.github.io/media/posts/6/Tableau-Children3.png" alt="" />
@@ -95,10 +179,10 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/neptunex.html"/>
-        <id>https://Cococatty.github.io/neptunex.html</id>
+        <link href="https://Cococatty.github.io/neptunex/"/>
+        <id>https://Cococatty.github.io/neptunex/</id>
 
-        <updated>2019-08-31T09:50:13+12:00</updated>
+        <updated>2019-08-31T13:27:35+12:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://Cococatty.github.io/media/posts/5/facebook_profile_image.png" alt="" />
@@ -118,10 +202,10 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/amazon-is-on-fire.html"/>
-        <id>https://Cococatty.github.io/amazon-is-on-fire.html</id>
+        <link href="https://Cococatty.github.io/amazon-is-on-fire/"/>
+        <id>https://Cococatty.github.io/amazon-is-on-fire/</id>
 
-        <updated>2019-08-31T00:41:33+12:00</updated>
+        <updated>2019-08-31T15:39:17+12:00</updated>
             <summary>
                 <![CDATA[
                     DATA423_Assignment2
@@ -138,8 +222,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/about-creative-cat.html"/>
-        <id>https://Cococatty.github.io/about-creative-cat.html</id>
+        <link href="https://Cococatty.github.io/about-creative-cat/"/>
+        <id>https://Cococatty.github.io/about-creative-cat/</id>
 
         <updated>2019-08-31T00:44:01+12:00</updated>
             <summary></summary>
@@ -150,8 +234,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/about-cococatty-ltd.html"/>
-        <id>https://Cococatty.github.io/about-cococatty-ltd.html</id>
+        <link href="https://Cococatty.github.io/about-cococatty-ltd/"/>
+        <id>https://Cococatty.github.io/about-cococatty-ltd/</id>
 
         <updated>2019-08-31T00:44:27+12:00</updated>
             <summary></summary>
@@ -162,8 +246,8 @@
         <author>
             <name>Carina Zheng</name>
         </author>
-        <link href="https://Cococatty.github.io/hello-world.html"/>
-        <id>https://Cococatty.github.io/hello-world.html</id>
+        <link href="https://Cococatty.github.io/hello-world/"/>
+        <id>https://Cococatty.github.io/hello-world/</id>
 
         <updated>2019-08-31T00:05:40+12:00</updated>
             <summary>
