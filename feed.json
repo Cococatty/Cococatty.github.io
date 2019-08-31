@@ -5,49 +5,67 @@
     "home_page_url": "https://Cococatty.github.io",
     "feed_url": "https://Cococatty.github.io/feed.json",
     "user_comment": "",
+    "icon": "https://Cococatty.github.io/media/website/logo-72.png",
     "author": {
         "name": "Carina Zheng"
     },
     "items": [
         {
+            "id": "https://Cococatty.github.io/gallery/",
+            "url": "https://Cococatty.github.io/gallery/",
+            "title": "Gallery",
+            "summary": "Scenes are everywhere. I love to capture the special ones when I&hellip;",
+            "content_html": "<p>Scenes are everywhere. I love to capture the special ones when I happen to be presented to them.</p>\n<p>What I enjoy to capture:</p>\n<ul>\n<li>Light effect</li>\n<li>Sky</li>\n<li>Micro-object (e.g. flowers)</li>\n</ul>\n<p>I don't use filters or any post-process in any of my photos. Only modification is crop and resize.</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/11/gallery/Beijing-view.jpg\" ><img src=\"https://Cococatty.github.io/media/posts/11/gallery/Beijing-view-thumbnail.jpg\" alt=\"\" width=\"768\" height=\"1024\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/11/gallery/IMG_4060.JPG\" ><img src=\"https://Cococatty.github.io/media/posts/11/gallery/IMG_4060-thumbnail.JPG\" alt=\"\" width=\"768\" height=\"576\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/11/gallery/home_background.jpg\" ><img src=\"https://Cococatty.github.io/media/posts/11/gallery/home_background-thumbnail.jpg\" alt=\"\" width=\"768\" height=\"512\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/11/gallery/20190315-2.JPG\" ><img src=\"https://Cococatty.github.io/media/posts/11/gallery/20190315-2-thumbnail.JPG\" alt=\"\" width=\"653\" height=\"490\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/11/gallery/Beijing-opera-house.jpg\" ><img src=\"https://Cococatty.github.io/media/posts/11/gallery/Beijing-opera-house-thumbnail.jpg\" alt=\"\" width=\"768\" height=\"1024\"></a></figure>\n</div>",
+            "image": "https://Cococatty.github.io/media/posts/11/Beijing-view.jpg",
+            "author": {
+                "name": "Carina Zheng"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-08-31T16:53:45+12:00",
+            "date_modified": "2019-08-31T17:00:43+12:00"
+        },
+        {
             "id": "https://Cococatty.github.io/beijing-2019-march/",
             "url": "https://Cococatty.github.io/beijing-2019-march/",
-            "title": "Beijing 2019 March",
-            "content_html": "<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://Cococatty.github.io/media/posts/10/gallery/IMG_3213.JPG\" ><img src=\"https://Cococatty.github.io/media/posts/10/gallery/IMG_3213-thumbnail.JPG\" alt=\"\" width=\"720\" height=\"540\"></a></figure>\n</div>",
+            "title": "China 2019 March",
             "author": {
                 "name": "Carina Zheng"
             },
             "tags": [
             ],
             "date_published": "2019-08-31T15:56:19+12:00",
-            "date_modified": "2019-08-31T15:56:19+12:00"
+            "date_modified": "2019-08-31T17:02:01+12:00"
         },
         {
             "id": "https://Cococatty.github.io/veggie-pallet/",
             "url": "https://Cococatty.github.io/veggie-pallet/",
             "title": "Veggie Pallet",
-            "content_html": "<img class=\"post__image--center align-left\" src=\"https://Cococatty.github.io/media/posts/9/veggie-pallet.jpg\" alt=\"\" width=\"570\" height=\"1521\">",
+            "summary": " This veggie pallet is made from abandoned pallet picked up on&hellip;",
+            "content_html": "<p><img class=\"post__image--center align-left\" src=\"https://Cococatty.github.io/media/posts/9/veggie-pallet.jpg\" alt=\"\" width=\"570\" height=\"1521\"></p>\n<p>This veggie pallet is made from abandoned pallet picked up on the street. The seeds are germinated from parts of the purchased vegetable!</p>\n<p>For example, the spring onions are generated from the white head of the purchased ones.</p>\n<p>This is my contribution of a substainable world!</p>",
+            "image": "https://Cococatty.github.io/media/posts/9/veggie-pallet.jpg",
             "author": {
                 "name": "Carina Zheng"
             },
             "tags": [
             ],
             "date_published": "2019-08-31T15:50:30+12:00",
-            "date_modified": "2019-08-31T15:50:54+12:00"
+            "date_modified": "2019-08-31T16:41:47+12:00"
         },
         {
             "id": "https://Cococatty.github.io/interactive-map-scholarship-project/",
             "url": "https://Cococatty.github.io/interactive-map-scholarship-project/",
             "title": "Interactive Map Scholarship Project",
-            "summary": "What is this map?This interactive map was part of the deliveries of my scholarship project, carried out from November 2015 to February 2016, supervised by University of Canterbury Adjunct Fellow and Statistics New Zealand Senior Researcher, Richard Penny, funded by Statistics New Zealand. The purpose of&hellip;",
-            "content_html": "<h2 id=\"mcetoc_1djippsa10\">What is this map?</h2>\n<p>This interactive map was part of the deliveries of my scholarship project, carried out from November 2015 to February 2016, supervised by University of Canterbury Adjunct Fellow and Statistics New Zealand Senior Researcher, Richard Penny, funded by Statistics New Zealand. The purpose of this project was to build an interactive map that shows how people commuted to work on the censused day in New Zealand.</p>\n<p>Key features:</p>\n<ol>\n<li>Source data was retrieved from Statistics New Zealand website.</li>\n<li>Geospatial techniques involved</li>\n<li>Data cleansing</li>\n<li>Exploratory Data Analysis</li>\n<li>Data modelling</li>\n<li>One-mean table and map</li>\n<li>Two-mean table and map</li>\n<li>Interactive Scatterplot</li>\n</ol>\n<p>The other deliveries items were a project report and presentation to Statistics New Zealand. Statistics New Zealand has then further developed this topic.</p>\n<p> </p>\n<p>Gain from this project:</p>\n<ul>\n<li>I learnt how to build a Shiny application during the project by myself.</li>\n<li>A highly open project with guideline and inspiration provided by top expert, Richard.</li>\n</ul>\n<p><strong>Interested? <a href=\"#embedInteractiveMap\">Full presentation PowerPoint is available here</a>. Or click <a href=\"https://cococatty.shinyapps.io/InteractiveMap_Release/\">here to explore the application.</a> Thanks Shiny.io for hosting it.</strong></p>\n<p> </p>\n<figure class=\"post__video\"><video width=\"300\" height=\"150\" poster=\"https://Cococatty.github.io/media/posts/8/Zheng-Carina-Stat-NZ.pptx\" controls=\"controls\" >\n<source src=\"https://Cococatty.github.io/media/posts/8/Zheng-Carina-Stat-NZ.pptx\" /></video></figure>\n<figure class=\"post__video\"><video width=\"300\" height=\"150\" poster=\"https://Cococatty.github.io/media/posts/8/DemoInteractiveMap.mp4\" controls=\"controls\" >\n<source src=\"https://Cococatty.github.io/media/posts/8/DemoInteractiveMap.mp4\" type=\"video/mp4\" /></video></figure>\n<p> </p>",
+            "summary": "What is this map?This interactive map was part of the deliveries of&hellip;",
+            "content_html": "<h2 id=\"mcetoc_1djippsa10\">What is this map?</h2>\n<p>This interactive map was part of the deliveries of my scholarship project, carried out from November 2015 to February 2016, supervised by University of Canterbury Adjunct Fellow and Statistics New Zealand Senior Researcher, Richard Penny, funded by Statistics New Zealand. The purpose of this project was to build an interactive map that shows how people commuted to work on the censused day in New Zealand.</p>\n<p>Key features:</p>\n<ol>\n<li>Source data was retrieved from Statistics New Zealand website.</li>\n<li>Geospatial techniques involved</li>\n<li>Data cleansing</li>\n<li>Exploratory Data Analysis</li>\n<li>Data modelling</li>\n<li>One-mean table and map</li>\n<li>Two-mean table and map</li>\n<li>Interactive Scatterplot</li>\n</ol>\n<p>The other deliveries items were a project report and presentation to Statistics New Zealand. Statistics New Zealand has then further developed this topic.</p>\n<figure class=\"post__image post__image--center\" ><img src=\"https://Cococatty.github.io/media/posts/8/interactiveMap_set.jpg\" alt=\"After the Presentation\" width=\"412\" height=\"650\">\n<figcaption >With Richard, my supervisor, after successfully delivered the presentation to Statistics New Zealand</figcaption>\n</figure>\n<p>Gain from this project:</p>\n<ul>\n<li>I learnt how to build a Shiny application during the project by myself.</li>\n<li>A highly open project with guideline and inspiration provided by top expert, Richard.</li>\n</ul>\n<p><strong>Interested? <a href=\"#embedInteractiveMap\">Full presentation PowerPoint is available here</a>. Or click <a href=\"https://cococatty.shinyapps.io/InteractiveMap_Release/\">here to explore the application.</a> Thanks Shiny.io for hosting it.</strong></p>\n<p> </p>\n<figure class=\"post__video\"><video width=\"300\" height=\"150\" poster=\"https://Cococatty.github.io/media/posts/8/Zheng-Carina-Stat-NZ.pptx\" controls=\"controls\" >\n<source src=\"https://Cococatty.github.io/media/posts/8/Zheng-Carina-Stat-NZ.pptx\" /></video></figure>\n<figure class=\"post__video\"><video width=\"300\" height=\"150\" poster=\"https://Cococatty.github.io/media/posts/8/DemoInteractiveMap.mp4\" controls=\"controls\" >\n<source src=\"https://Cococatty.github.io/media/posts/8/DemoInteractiveMap.mp4\" type=\"video/mp4\" /></video></figure>\n<p> </p>",
+            "image": "https://Cococatty.github.io/media/posts/8/interactiveMap_set.jpg",
             "author": {
                 "name": "Carina Zheng"
             },
             "tags": [
             ],
             "date_published": "2019-08-31T15:16:51+12:00",
-            "date_modified": "2019-08-31T15:38:45+12:00"
+            "date_modified": "2019-08-31T17:01:43+12:00"
         },
         {
             "id": "https://Cococatty.github.io/about-carina/",
@@ -82,7 +100,7 @@
             "id": "https://Cococatty.github.io/neptunex/",
             "url": "https://Cococatty.github.io/neptunex/",
             "title": "NeptuneX",
-            "summary": "I build this application by using R and Shiny to obtain better understanding of my spending habit by using deconfidentialized data. A live application can be run at my Shiny.io server NeptuneX.",
+            "summary": "I build this application by using R and Shiny to obtain better understanding&hellip;",
             "content_html": "<p>I build this application by using R and Shiny to obtain better understanding of my spending habit by using deconfidentialized data.</p>\n<p>A live application can be run at my Shiny.io server <a href=\"https://cococatty.shinyapps.io/NeptuneX/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"NeptuneX\">NeptuneX</a>.</p>",
             "image": "https://Cococatty.github.io/media/posts/5/facebook_profile_image.png",
             "author": {
@@ -131,20 +149,6 @@
             ],
             "date_published": "2019-08-31T00:18:23+12:00",
             "date_modified": "2019-08-31T00:44:27+12:00"
-        },
-        {
-            "id": "https://Cococatty.github.io/hello-world/",
-            "url": "https://Cococatty.github.io/hello-world/",
-            "title": "Hello World",
-            "summary": "Hello World Publii! Not like the general \"the very first post\", this one is delegated to Publii! I am going to publish my applications, analysis, projects, thoughts and blogs via Publii for a while. So let's see how well and far it will go ;) See you&hellip;",
-            "content_html": "<p>Hello <span style=\"text-decoration: line-through;\">World</span> Publii!</p>\n<p>Not like the general \"the very first post\", this one is delegated to Publii!</p>\n<p>I am going to publish my applications, analysis, projects, thoughts and blogs via Publii for a while.</p>\n<p>So let's see how well and far it will go ;)</p>\n<p>See you soon!</p>\n<p> </p>\n<p>xx</p>\n<p>Carina</p>",
-            "author": {
-                "name": "Carina Zheng"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-08-31T00:05:40+12:00",
-            "date_modified": "2019-08-31T00:05:40+12:00"
         }
     ]
 }

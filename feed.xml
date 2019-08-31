@@ -3,29 +3,59 @@
     <title>Creative Cat</title>
     <link href="https://Cococatty.github.io/feed.xml" rel="self" />
     <link href="https://Cococatty.github.io" />
-    <updated>2019-08-31T16:09:30+12:00</updated>
+    <updated>2019-08-31T17:03:44+12:00</updated>
     <author>
         <name>Carina Zheng</name>
     </author>
     <id>https://Cococatty.github.io</id>
 
     <entry>
-        <title>Beijing 2019 March</title>
+        <title>Gallery</title>
+        <author>
+            <name>Carina Zheng</name>
+        </author>
+        <link href="https://Cococatty.github.io/gallery/"/>
+        <id>https://Cococatty.github.io/gallery/</id>
+
+        <updated>2019-08-31T17:00:43+12:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Cococatty.github.io/media/posts/11/Beijing-view.jpg" alt="" />
+                    Scenes are everywhere. I love to capture the special ones when I&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://Cococatty.github.io/media/posts/11/Beijing-view.jpg" alt="" />
+                <p>Scenes are everywhere. I love to capture the special ones when I happen to be presented to them.</p>
+<p>What I enjoy to capture:</p>
+<ul>
+<li>Light effect</li>
+<li>Sky</li>
+<li>Micro-object (e.g. flowers)</li>
+</ul>
+<p>I don't use filters or any post-process in any of my photos. Only modification is crop and resize.</p>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/11/gallery/Beijing-view.jpg" ><img src="https://Cococatty.github.io/media/posts/11/gallery/Beijing-view-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/11/gallery/IMG_4060.JPG" ><img src="https://Cococatty.github.io/media/posts/11/gallery/IMG_4060-thumbnail.JPG" alt="" width="768" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/11/gallery/home_background.jpg" ><img src="https://Cococatty.github.io/media/posts/11/gallery/home_background-thumbnail.jpg" alt="" width="768" height="512"></a></figure>
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/11/gallery/20190315-2.JPG" ><img src="https://Cococatty.github.io/media/posts/11/gallery/20190315-2-thumbnail.JPG" alt="" width="653" height="490"></a></figure>
+<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/11/gallery/Beijing-opera-house.jpg" ><img src="https://Cococatty.github.io/media/posts/11/gallery/Beijing-opera-house-thumbnail.jpg" alt="" width="768" height="1024"></a></figure>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>China 2019 March</title>
         <author>
             <name>Carina Zheng</name>
         </author>
         <link href="https://Cococatty.github.io/beijing-2019-march/"/>
         <id>https://Cococatty.github.io/beijing-2019-march/</id>
 
-        <updated>2019-08-31T15:56:19+12:00</updated>
+        <updated>2019-08-31T17:02:01+12:00</updated>
             <summary></summary>
-        <content type="html">
-            <![CDATA[
-                <div class="gallery"   >
-<figure class="gallery__item"><a href="https://Cococatty.github.io/media/posts/10/gallery/IMG_3213.JPG" ><img src="https://Cococatty.github.io/media/posts/10/gallery/IMG_3213-thumbnail.JPG" alt="" width="720" height="540"></a></figure>
-</div>
-            ]]>
-        </content>
+        <content></content>
     </entry>
     <entry>
         <title>Veggie Pallet</title>
@@ -35,11 +65,20 @@
         <link href="https://Cococatty.github.io/veggie-pallet/"/>
         <id>https://Cococatty.github.io/veggie-pallet/</id>
 
-        <updated>2019-08-31T15:50:54+12:00</updated>
-            <summary></summary>
+        <updated>2019-08-31T16:41:47+12:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Cococatty.github.io/media/posts/9/veggie-pallet.jpg" alt="" />
+                     This veggie pallet is made from abandoned pallet picked up on&hellip;
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
-                <img class="post__image--center align-left" src="https://Cococatty.github.io/media/posts/9/veggie-pallet.jpg" alt="" width="570" height="1521">
+                    <img src="https://Cococatty.github.io/media/posts/9/veggie-pallet.jpg" alt="" />
+                <p><img class="post__image--center align-left" src="https://Cococatty.github.io/media/posts/9/veggie-pallet.jpg" alt="" width="570" height="1521"></p>
+<p>This veggie pallet is made from abandoned pallet picked up on the street. The seeds are germinated from parts of the purchased vegetable!</p>
+<p>For example, the spring onions are generated from the white head of the purchased ones.</p>
+<p>This is my contribution of a substainable world!</p>
             ]]>
         </content>
     </entry>
@@ -51,14 +90,16 @@
         <link href="https://Cococatty.github.io/interactive-map-scholarship-project/"/>
         <id>https://Cococatty.github.io/interactive-map-scholarship-project/</id>
 
-        <updated>2019-08-31T15:38:45+12:00</updated>
+        <updated>2019-08-31T17:01:43+12:00</updated>
             <summary>
                 <![CDATA[
-                    What is this map?This interactive map was part of the deliveries of my scholarship project, carried out from November 2015 to February 2016, supervised by University of Canterbury Adjunct Fellow and Statistics New Zealand Senior Researcher, Richard Penny, funded by Statistics New Zealand. The purpose of&hellip;
+                        <img src="https://Cococatty.github.io/media/posts/8/interactiveMap_set.jpg" alt="" />
+                    What is this map?This interactive map was part of the deliveries of&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://Cococatty.github.io/media/posts/8/interactiveMap_set.jpg" alt="" />
                 <h2 id="mcetoc_1djippsa10">What is this map?</h2>
 <p>This interactive map was part of the deliveries of my scholarship project, carried out from November 2015 to February 2016, supervised by University of Canterbury Adjunct Fellow and Statistics New Zealand Senior Researcher, Richard Penny, funded by Statistics New Zealand. The purpose of this project was to build an interactive map that shows how people commuted to work on the censused day in New Zealand.</p>
 <p>Key features:</p>
@@ -73,7 +114,9 @@
 <li>Interactive Scatterplot</li>
 </ol>
 <p>The other deliveries items were a project report and presentation to Statistics New Zealand. Statistics New Zealand has then further developed this topic.</p>
-<p> </p>
+<figure class="post__image post__image--center" ><img src="https://Cococatty.github.io/media/posts/8/interactiveMap_set.jpg" alt="After the Presentation" width="412" height="650">
+<figcaption >With Richard, my supervisor, after successfully delivered the presentation to Statistics New Zealand</figcaption>
+</figure>
 <p>Gain from this project:</p>
 <ul>
 <li>I learnt how to build a Shiny application during the project by myself.</li>
@@ -186,7 +229,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://Cococatty.github.io/media/posts/5/facebook_profile_image.png" alt="" />
-                    I build this application by using R and Shiny to obtain better understanding of my spending habit by using deconfidentialized data. A live application can be run at my Shiny.io server NeptuneX.
+                    I build this application by using R and Shiny to obtain better understanding&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -240,32 +283,5 @@
         <updated>2019-08-31T00:44:27+12:00</updated>
             <summary></summary>
         <content></content>
-    </entry>
-    <entry>
-        <title>Hello World</title>
-        <author>
-            <name>Carina Zheng</name>
-        </author>
-        <link href="https://Cococatty.github.io/hello-world/"/>
-        <id>https://Cococatty.github.io/hello-world/</id>
-
-        <updated>2019-08-31T00:05:40+12:00</updated>
-            <summary>
-                <![CDATA[
-                    Hello World Publii! Not like the general "the very first post", this one is delegated to Publii! I am going to publish my applications, analysis, projects, thoughts and blogs via Publii for a while. So let's see how well and far it will go ;) See you&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Hello <span style="text-decoration: line-through;">World</span> Publii!</p>
-<p>Not like the general "the very first post", this one is delegated to Publii!</p>
-<p>I am going to publish my applications, analysis, projects, thoughts and blogs via Publii for a while.</p>
-<p>So let's see how well and far it will go ;)</p>
-<p>See you soon!</p>
-<p> </p>
-<p>xx</p>
-<p>Carina</p>
-            ]]>
-        </content>
     </entry>
 </feed>
