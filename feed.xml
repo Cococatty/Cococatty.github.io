@@ -3,7 +3,7 @@
     <title>Creative Cat</title>
     <link href="https://Cococatty.github.io/feed.xml" rel="self" />
     <link href="https://Cococatty.github.io" />
-    <updated>2019-08-31T17:03:44+12:00</updated>
+    <updated>2019-08-31T17:28:28+12:00</updated>
     <author>
         <name>Carina Zheng</name>
     </author>
@@ -248,15 +248,51 @@
         <link href="https://Cococatty.github.io/amazon-is-on-fire/"/>
         <id>https://Cococatty.github.io/amazon-is-on-fire/</id>
 
-        <updated>2019-08-31T15:39:17+12:00</updated>
+        <updated>2019-08-31T17:28:20+12:00</updated>
             <summary>
                 <![CDATA[
-                    DATA423_Assignment2
+                        <img src="https://Cococatty.github.io/media/posts/4/423Assignment2.png" alt="" />
+                    First page on the applicationThis is an assignment I finished recently (try the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <a href="https://cococatty.shinyapps.io/DATA423_Assignment2/" target="_blank" rel="noopener noreferrer" title="DATA423_Assignment2">DATA423_Assignment2</a>
+                    <img src="https://Cococatty.github.io/media/posts/4/423Assignment2.png" alt="" />
+                <figure class="post__image post__image--center" ><img src="https://Cococatty.github.io/media/posts/4/423Assignment2.png" alt="Assignment Application" width="1501" height="788">
+<figcaption >First page on the application</figcaption>
+</figure>
+<p>This is an assignment I finished recently (try the full application at <a href="https://cococatty.shinyapps.io/DATA423_Assignment2/" target="_blank" rel="noopener noreferrer" title="DATA423_Assignment2">DATA423_Assignment2</a>).</p>
+<p>In this assignment, we were required to pick one out of four fields to conduct our own researches and present results appropriately.</p>
+<p>Being inspired (heart-broken) by the Amazon fire incident, I wanted to talk about forest in this project. At the end, I have chosen Multi-level/multi-class classification and finished my project by using the data from Te Uru Rākau|Forestry New Zealand.</p>
+<p>I have learnt HEAPS from this assignment, including but not limitted to:</p>
+<h2 id="mcetoc_1djj1tb4p0">Statistics</h2>
+<h3 id="mcetoc_1djj1tb4p1">Different imputation methods IN PRACTICE</h3>
+<p>I learnt a lot about imputation methods and their implementation via this project!</p>
+<h3 id="mcetoc_1djj1tb4p2">Various modelling methods IN PRACTICE</h3>
+<p>I learnt a lot about imputation methods and their implementation via this project!</p>
+<h3 id="mcetoc_1djj1tb4p3">A more appropriate Data Science project design</h3>
+<div>
+<p>I knew Data Science involves Analysis (Statistical analysis) and programming (Computer Science). But I did not pay much attention to the beginning and the end sections.</p>
+<p>After completing this project, now I know at the beginning of a project, you MUST understand the project background, propose the core question, and then find relevant data. EDA is not a simple concept either. It turns out to be very important because it shows the hidden data characteristics (if right methods are applied!), it would guide you what to do next (missing data? class imbalance?). EDA is a skilled techniques because it requires attention to details, so that you can see the messages by using the right forms.</p>
+<p>I had been underestimated the power of EDA, thought it is a generic process to ALL projects. But in this journey, I found EDA is similar to DNA - a pair might share exactly the same content, but the chance is pretty low (good for confidence interval estimation thou!).</p>
+<p>I'm happy that I no longer using the same EDA techniques over my different projects, but start tailoring and thinking over it for EACH project!</p>
+</div>
+<h2 id="mcetoc_1djj1tb4p4">Shiny</h2>
+<h3 id="mcetoc_1djj1tb4p5">Dynamic number of plots x googleVis Package</h3>
+<div>
+<p>I used googleVis package before but not in a very dynmaic manner. In this project, the googleVis plots are generated dynamically!</p>
+<p>This means if the dataset has one extra factor variable, there will be one extra barchart generated AUTOMATICALLY!</p>
+</div>
+<h3 id="mcetoc_1djj1tb4p6">More flexibilities in Shiny</h3>
+<div>
+<p>Previously, I write report text in server.R, then use the output function in ui.R for display purpose. However, I found out I can write the text in ui.R with HTML tags! This is great because it has reduced unreuqired code and efficient has improved, at the same time, it has further extended my HTML skill!</p>
+</div>
+<h2 id="mcetoc_1djj1tb4p7">Keep in mind of what you are doing!</h2>
+<div>
+<p>During the development, my modelling methods were 'not' working when I tested in in Shiny application, thought they were working fine on local (with R session restarted).</p>
+<p>I almost gave up on these modellings though it took me a while to write. But then I noticed I used the wrong outcome variable to these methods! After correcting the formulas to use the right outcome variables, everything RAN!</p>
+<p>Next time I will write down the question on a piece of paper to remind myself what I am trying to solve so that I would not be lost because of heavy and intensive development.</p>
+</div>
             ]]>
         </content>
     </entry>
