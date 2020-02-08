@@ -1,25 +1,22 @@
 module.exports = {
   siteTitle: 'Creative Cat',
-  siteDescription: 'Dare to Dream, Empowered to Purse.',
+  siteDescription: 'Dare to Dream, Empowered to Pursue.',
   authorName: 'Carina Zheng',
   twitterUsername: 'gofrontu',
   authorAvatar: 'avatar.jpeg', // file in content/images
   defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
   authorDescription: `
-  Carina is passionate about Machine Learning and Data Science 😎 <br>
-  She is currently studying toward Master of Applied Data Science at 
-  <a href="https://www.canterbury.ac.nz/" target="_blank">University of Canterbury</a>
-  .`,
-  //portfolio, project, blog and wiki of Carina
-  // `
-  // As a digital nomad, he is living where the WiFi and sun are 😎 <br>
-  // Do you want to know more? <a href="https://www.maxpou.fr/about" target="_blank">Visit my website!</a>
-  // `
+  Carina is passionate about Machine Learning, Data Science, Computer Science and squash 😎 <br>
+  With working history in Statistics and IT, she is currently completing her Master of Applied Data 
+  Science at University of Canterbury, New Zealand.<br>
+  She is ready to explore a bigger world and dive in the Big Data lake! 😍`,
+  // <a href="https://www.canterbury.ac.nz/" target="_blank">University of Canterbury</a>.
+
 
   siteUrl: 'https://carina.nz',
   disqusSiteUrl: 'https://carina.nz',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
-  pathPrefix: '/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash;
+  pathPrefix: '', // Note: it must *not* have a trailing slash; /gatsby-starter-morning-dew
   siteCover: 'Beijing_sky_cut.png', // file in content/images
   googleAnalyticsId: 'UA-157766289-1',
   background_color: '#ffffff',

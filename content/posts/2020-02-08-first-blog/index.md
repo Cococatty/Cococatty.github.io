@@ -11,6 +11,8 @@ tags:
 disqus: true
 ---
 
-# Hello, my new site
+# Hello, new generation of Creative Cat
 
 Thanks to Gatsby, I'm building Creative Cat with it! 😋
+
+Please keep an eye on this place for the significant changes coming in the next few days.
