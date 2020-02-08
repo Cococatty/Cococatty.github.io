@@ -5,7 +5,7 @@ ghpages.publish(
   'public',
   {
     branch: 'master',
-    repo: 'https://github.com/Cococatty/Cococatty.github.io',
+    repo: 'https://github.com/Cococatty/Cococatty.github.io.git',
   },
   () => {
     console.log('Deploy Complete!')
