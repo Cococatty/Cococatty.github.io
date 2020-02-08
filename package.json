@@ -18,10 +18,10 @@
     "url": "https://github.com/maxpou/gatsby-starter-morning-dew.git"
   },
   "license": "MIT",
-  "author": "Carina Zheng",
+  "author": "Maxence Poutord <maxence.poutord@gmail.com>",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",    
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js' 'data/siteConfig.js' 'gatsby-*.js' 'scripts/*.js'",
     "generatePostPreviewImages": "./scripts/generatePostPreviewImages.js",
@@ -29,7 +29,7 @@
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "semantic-release": "semantic-release",
     "start": "gatsby develop",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",    
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "bin": {

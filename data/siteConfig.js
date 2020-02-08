@@ -19,7 +19,7 @@ module.exports = {
   siteUrl: 'https://carina.nz',
   disqusSiteUrl: 'https://carina.nz',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
-  pathPrefix: '', // Note: it must *not* have a trailing slash; /gatsby-starter-morning-dew
+  pathPrefix: '/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash;
   siteCover: 'Beijing_sky_cut.png', // file in content/images
   googleAnalyticsId: 'UA-157766289-1',
   background_color: '#ffffff',
