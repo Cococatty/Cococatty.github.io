@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://carina.nz/sitemap-index.xml
