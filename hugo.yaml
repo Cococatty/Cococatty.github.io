@@ -1,0 +1,194 @@
+baseURL: 'carina.nz'
+title: Carina Zheng
+languageCode: en-us
+DefaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+darkmode_js:
+  - assets/js/darkmode.js
+enableInlineShortcodes: true
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  author: Carina Zheng
+  authorimage: ../assets/images/global/author.webp
+  og_image: /images/tailbliss-cover.png
+  moto: "Dream Today, Achieve Tomorrow"
+  description: "Carina Zheng"
+  disable_theme_toggle: false
+  disable_stay_uptodate: false
+
+  p1:
+    heading: "AI Projects"
+    image: "images/global/ai-projects.jpg"
+    content:
+      - text: "Carina is passionate in AI and always learning. See her works in Data Visualization, Data Science, Computer Vision and NLP!"
+    url: /categories/ai-projects/
+  p2:
+    heading: "Cococatty Ltd."
+    image: "images/global/cococatty-panda-cat.png"
+    content:
+      - text: "Cococatty Ltd is a business established to provide..."
+  p3:
+    heading: "Blogs"
+    image: "images/global/blogs.jpg"
+    content:
+      - text: "A collection of blogs in various domains! Topics include but not limited to personal development, career/professional, investment and personal thoughts!"
+    links:
+      - text: Check out published blogs
+        url: /categories/blogs/
+  p4:
+    heading: "Latest Update"
+  p5:
+    heading: "Stay Up to Date"
+    content:
+      - text: "Follow this website and get latest update whenever it becomes available!"
+    action: "#"
+    label: "Email address"
+    placeholder: "Enter your email"
+    button: "Keep Me Posted!"
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/cococatty'
+    linkedin:
+      enabled: false
+      url: 'https://www.linkedin.com/in/carina-zheng/'
+   
+
+menu:
+  main:
+    - identifier: projects
+      name: Prose
+      url: /prose/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: categories
+      pre: dropdown
+      name: Categories
+      weight: 30
+    - identifier: aiproject
+      pre: complexdropdown
+      name: AI Project
+      weight: 40
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+  categories:
+    - identifier: prose
+      name: Prose
+      url: /prose/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+  aiproject:
+    - identifier: datavis
+      pre: stars # can be stars, comments or piechart
+      name: Data Visualization
+      post: "Data Visualization"
+      url: /tags/DataVisualization/
+      weight: 10
+    - identifier: ds
+      pre: ds
+      name: Data Science
+      post: "Data Science"
+      url: /tags/DataScience/
+      weight: 20
+    - identifier: cv
+      pre: cv
+      name: Computer Vision
+      post: "Computer Vision"
+      url: /tags/ComputerVision/
+      weight: 30
+  footer:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: blogs
+      name: Blogs
+      url: /categories/blogs/
+      weight: 20
+    - identifier: news
+      name: News
+      url: /categories/news/
+      weight: 30
+    - identifier: prose
+      name: Prose
+      url: /prose/
+      weight: 40
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+  linkedin:
+    disable: false
+    privacyEnhanced: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.104.0"
