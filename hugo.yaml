@@ -1,5 +1,5 @@
 baseURL: 'carina.nz'
-title: Cococatty
+title: Carina Zheng
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -50,62 +50,47 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Dream Today, Achieve Tomorrow"
-  description: "A portfolio website built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes."
+  description: "Carina Zheng"
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
   p1:
     heading: "AI Projects"
-    image: "images/pages/our-mission.png"
+    image: "images/global/ai-projects.jpg"
     content:
-      - text: "Carina is passionate in AI and always learning."
+      - text: "Carina is passionate in AI and always learning. See her works in Data Visualization, Data Science, Computer Vision and NLP!"
+    url: /categories/ai-projects/
   p2:
-    heading: "Cococatty Ltd"
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "Cococatty Ltd."
+    image: "images/global/cococatty-panda-cat.png"
     content:
       - text: "Cococatty Ltd is a business established to provide..."
   p3:
     heading: "Blogs"
+    image: "images/global/blogs.jpg"
     content:
-      - text: "A general blog"
+      - text: "A collection of blogs in various domains! Topics include but not limited to personal development, career/professional, investment and personal thoughts!"
     links:
-      - text: Meet our investors and advisors
-        url: "#"
-    logos:
-      - identifier: a
-        image: "images/global/sample-logo.svg"
-        alt: "a"
-      - identifier: b
-      - identifier: c
-      - identifier: d
-      - identifier: e
-      - identifier: f
+      - text: Check out published blogs
+        url: /categories/blogs/
   p4:
-    heading: "From the blog"
-    content:
-      - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
+    heading: "Latest Update"
   p5:
     heading: "Stay Up to Date"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
+      - text: "Follow this website and get latest update whenever it becomes available!"
     action: "#"
     label: "Email address"
     placeholder: "Enter your email"
-    button: "Notify me"
+    button: "Keep Me Posted!"
   social_media:
     github:
       enabled: true
       url: 'https://github.com/cococatty'
     linkedin:
       enabled: false
-      url: 'https://facebook.com/nusserstudios'
-    instagram:
-      enabled: false
-      url: 'https://instagram.com/nusserstudios'
-    twitter:
-      enabled: false
-      url: '@nusserstudios'
-    
+      url: 'https://www.linkedin.com/in/carina-zheng/'
+   
 
 menu:
   main:
@@ -162,9 +147,9 @@ menu:
       name: About
       url: /about/
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
+    - identifier: blogs
+      name: Blogs
+      url: /categories/blogs/
       weight: 20
     - identifier: news
       name: News
@@ -196,18 +181,10 @@ privacy:
     disable: false
     respectDoNotTrack: false
     useSessionStorage: false
-  instagram:
-    disable: false
-    simple: false
-  twitter:
-    disable: false
-    enableDNT: false
-    simple: false
-  vimeo:
-    disable: false
-    enableDNT: false
-    simple: false
   youtube:
+    disable: false
+    privacyEnhanced: true
+  linkedin:
     disable: false
     privacyEnhanced: true
 
