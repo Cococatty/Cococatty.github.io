@@ -3,9 +3,9 @@ title: "New look of the site"
 date: 2024-03-17
 draft: false
 language: en
-featured_image: ../assets/images/featured/featured-img-placeholder.png
-summary: A brief page about the new look of carina.nz
-authorimage: ../assets/images/global/author.webp
+featured_image:
+summary: A brief blog about the new look of carina.nz
+authorimage:
 categories: Blog
 tags: Blog
 ---
