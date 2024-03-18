@@ -1,4 +1,11 @@
-# files
-key_info.txt
-# directories
-# public
+node_modules/
+resources/
+public/
+.hugo_build.lock
+.vercel
+yarn-error.log
+# Local Netlify folder
+.netlify
+yarn-error.log
+public/*
+resources/_gen/

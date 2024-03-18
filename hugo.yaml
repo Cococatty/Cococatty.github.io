@@ -64,7 +64,8 @@ params:
     heading: "Cococatty Ltd."
     image: "images/global/cococatty-panda-cat.png"
     content:
-      - text: "Cococatty Ltd is a business established to provide..."
+      - text: "Cococatty Ltd is a business established to provide...Cococatty Ltd is a business established to provide consulation and development services in
+      Software Development, Data Management, Data Pipeline Building, Data Visualization, Data Science, Computer Vision."
   p3:
     heading: "Blogs"
     image: "images/global/blogs.jpg"
