@@ -7,13 +7,5 @@ description: About
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 
-# h1 Heading :blush:
-
-## Horizontal Rules
-
+# Who's Carina :blush:
 ***
-
----
-
-___
-
