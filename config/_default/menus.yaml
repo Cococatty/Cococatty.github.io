@@ -8,10 +8,10 @@ main:
     weight: 10
   - name: Blogs
     url: blogs/
-    weight: 15
+    weight: 20
   - name: AI Projects
     url: /#aiprojects
-    weight: 10
+    weight: 30
     hasChildren: true
   - parent: AI Projects
     name: Data Visualization
@@ -31,7 +31,7 @@ main:
     weight: 50
   - name: Available Products
     url: solutions/
-    weight: 30
+    weight: 40
     hasChildren: true
   - parent: Available Products
     name: Notion
