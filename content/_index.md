@@ -61,30 +61,6 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-  # - block: features
-  #   id: features
-  #   content:
-  #     title: Key Benefits
-  #     # text: Build your future with Carina 🦄
-  #     items:
-  #       - name: Business Need
-  #         icon: magnifying-glass
-  #         description: Tell me your painpoints, business questions - I will find the answers for you.
-  #       - name: Efficiency
-  #         icon: bolt
-  #         description: All solutions are designed with high efficiency in cost and performance.
-  #       - name: Easy
-  #         icon: sparkles
-  #         description: One-click to send me a message!
-  #       - name: Programming
-  #         icon: code-bracket
-  #         description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-  #       - name: Highly Rated
-  #         icon: star
-  #         description: Rated 5-stars by the community.
-  #       - name: Organized
-  #         icon: rectangle-group
-  #         description: Have your Projects built in an organized manner with continueous updates.
   - block: cta-image-paragraph
     id: cta
     content:
@@ -97,6 +73,14 @@ sections:
           button:
             text: Get Started
             url: mailto:cococatty.ai@outlook.com
+            # TODO add "See her Work" button
+          # primary_action:
+          #   text: Get Started
+          #   url: https://hugoblox.com/templates/
+          #   icon: rocket-launch
+          # secondary_action:
+          #   text: Read the docs
+          #   url: https://docs.hugoblox.com
         - title: Cococatty
           text: Build your next projects with Carina 🦄
           feature_icon: bolt
