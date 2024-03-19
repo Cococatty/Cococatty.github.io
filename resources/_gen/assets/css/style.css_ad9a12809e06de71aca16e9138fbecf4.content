@@ -4089,6 +4089,11 @@ EmojiSymbols;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+.hover\:text-gray-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 .hover\:text-primary-600:hover {
   --tw-text-opacity: 1;
   color: rgb(48 52 236 / var(--tw-text-opacity));
