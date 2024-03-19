@@ -3,7 +3,9 @@ title: "New look of the site"
 date: 2024-03-17
 # image: ../../authors/admin/avater.png
 summary: A brief blog about the new look of carina.nz
-tags: Blogs
+tags: 
+  - Blogs
+
 authors:
   - admin
 # image:
