@@ -40,7 +40,6 @@ cascade:
       kind: section
     # Set the listing view
     view: date-title-summary    
-
 ############################
 ## LANGUAGE
 ############################
