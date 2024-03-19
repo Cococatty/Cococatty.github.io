@@ -86,13 +86,13 @@ sections:
   #         icon: rectangle-group
   #         description: Have your Projects built in an organized manner with continueous updates.
   - block: cta-image-paragraph
-    id: solutions
+    id: cta
     content:
       items:
         - title: Share your interesting ideas with Carina
           text: As a thanks, get your ideas implemented at low or ZERO costs!
-            
           # Upload image to `assets/media/` and reference the filename here
+          # replace image with multiple thumbnails
           image: ai-projects.jpg
           button:
             text: Get Started
