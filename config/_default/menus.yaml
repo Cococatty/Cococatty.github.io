@@ -31,9 +31,4 @@ main:
     weight: 50
   - name: Available Products
     url: solutions/
-    weight: 40
-    hasChildren: true
-  - parent: Available Products
-    name: Notion
-    url: /#notion
-    weight: 10
+    weight: 30
