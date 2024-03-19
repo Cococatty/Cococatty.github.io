@@ -11,11 +11,15 @@ main:
     weight: 15
   - name: AI Projects
     url: /#aiprojects
-    weight: 20
+    weight: 10
     hasChildren: true
   - parent: AI Projects
     name: Data Visualization
     url: /#datavisualization
+    weight: 20
+  - parent: AI Projects
+    name: Data Science
+    url: /#DataScience
     weight: 30
   - parent: AI Projects
     name: Computer Vision
@@ -26,5 +30,10 @@ main:
     url: /#nlp
     weight: 50
   - name: Available Products
-    url: /#solutions
+    url: solutions/
     weight: 30
+    hasChildren: true
+  - parent: Available Products
+    name: Notion
+    url: /#notion
+    weight: 10
