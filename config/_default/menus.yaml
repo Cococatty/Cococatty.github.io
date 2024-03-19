@@ -11,7 +11,7 @@ main:
     weight: 20
   - name: AI Projects
     url: /#aiprojects
-    weight: 30
+    weight: 10
     hasChildren: true
   - name: Available Products
     url: solutions/
