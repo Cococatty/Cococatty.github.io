@@ -29,11 +29,6 @@ main:
     name: NLP
     url: /#nlp
     weight: 50
-<<<<<<< HEAD
-  - name: Available Products
-    url: solutions/
-=======
-  - name: Commercial Solutions
-    url: /#solutions
->>>>>>> 640040957c463ac86174df63c1d13fbde01128d1
-    weight: 30
+  # - name: Available Products
+  #   url: solutions/
+  #   weight: 30
