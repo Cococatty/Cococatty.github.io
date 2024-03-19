@@ -34,6 +34,12 @@ cascade:
       kind: section
     # Set the listing view
     view: date-title-summary
+  # solutions and products options
+  - _target:
+      path: /solutions/*
+      kind: section
+    # Set the listing view
+    view: date-title-summary    
 
 ############################
 ## LANGUAGE
