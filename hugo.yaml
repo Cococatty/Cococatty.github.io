@@ -50,7 +50,7 @@ params:
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Dream Today, Achieve Tomorrow"
-  description: "Carina Zheng"
+  description: "Creative"
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -64,7 +64,7 @@ params:
     heading: "Cococatty Ltd."
     image: "images/global/cococatty-panda-cat.png"
     content:
-      - text: "Cococatty Ltd is a business established to provide...Cococatty Ltd is a business established to provide consulation and development services in
+      - text: "Cococatty Ltd is a business established to provide consulation and development services in
       Software Development, Data Management, Data Pipeline Building, Data Visualization, Data Science, Computer Vision."
   p3:
     heading: "Blogs"
@@ -89,8 +89,11 @@ params:
       enabled: true
       url: 'https://github.com/cococatty'
     linkedin:
-      enabled: false
+      enabled: true
       url: 'https://www.linkedin.com/in/carina-zheng/'
+    facebook:
+      enabled: true
+      url: 'https://github.com/cococatty'
    
 
 menu:
