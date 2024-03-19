@@ -11,7 +11,6 @@ sections:
   - block: hero
     content:
       title: Welcome to Creative Cat
-      text: Cococatty by Carina
       primary_action:
         text: Get Started
         url: mailto:cococatty.ai@outlook.com
