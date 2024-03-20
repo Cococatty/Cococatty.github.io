@@ -14,4 +14,4 @@ authors:
 url: projects/datavisualization
 ---
 
-a brief writing
+Data Science Projects Collection

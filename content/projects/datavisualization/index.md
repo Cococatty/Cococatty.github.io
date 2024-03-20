@@ -9,8 +9,6 @@ tags:
 
 authors:
   - admin
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-a brief writing
+Data Visualization Projects Collection

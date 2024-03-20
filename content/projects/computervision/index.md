@@ -13,4 +13,4 @@ authors:
 #   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-a brief writing
+Computer Vision Projects Collection
