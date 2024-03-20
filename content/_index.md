@@ -83,25 +83,48 @@ sections:
           button:
             text: Talk to Carina
             url: mailto:cococatty.ai@outlook.com
-
-        - title: Share your interesting ideas with Carina
-          text: As a thanks, get your ideas implemented at low or ZERO costs!
-          # Upload image to `assets/media/` and reference the filename here
-          # replace image with multiple thumbnails
-          image: ai-projects.jpg
-          button:
-            text: Let Carina know 🤩
-            url: mailto:cococatty.ai@outlook.com
-            # TODO add "See her Work" button
-          # primary_action:
-          #   text: Get Started
-          #   url: https://hugoblox.com/templates/
-          #   icon: rocket-launch
-          # secondary_action:
-          #   text: Read the docs
-          #   url: https://docs.hugoblox.com
+      design:
+        # Section background color (CSS class)
+        css_class: "bg-gray-100 dark:bg-gray-900"
+        
+  # - block:  cta-button-list
+  #   content:
+  #     # Need a custom icon?
+  #     # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
+  #     buttons:        
+  #       - text: Let Carina know 🤩
+  #         icon: rocket-launch
+  #         url: mailto:cococatty.ai@outlook.com
+  #       - text: See her Work
+  #         icon: puzzle-piece
+  #         url: /projects
+  - block: hero
+    content:
+      title: Share your interesting ideas
+      text: As a thanks, get your ideas implemented at low or ZERO costs!
+      # image: ai-projects.jpg
+      primary_action:
+        text: Let Carina know 🤩
+        url: mailto:cococatty.ai@outlook.com
+      secondary_action:
+        text: See her Work
+        url: /projects
     design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark"
+      background:
+        color: "navy"
+        image:
+          # Add your image background to `assets/media/`.
+          filename: ai-projects1024_crop.jpg
+          filters:
+            brightness: 0.5
+      # card:
+      #   # Card background color (CSS class)
+      #   css_class: "bg-primary-200"
+      #   css_style: ""     
 
 ---
