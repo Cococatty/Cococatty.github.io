@@ -13,10 +13,9 @@ main:
     url: projects/
     weight: 30
     hasChildren: true
-  - name: 'Available Products'
+  - name: Available Products
     url: solutions/
     weight: 40
-    hasChildren: true
   - name: About
     url: /about
     weight: 50
@@ -25,7 +24,7 @@ main:
     name: Data Visualization
     url: /projects/datavisualization
     weight: 20
-  - parent:  Projects
+  - parent: Projects
     name: Data Science
     url: /projects/datascience
     weight: 30
