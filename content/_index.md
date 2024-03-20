@@ -36,24 +36,31 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: stats
+  - block: features
+    id: features
     content:
+      title: Personal Highlights 🌟
       items:
-        - statistic: "10+"
-          description: |
-            Years of Tech Experience
-        - statistic: "5+"
-          description: |
-            Programming, Data Pipeline,
+        - name: Proficiency
+          icon: star
+          description: 10+ Years of Tech Experience
+        - name: R&D
+          icon: magnifying-glass
+          description: 3 Work-In-Progress Projects
+        - name: Achievements
+          icon: rectangle-group
+          description: 3 Publised Projects
+        - name: Efficiency
+          icon: bolt
+          description: Projects are completed in detail-orientated manner along with high-quality results.
+        - name: Broad Domains
+          icon: code-bracket
+          description: Programming, Data Pipeline, Data Visualization, Data Science, Computer Vision, NLP
+        - name: Multi-lingo
+          icon: sparkles
+          description: Cantonese, Mandrain, English, Korean, Spanish
+ 
             
-            Data Visualization,
-            
-            Data Science, Computer Vision, NLP
-        - statistic: "5"
-          description: |
-            Languages: 
-            
-            Cantonese, Mandrain, English, Korean, Spanish
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
