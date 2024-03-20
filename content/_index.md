@@ -59,7 +59,6 @@ sections:
         - name: Multi-lingo
           icon: sparkles
           description: Cantonese, Mandrain, English, Korean, Spanish
- 
             
     design:
       # Section background color (CSS class)
@@ -67,10 +66,24 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
+
   - block: cta-image-paragraph
     id: cta
     content:
       items:
+        - title: Cococatty
+          text: Build your next projects with Carina 🦄
+          feature_icon: bolt
+          features:
+            - "Requirements Checked - business needs are well-listened"
+            - "Tailored Design - fitting different budgts and goals"
+            - "Future-proof - all designs come with sustainable maintenance plans"
+          # Upload image to `assets/media/` and reference the filename here
+          image: cococatty-panda-cat.png
+          button:
+            text: Talk to Carina
+            url: mailto:cococatty.ai@outlook.com
+
         - title: Share your interesting ideas with Carina
           text: As a thanks, get your ideas implemented at low or ZERO costs!
           # Upload image to `assets/media/` and reference the filename here
@@ -87,21 +100,10 @@ sections:
           # secondary_action:
           #   text: Read the docs
           #   url: https://docs.hugoblox.com
-        - title: Cococatty
-          text: Build your next projects with Carina 🦄
-          feature_icon: bolt
-          features:
-            - "Requirements Checked - business needs are well-listened"
-            - "Tailored Design - to fit different budgts and goals"
-            - "Future-proof - all designs come with sustainable maintenance plans"
-          # Upload image to `assets/media/` and reference the filename here
-          image: cococatty-panda-cat.png
-          button:
-            text: Talk to Carina
-            url: mailto:cococatty.ai@outlook.com
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+
   - block: cta-card
     content:
       title: Got an interesting idea?
@@ -113,6 +115,5 @@ sections:
       card:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
-        css_style: ""
-
+        css_style: ""      
 ---
