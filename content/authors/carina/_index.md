@@ -26,11 +26,16 @@ bio: My interests include AI, programming and investment.
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/carina-zheng/
+    label: Connect with me on LinkedIn
+  - icon: brands/github
+    url: https://github.com/Cococatty/
   - icon: at-symbol
     url: 'mailto:cococatty.ai@outlook.com'
     label: E-mail Me
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/carina-zheng/
+
+
   # - icon: rss
   #   url: ./post/index.xml
   #   label: Subscribe to my blog via RSS feed
