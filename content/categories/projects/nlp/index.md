@@ -1,10 +1,11 @@
 ---
 title: "NLP"
 date: 2024-03-18
-summary: A collection of NLP Projects
+# image: ../../authors/carina/avater.png
+summary: A brief ...
 tags: 
-  - AI
-  - NLP
+  - 'NLP'
+  - 'AI'
 
 authors:
   - carina
@@ -12,4 +13,4 @@ authors:
 #   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-NLP Projects Collection
+a brief writing

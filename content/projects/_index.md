@@ -1,6 +1,6 @@
 ---
-title: AI Projects
+title: Projects
 ---
 
 <!-- TODO update dscription -->
-A collection of AI Projects in various domains! Topics include but not limited to personal development, career/professional, investment and personal thoughts!
+A collection of Projects in various domains! Topics include but not limited to personal development, career/professional, AI, investment and personal thoughts!

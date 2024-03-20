@@ -7,7 +7,7 @@ tags:
   - Data Visualization
 
 authors:
-  - admin
+  - carina
 ---
 
 Data Visualization Projects Collection

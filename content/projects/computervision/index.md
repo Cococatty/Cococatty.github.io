@@ -7,7 +7,7 @@ tags:
   - Computer Vision
 
 authors:
-  - admin
+  - carina
 # image:
 #   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---

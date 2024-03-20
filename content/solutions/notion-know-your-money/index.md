@@ -3,7 +3,7 @@ title: Know your Money
 summary: A Notion notebook template that allows users to record their income and expense from website, PC application and mobile phone.
 date: 2024-02-25
 authors:
-  - admin
+  - carina
 tags:
   - Notion
   - Finance
