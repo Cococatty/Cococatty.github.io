@@ -1,8 +1,7 @@
 ---
 title: "Computer Vision"
 date: 2024-03-18
-# image: ../../authors/admin/avater.png
-summary: A brief ...
+summary: A collection of Computer Vision Projects
 tags: 
   - AI
   - Computer Vision

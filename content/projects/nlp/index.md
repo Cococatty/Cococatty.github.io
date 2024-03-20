@@ -1,7 +1,6 @@
 ---
 title: "NLP"
 date: 2024-03-18
-# image: ../../authors/admin/avater.png
 summary: A brief ...
 tags: 
   - AI
