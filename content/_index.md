@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: Welcome to Cococatty
+      title: Welcome to Cococatty 🦄
       primary_action:
         text: Talk to Carina
         url: mailto:cococatty.ai@outlook.com
@@ -81,7 +81,7 @@ sections:
             url: mailto:cococatty.ai@outlook.com
 
       design:
-        # Section background color (CSS class)
+        # Section background color (CSS class)        
         css_class: "bg-gray-100 dark:bg-gray-900"
         
   - block: hero
