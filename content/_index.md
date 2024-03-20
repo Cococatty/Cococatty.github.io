@@ -90,7 +90,7 @@ sections:
           # replace image with multiple thumbnails
           image: ai-projects.jpg
           button:
-            text: Get Started
+            text: Let Carina know 🤩
             url: mailto:cococatty.ai@outlook.com
             # TODO add "See her Work" button
           # primary_action:
@@ -104,16 +104,4 @@ sections:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
 
-  - block: cta-card
-    content:
-      title: Got an interesting idea?
-      # text: !
-      button:
-        text: Let Carina know 🤩
-        url: mailto:cococatty.ai@outlook.com
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""      
 ---
