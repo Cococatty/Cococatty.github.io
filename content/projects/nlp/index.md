@@ -5,11 +5,10 @@ summary: A collection of NLP Projects
 tags: 
   - AI
   - NLP
-
 authors:
   - carina
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+image:
+  caption: 'Image credit: [**Microsoft Copilot**](https://copilot.microsoft.com/)'
 ---
 
 NLP Projects Collection
