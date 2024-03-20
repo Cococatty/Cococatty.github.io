@@ -15,9 +15,6 @@ sections:
         text: Get Started
         url: mailto:cococatty.ai@outlook.com
         icon: rocket-launch
-      # secondary_action:
-      #   text: Read the docs
-      #   url: https://docs.hugoblox.com
       announcement:
         text: "Announcing the fresh look of this website!"
         link:
@@ -77,43 +74,37 @@ sections:
           features:
             - "Requirements Checked - business needs are well-listened"
             - "Tailored Design - fitting different budgts and goals"
-            - "Future-proof - all designs come with sustainable maintenance plans"
-          # Upload image to `assets/media/` and reference the filename here
+            - "Future-proof - all designs come with sustainable maintenance plans"          
           image: cococatty-panda-cat.png
           button:
             text: Talk to Carina
             url: mailto:cococatty.ai@outlook.com
 
-        - title: Share your interesting ideas with Carina
-          text: As a thanks, get your ideas implemented at low or ZERO costs!
-          # Upload image to `assets/media/` and reference the filename here
-          # replace image with multiple thumbnails
-          image: ai-projects.jpg
-          button:
-            text: Get Started
-            url: mailto:cococatty.ai@outlook.com
-            # TODO add "See her Work" button
-          # primary_action:
-          #   text: Get Started
-          #   url: https://hugoblox.com/templates/
-          #   icon: rocket-launch
-          # secondary_action:
-          #   text: Read the docs
-          #   url: https://docs.hugoblox.com
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-
-  - block: cta-card
+      design:
+        # Section background color (CSS class)
+        css_class: "bg-gray-100 dark:bg-gray-900"
+        
+  - block: hero
     content:
-      title: Got an interesting idea?
-      # text: !
-      button:
+      title: Share your interesting ideas
+      text: As a thanks, get your ideas implemented at low or ZERO costs!      
+      primary_action:
         text: Let Carina know 🤩
         url: mailto:cococatty.ai@outlook.com
+      secondary_action:
+        text: See her Work
+        url: /projects
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""      
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark"
+      background:
+        color: "navy"
+        image:
+          filename: ai-projects1024_crop.jpg
+          filters:
+            brightness: 0.5
+
 ---
