@@ -79,6 +79,7 @@ sections:
           button:
             text: Talk to Carina
             url: mailto:cococatty.ai@outlook.com
+
       design:
         # Section background color (CSS class)
         css_class: "bg-gray-100 dark:bg-gray-900"
