@@ -9,32 +9,30 @@ main:
   - name: Blogs
     url: blogs/
     weight: 20
-  - name: AI Projects
-    url: /#aiprojects
+  - name: Projects
+    url: projects/
     weight: 30
     hasChildren: true
   - name: Available Products
     url: solutions/
     weight: 40
-    hasChildren: true
-  # sub-items
-  - parent: AI Projects
-    name: Data Visualization
-    url: /#datavisualization
-    weight: 20
-  - parent: AI Projects
-    name: Data Science
-    url: /#DataScience
-    weight: 30
-  - parent: AI Projects
-    name: Computer Vision
-    url: /#ComputerVision
-    weight: 40
-  - parent: AI Projects
-    name: NLP
-    url: /#nlp
+  - name: About
+    url: /about
     weight: 50
-  - parent: Available Products
-    name: Notion
-    url: /#notion
-    weight: 10
+  # sub-items
+  - parent: Projects
+    name: Data Visualization
+    url: /projects/datavisualization
+    weight: 20
+  - parent: Projects
+    name: Data Science
+    url: /projects/datascience
+    weight: 30
+  - parent: Projects
+    name: Computer Vision
+    url: /projects/computervision
+    weight: 40
+  - parent: Projects
+    name: NLP
+    url: /projects/nlp
+    weight: 50
