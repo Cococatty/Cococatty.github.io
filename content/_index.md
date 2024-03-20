@@ -59,7 +59,7 @@ sections:
         - name: Multi-lingo
           icon: sparkles
           description: Cantonese, Mandrain, English, Korean, Spanish
-            
+
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
