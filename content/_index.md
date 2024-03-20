@@ -51,6 +51,9 @@ sections:
             Data Science, Computer Vision, NLP
         - statistic: "5"
           description: |
+            Published & WIP Projects
+        - statistic: "5"
+          description: |
             Languages: 
             
             Cantonese, Mandrain, English, Korean, Spanish
