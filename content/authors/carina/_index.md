@@ -19,13 +19,9 @@ superuser: true
 # Role/position/tagline
 role: Da Unicorn!
 
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My interests include AI, programming and investment.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -43,7 +39,12 @@ profiles:
 highlight_name: true
 
 # Author's website URL
-website: "https://carina.nz/"
+website: "https://carina.nz/about"
 ---
 
+# Who's Carina
+
+# What does Carina do
 Artificial Intelligence
+
+# How can Carina help
