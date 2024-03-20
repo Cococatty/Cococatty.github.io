@@ -8,8 +8,8 @@ tags:
 
 authors:
   - carina
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+image:
+  caption: 'Image credit: [**Microsoft Copilot**](https://copilot.microsoft.com/)'
 ---
 
 Computer Vision Projects Collection
