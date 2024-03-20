@@ -11,6 +11,7 @@ authors:
   - admin
 # image:
 #   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+url: projects/datavisualization
 ---
 
 Data Science Projects Collection
