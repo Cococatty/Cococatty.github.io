@@ -3,7 +3,7 @@ title: Etsy Shop
 summary: An Etsy Shop that contains all commercial products
 date: 2024-03-20
 authors:
-  - admin
+  - carina
 tags: Notion
 
 image:

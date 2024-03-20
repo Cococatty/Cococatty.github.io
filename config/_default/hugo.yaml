@@ -40,23 +40,7 @@ cascade:
       kind: section
     # Set the listing view
     view: date-title-summary
-  # # solutions options
-  # - _target:
-  #     path: /solutions/**
-  #     kind: page
-  #   pager: true
-  #   editable: true
-  #   hide_date: false
-  #   show_date_updated: true
-  #   reading_time: true
-  #   commentable: true
-  #   show_related: true
-  #   share: true
-  #   # Just use Breadcrumb for navigation on blog post pages?
-  #   show_breadcrumb: false
-  #   header:
-  #     navbar:
-  #       enable: true
+
 
 ############################
 ## LANGUAGE
@@ -85,6 +69,7 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
 disableAliases: true
+disableShare: false
 outputs:
   home: [HTML, RSS, headers, redirects]
   section: [HTML, RSS]

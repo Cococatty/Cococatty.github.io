@@ -10,9 +10,9 @@ design:
 sections:
   - block: hero
     content:
-      title: Welcome to Creative Cat
+      title: Welcome to Cococatty
       primary_action:
-        text: Get Started
+        text: Talk to Carina
         url: mailto:cococatty.ai@outlook.com
         icon: rocket-launch
       announcement:
