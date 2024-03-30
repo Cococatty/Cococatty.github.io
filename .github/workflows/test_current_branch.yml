@@ -2,7 +2,7 @@ name: Test Deploy HugoBlox website to GitHub Pages
 
 env:
   WC_HUGO_VERSION: '0.123.7'
-  CURRENT_BRANCH: git rev-parse --abbrev-ref HEAD
+  CURRENT_BRANCH: echo 'git rev-parse --abbrev-ref HEAD'
 
 on:
   # Trigger the workflow every time you push to the specified branch
