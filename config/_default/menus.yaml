@@ -36,3 +36,7 @@ main:
     name: NLP
     url: /projects/nlp
     weight: 50
+  - parent: Projects
+    name: Finance
+    url: /projects/finance
+    weight: 60
