@@ -24,7 +24,7 @@ key points:
 - expressed as a percentage
 - short explanation: how much money you take home once you’ve covered the investment property expenses
 
-2 types of rental yield: **Gross Rental Yield** and **Net Rental Yield**²:
+2 types of rental yield: **Gross Rental Yield** and **Net Rental Yield**:
 
 1. **Gross Rental Yield**: This is calculated by taking the total annual rental income and dividing it by the property’s current market value, then multiplying by 100 to get a percentage. It gives a preliminary idea of the return on investment, but it does not take into account any costs associated with maintaining the property.
 
@@ -35,5 +35,6 @@ Formula: total income (e.g. rent) / property_value * 100
 Formula: (total income (e.g. rent) - total expenses (e.g. rate)) / property_value * 100
 
 
-These calculations provide a way for property owners to compare their returns with the market average and adjust their income or expenses accordingly¹. 
+These calculations provide a way for property owners to compare their returns with the market average and adjust their income or expenses accordingly.
+
 ⭐ rental yields are just estimates and the actual yield can depend on various factors such as location, type of property, rental market conditions, and rental prices in the area
