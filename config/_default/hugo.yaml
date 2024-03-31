@@ -40,7 +40,12 @@ cascade:
       kind: section
     # Set the listing view
     view: date-title-summary
-
+  # finance 
+  - _target:
+      path: /finance/*
+      kind: section
+    # Set the listing view
+    view: date-title-summary
 
 ############################
 ## LANGUAGE
