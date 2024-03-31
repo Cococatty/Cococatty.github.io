@@ -24,7 +24,7 @@ cascade:
     show_related: true
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: false
+    show_breadcrumb: true
     header:
       navbar:
         enable: true
@@ -90,7 +90,7 @@ taxonomies:
 markup:
   _merge: deep
   highlight:
-    lineNos: false
+    lineNos: true
 security:
   _merge: deep
 sitemap:

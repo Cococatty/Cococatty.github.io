@@ -1,16 +1,12 @@
 ---
 title: "New look of the site"
 date: 2024-03-17
-# image: ../../authors/carina/avater.png
 summary: A brief blog about the new look of carina.nz
 tags: 
   - Blogs
 
 authors:
   - carina
-
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
 # What is with this look :satisfied:
