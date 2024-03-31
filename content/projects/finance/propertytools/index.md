@@ -5,6 +5,7 @@ summary: A collection of tools that provide investment insights to users
 tags: 
   - Property
   - Investment
+categories: ["Property"]
 authors:
   - carina
 image:
