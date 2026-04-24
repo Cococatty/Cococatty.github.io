@@ -1,5 +1,5 @@
 {
-    "title": "Twilight Blog Template",
+    "title": "Upgrade This Site to Blog Theme",
     "description": "A CMS integrated blog theme built with Astro framework.",
     "image": "./Twilight_Cover.jpg",
     "category": "website",
@@ -9,9 +9,9 @@
         "Tailwind CSS"
     ],
     "status": "in-progress",
-    "liveDemo": "https://twilight.spr-aachen.com",
-    "sourceCode": "https://github.com/Spr-Aachen/Twilight",
-    "startDate": "2025-10-01",
+    "liveDemo": "https://carina.nz",
+    "sourceCode": "https://github.com/Cococatty/Cococatty.github.io/",
+    "startDate": "2026-04-24",
     "endDate": "",
     "featured": true,
     "tags": [
