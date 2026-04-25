@@ -5,7 +5,7 @@ pinned: false
 description: A simple post recording my preparation.
 tags: [AI, AWS, AI_SA]
 category: "AI Solution Architect"
-draft: false
+draft: true
 ---
 
 
