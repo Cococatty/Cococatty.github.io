@@ -1,34 +1,18 @@
 ---
-title: Video Example
-published: 2021-12-02
-description: This post demonstrates how to embed video in a blog post.
-tags: [Markdown, Video]
-category: Examples
+title: Recent Favourite Playlist
+published: 2026-04-24
+description: My Recent Favourite Playlist from grgr_playlist
+tags: [Markdown, Music]
+category: LilMinorThings
 draft: false
 ---
 
 
-## Instructions
+# Spotify
 
-Just copy the embed code from YouTube or other platforms, and paste it in the markdown file as below:
-
-```yaml
----
-title: Include Video in the Post
-published: 2023-10-19
-// ...
----
-
-<iframe width="100%" height="468" src="https://www.youtube.com/embed/yrn7eInApnc?si=gGZeFbPcfMpJ1uV3_" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-```
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/2zA9yJ9fU0i6DOcjPKHGON?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
-## Examples
+# YouTube
 
-### YouTube
-
-<iframe width="100%" height="468" src="https://www.youtube.com/embed/yrn7eInApnc?si=gGZeFbPcfMpJ1uV3_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-### Bilibili
-
-<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV14QpMeSEuD&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &autoplay=0> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-abtC_YuE7k?si=6hcjNYKRhGVpddpD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
