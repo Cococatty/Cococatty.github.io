@@ -51,7 +51,7 @@ const adapter = process.env.GITHUB_ACTIONS
 
 // Ref: https://astro.build/config
 export default defineConfig({
-    site: "https://github.com/Cococatty/Cococatty.github.io,
+    site: "https://github.com/Cococatty/Cococatty.github.io",
     base: "/Cococatty",
     trailingSlash: "always",
     adapter: adapter,
