@@ -1,0 +1,21 @@
+{
+    "title": "Professional Catchup",
+    "description": "",
+    "cover": "./coffee.jpg",
+    "date": "2026-05-01",
+    "location": "Auckland, New Zealand",
+    "tags": ["catchup", "professional"],
+    "layout": "horizontal-masonry",
+    "columns": 3,
+    "photos": [
+        {
+            "src": "./coffee.jpg",
+            "alt": "professional catchup",
+            "title": "Professional Catchup",
+            "description": "",
+            "tags": ["social", "professional"]
+
+        }
+    ],
+    "visible": false
+}

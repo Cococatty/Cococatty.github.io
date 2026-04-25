@@ -1,0 +1,19 @@
+{
+    "title": "Know My Money",
+    "description": "A personal finance management app",
+    "image": "./Twilight_Cover.jpg",
+    "category": "app",
+    "techStack": [
+        "Kotlin"
+    ],
+    "status": "in-progress",
+    "liveDemo": "https://carina.nz",
+    "sourceCode": "https://github.com/Cococatty/know_my_money",
+    "startDate": "2026-05-01",
+    "endDate": "",
+    "featured": true,
+    "tags": [
+        "Personal Project",
+        "Finance App", "GenAI"
+    ]
+}

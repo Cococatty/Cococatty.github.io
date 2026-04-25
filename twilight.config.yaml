@@ -1,0 +1,442 @@
+# Site configuration
+site:
+    # Site URL (ends with slash)
+    siteURL: "https://carina.nz/"
+    # Site title
+    title: "Carina's Blog"
+    # Site subtitle
+    subtitle: "Blog Template"
+    # Language configuration
+    lang: "en"
+    # Translation configuration
+    translate:
+        # Enable translation feature
+        enable: true
+        # Translation service
+        service: "client.edge"
+        # Show language selection dropdown
+        showSelectTag: false
+        # Auto-detect user language
+        autoDiscriminate: true
+        # CSS class names to ignore during translation
+        ignoreClasses:
+            - "ignore"
+            - "banner-title"
+            - "banner-subtitle"
+        # HTML tags to ignore during translation
+        ignoreTags:
+            - "script"
+            - "style"
+            - "code"
+            - "pre"
+    # Time zone configuration
+    timeZone: 8
+    # Font configuration
+    font:
+        # Example font configuration - Zen Maru Gothic
+        "Example - ZenMaruGothic":
+            # Font source (font CSS link | font file path)
+            src: "https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap"
+            # Font name (font-family)
+            family: "Zen Maru Gothic"
+    # Theme color configuration
+    themeColor:
+        # Default hue of theme color (range from 0 to 360. E.g.: red: 0, cyan: 200, teal: 250, pink: 345)
+        hue: 255
+    # Default theme ("system" follow system | "light" light | "dark" dark)
+    defaultTheme: "dark"
+    # Wallpaper configuration
+    wallpaper:
+        # Mode ("banner" banner | "fullscreen" fullscreen | "none" solid color)
+        mode: "banner"
+        # Image source configuration (shared by fullscreen and banner modes)
+        src:
+            # Desktop wallpaper images (relative to /public directory; supports single image or image array, carousel enabled when array length > 1)
+            desktop:
+                - "/assets/images/desktopWallpaper_1.jpg"
+                - "/assets/images/desktopWallpaper_2.jpg"
+                - "/assets/images/desktopWallpaper_3.jpg"
+            # Mobile wallpaper images (relative to /public directory; supports single image or image array, carousel enabled when array length > 1)
+            mobile:
+                - "/assets/images/mobileWallpaper_1.jpg"
+                - "/assets/images/mobileWallpaper_2.jpg"
+        # Wallpaper position ('top' | 'center' | 'bottom')
+        position: "center"
+        # Carousel configuration (shared by fullscreen and banner modes)
+        carousel:
+            # Enable carousel for multiple images, otherwise randomly display one image
+            enable: true
+            # Carousel interval time (seconds)
+            interval: 3.6
+            # Enable Ken Burns effect
+            kenBurns: true
+        # Banner mode specific configuration
+        banner:
+            # Banner text configuration
+            homeText:
+                # Display text on homepage
+                enable: true
+                # Main title
+                title: "Carina's Blog"
+                # Subtitle, supports single string or string array
+                subtitle:
+                    - "Illuminate Our Paths"
+                # Subtitle typewriter effect
+                typewriter:
+                    # Enable subtitle typewriter effect
+                    enable: true
+                    # Typing speed (milliseconds)
+                    speed: 111
+                    # Delete speed (milliseconds)
+                    deleteSpeed: 51
+                    # Pause time after full display (milliseconds)
+                    pauseTime: 3000
+            # Banner image source text
+            credit:
+                # Display banner image source text
+                enable: false
+                # Source text to display
+                text: "Describe"
+                # (Optional) URL link to original artwork or artist page
+                url: ""
+            # Navbar configuration
+            navbar:
+                # Navbar transparent mode ("semi" semi-transparent with rounded corners | "full" fully transparent | "semifull" dynamic transparent)
+                transparentMode: "semifull"
+            # Water ripple effect configuration
+            waves:
+                # Enable water ripple effect
+                enable: true
+                # Enable performance mode (simplify wave effect to improve performance)
+                performanceMode: false
+        # Fullscreen mode specific configuration
+        fullscreen:
+            # Z-index
+            zIndex: -1
+            # Wallpaper opacity, between 0-1
+            opacity: 0.9
+            # Background blur level (pixel value)
+            blur: 1
+            # Navbar transparent mode
+            navbar:
+                transparentMode: "semi"
+    # Loading page configuration
+    loadingOverlay:
+        # Whether to enable loading page
+        enable: true
+        # Whether to wait for all resources (such as images, stylesheets) to load
+        waitForAllResources: true
+        # Loading title configuration
+        title:
+            # Whether to enable loading title
+            enable: true
+            # Loading title text
+            content: "LOADING"
+            # Animation cycle (s)
+            interval: 1.5
+        # Loading animation configuration
+        spinner:
+            # Whether to enable loading animation
+            enable: true
+            # Animation cycle (s)
+            interval: 1.5
+    # Favicon configuration
+    favicon: []
+    # Bangumi configuration
+    bangumi:
+        # User ID
+        userId: "your-bangumi-id"
+    # OpenGraph configuration
+    generateOgImages: false
+
+# Analytics configuration
+analytics:
+    # Whether to enable analytics
+    enabled: false
+    # Analytics platform
+    platform: "umami"
+    # Umami analytics configuration
+    umami:
+        # Umami API address
+        baseUrl: "https://api.umami.is"
+        # API key
+        apiKey: ''
+        # Tracking code
+        code: ''
+
+# Navbar configuration
+navbar:
+    links:
+        - "Home"
+        - "Archive"
+        - # Navigation name
+            name: "Exhibition"            
+            url: "/exhibition/"
+            icon: "material-symbols:art-track"
+            description: "A collection of my creative works and experiences"
+            children:
+                -   "Projects"
+                -   "Skills"
+                -   "Timeline"
+                -   "Diary"
+                - "Albums"
+        # - "Friends"
+        - "About"
+
+# Sidebar configuration
+sidebar:
+    # Sidebar component configuration list (sidebar component presets are located in src/types/config.ts WidgetComponentType)
+    components:
+        # Left sidebar
+        left:
+            - # Component - Profile (preset)
+                # Type
+                type: "profile"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "top"
+                # Page visibility configuration
+                visibility:
+                    # Match mode: 'include' (include), 'exclude' (exclude)
+                    mode: "exclude"
+                    # Page path matching rule list (supports regex strings)
+                    paths: ["^/posts/", "^/archive"]
+            - # Component - Directory (preset)
+                # Type
+                type: "directory"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "sticky"
+            - # Component - Article categories (preset)
+                # Type
+                type: "categories"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "sticky"
+                # Responsive configuration
+                responsive:
+                    # Collapse threshold
+                    collapseThreshold: 5
+                # Directory depth
+                depth: 3
+            - # Component - Article tags (preset)
+                # Type
+                type: "tags"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "sticky"
+                # Responsive configuration
+                responsive:
+                    # Collapse threshold
+                    collapseThreshold: 20
+        # # Right sidebar
+        # right:
+        #     - # Component - Announcement (preset)
+        #         # Type
+        #         type: "announcement"
+        #         # Position strategy ("top" top fixed | "sticky" sticky)
+        #         position: "top"
+        #         # Page visibility configuration
+        #         visibility:
+        #             # Match mode: 'include' (include), 'exclude' (exclude)
+        #             mode: "include"
+        #             # Page path matching rule list (supports regex strings)
+        #             paths: ["^/$"]
+        #     - # Component - Article table of contents (preset)
+        #         # Type
+        #         type: "toc"
+        #         # Position strategy ("top" top fixed | "sticky" sticky)
+        #         position: "sticky"
+        #         # Table of contents depth (1-6, 1 means only show h1 headings, 2 means show h1 and h2 headings, and so on)
+        #         depth: 3
+        #     - # Component - Article statistics (preset)
+        #         # Type
+        #         type: "statistics"
+        #         # Position strategy ("top" top fixed | "sticky" sticky)
+        #         position: "sticky"
+        #         # Page visibility configuration
+        #         visibility:
+        #             # Match mode: 'include' (include), 'exclude' (exclude)
+        #             mode: "include"
+        #             # Page path matching rule list (supports regex strings)
+        #             paths: ["^/$", "^/archive$"]
+
+# Profile configuration
+profile:
+    # Avatar configuration (relative to /public directory)
+    avatar: "/assets/images/avatar.jpg"
+    # Information configuration
+    name: "Carina"
+    # Bio configuration
+    bio: "Hi, how's your day?😄"
+    # Link configuration
+    links:
+        -   name: "GitHub"
+            icon: "fa6-brands:github"
+            # URL
+            url: "https://github.com/Cococatty/Cococatty.github.io/"
+        -   name: "LinkedIn"
+            icon: "fa6-brands:linkedin"
+            url: "https://www.linkedin.com/in/carina-zheng"
+
+# Announcement configuration
+announcement:
+    # Announcement title
+    title: "Announcement"
+    # Announcement content
+    content: "Welcome to my blog!"
+    # Allow users to close announcement
+    closable: true
+    # Link configuration
+    link:
+        # Enable link
+        enable: true
+        # Link text
+        text: "Learn More"
+        # Link URL
+        url: "/about/"
+        # Whether external link
+        external: false
+
+# Post configuration
+post:
+    # Show "Last Modified" card
+    showLastModified: true
+    # Code highlighting configuration
+    expressiveCode:
+        # Theme
+        theme: "github-dark"
+    # License configuration
+    license:
+        # Enable license
+        enable: true
+        # License name
+        name: "CC BY-NC-SA 4.0"
+        # License link
+        url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    # Comment configuration
+    comment:
+        # Enable comment feature
+        enable: false
+        # Twikoo comment system configuration
+        twikoo:
+            # Environment ID
+            envId: "https://twikoo.vercel.app"
+            # Language
+            lang: "en"
+
+# Footer configuration
+footer:
+    # Enable Footer HTML injection feature
+    enable: false
+    # Custom HTML content, for adding record number etc.
+    customHtml: ""
+
+# Particle effect configuration
+particle:
+    # Enable particle effect
+    enable: true
+    # Particle number
+    particleNum: 12
+    # Particle out-of-bounds limit times, -1 for infinite loop
+    limitTimes: -1
+    # Particle size configuration
+    size:
+        # Particle minimum size multiplier
+        min: 0.3
+        # Particle maximum size multiplier
+        max: 0.9
+    # Particle opacity configuration
+    opacity:
+        # Particle minimum opacity
+        min: 0.3
+        # Particle maximum opacity
+        max: 0.9
+    # Particle movement speed configuration
+    speed:
+        # Horizontal movement speed
+        horizontal:
+            min: -0.9
+            max: 0.9
+        # Vertical movement speed
+        vertical:
+            min: 0.15
+            max: 0.3
+        # Rotation speed
+        rotation: 0.12
+        # Fade speed
+        fadeSpeed: 0.12
+    # Particle z-index
+    zIndex: 100
+
+# Music player configuration
+# TODO music player?
+musicPlayer:
+    enable: true
+    # Default mode ("meting" API | "local" local)
+    mode: "meting"
+    # Meting mode specific configuration
+    meting:
+        # Meting API address
+        meting_api: "https://meting.spr-aachen.com/api"
+        # Music platform
+        server: "netease"
+        # Type ("playlist" playlist | "song" single song)
+        type: "playlist"
+        # Resource ID
+        id: "2161912966"
+    # Local mode specific configuration
+    local:
+        # Playlist
+        playlist:
+            - # List example
+                # Serial number
+                id: 1
+                # Title
+                title: "深海之息"
+                # Artist
+                artist: "Youzee Music"
+                # Cover
+                cover: "https://p1.music.126.net/PhKOqFtljgHDDpKYM2ADUA==/109951169858309716.jpg"
+                # Music path
+                url: "assets/music/深海之息.m4a"
+                # Lyrics path
+                lrc: "assets/music/深海之息.lrc"
+                # Duration
+                duration: 146
+    # Whether to autoplay
+    autoplay: false
+
+# Live2D character configuration
+pio:
+    # Enable Live2D character
+    enable: false
+    # Model file path
+    models:
+        - "/pio/models/pio/model.json"
+    # Live2D character position
+    position: "left"
+    # Live2D character width
+    width: 280
+    # Live2D character height
+    height: 250
+    # Display mode
+    mode: "draggable"
+    # Whether to hide on mobile devices
+    hiddenOnMobile: true
+    # Dialog configuration
+    dialog:
+        # Welcome message
+        welcome: "Welcome!"
+        # Touch prompt
+        touch:
+            - "What are you doing?"
+            - "Stop touching me!"
+            - "Don't bully me like that!"
+            - "(｡í _ ì｡)"
+        # Homepage prompt
+        home: "Click here to go back to homepage!"
+        # Skin change prompt
+        skin:
+            - "Want to see my new outfit?"
+            - "The new outfit looks great~"
+        # Close prompt
+        close: "See you next time~"
+        # About link
+        link: "https://nav.kungal.org"

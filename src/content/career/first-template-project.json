@@ -1,0 +1,28 @@
+{
+    "title": "Career Path",
+    "description": "Personal Career Path",
+    "type": "project",
+    "startDate": "2025-10-01",
+    "endDate": "",
+    "skills": [
+        "Astro",
+        "Svelte",
+        "Tailwind CSS"
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "Online Demo",
+            "url": "https://tw  ilight.spr-aachen.com",
+            "type": "project"
+        },
+        {
+            "name": "GitHub Repository",
+            "url": "https://github.com/Cococatty/",
+            "type": "project"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": true
+}

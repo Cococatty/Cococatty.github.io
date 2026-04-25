@@ -1,0 +1,21 @@
+{
+    "title": "Upgrade This Site to Blog Theme",
+    "description": "A CMS integrated blog theme built with Astro framework.",
+    "image": "./Twilight_Cover.jpg",
+    "category": "website",
+    "techStack": [
+        "Astro",
+        "Svelte",
+        "Tailwind CSS"
+    ],
+    "status": "in-progress",
+    "liveDemo": "https://carina.nz",
+    "sourceCode": "https://github.com/Cococatty/Cococatty.github.io/",
+    "startDate": "2026-04-24",
+    "endDate": "",
+    "featured": true,
+    "tags": [
+        "Personal Project",
+        "Open Source Project"
+    ]
+}
