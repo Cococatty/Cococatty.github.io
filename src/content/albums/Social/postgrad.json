@@ -1,0 +1,21 @@
+{
+    "title": "Postgrad Club Committees Catchup",
+    "description": "Lunch Catchp with the Postgrad Club Committees! It was great to catch up with everyone and discuss our plans for the upcoming events. Looking forward to an exciting year ahead!",
+    "cover": "./coffee.jpg",
+    "date": "2026-04-18",
+    "location": "Auckland, New Zealand",
+    "tags": ["catchup", "social", "volunteer"],
+    "layout": "horizontal-masonry",
+    "columns": 3,
+    "photos": [
+        {
+            "src": "./postgrad_club.jpg",
+            "alt": "Postgrad Club Committees",
+            "title": "Postgrad Club Committees",
+            "description": "",
+            "tags": ["social", "volunteer"]
+
+        }
+    ],
+    "visible": true
+}
