@@ -169,6 +169,7 @@ navbar:
     links:
         - "Home"
         - "Archive"
+        -  "Projects"
         - # Navigation name
             name: "Exhibition"            
             url: "/exhibition/"
@@ -376,11 +377,14 @@ musicPlayer:
         # Meting API address
         meting_api: "https://meting.spr-aachen.com/api"
         # Music platform
-        server: "netease"
+        # server: "spotify"
+        server: "ytmusic"
         # Type ("playlist" playlist | "song" single song)
         type: "playlist"
         # Resource ID
-        id: "2161912966"
+        # spotify
+        # id: "4T09aqVVROMFf2Z7ceHYhh?si=IDB_5-QbTJuLStIuL1rQNw"
+        id: "-abtC_YuE7k&si=oKV2dQkvxcK32xeO"
     # Local mode specific configuration
     local:
         # Playlist
