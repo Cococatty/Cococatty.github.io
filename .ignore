@@ -1,8 +1,0 @@
-node_modules/*
-.astro/*
-.vercel/*
-.decap.yml
-.dockerignore
-.pages.yml
-vercel.json
-*.astro
