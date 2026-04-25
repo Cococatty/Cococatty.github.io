@@ -1,0 +1,21 @@
+{
+    "title": "General Catchup",
+    "description": "",
+    "cover": "./postgrad_club.jpg",
+    "date": "2026-04-18",
+    "location": "Auckland, New Zealand",
+    "tags": ["catchup"],
+    "layout": "horizontal-masonry",
+    "columns": 3,
+    "photos": [
+        {
+            "src": "./postgrad_club.jpg",
+            "alt": "Postgrad Club Committees",
+            "title": "Postgrad Club Committees",
+            "description": "",
+            "tags": ["social", "volunteer"]
+
+        }
+    ],
+    "visible": false
+}

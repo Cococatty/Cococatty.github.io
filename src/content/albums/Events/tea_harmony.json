@@ -1,0 +1,77 @@
+{
+    "title": "Tea for Harmony: Yaji Cultural Salon",
+    "description": "Cultural salon featuring Chinese tea, Western classical music held in Auckland, \n [news article](https://en.people.cn/n3/2026/0424/c90000-20450017.html)",
+    "cover": "./tea_harmony/portrait1.jpg",
+    "date": "2026-04-22",
+    "location": "Auckland, New Zealand",
+    "tags": ["cultural", "experience", "performance"],
+    "layout": "horizontal-masonry",
+    "columns": 3,
+    "photos": [
+        {
+            "src": "./tea_harmony/portrait1.jpg",
+            "alt": "Carina",
+            "title": "Carina at tea art",
+            "description": "Tea cultural experience",
+            "tags": ["cultural", "experience", "portrait", "carina"]
+
+        },
+        {
+            "src": "./tea_harmony/portrait2.jpg",
+            "alt": "Carina",
+            "title": "Carina at tea art",
+            "description": "Tea cultural experience",
+            "tags": ["cultural", "experience", "portrait", "carina"]
+        },
+        {
+            "src": "./tea_harmony/tea_art1.jpg",
+            "alt": "Tea Art Experience",
+            "title": "Tea Art Experience",
+            "description": "Experience on-site",
+            "tags": ["cultural", "experience"]
+        },
+        {
+            "src": "./tea_harmony/tea_art2.jpg",
+            "alt": "Tea Art Experience",
+            "title": "Tea Art Experience",
+            "description": "Experience on-site",
+            "tags": ["cultural", "experience"]
+        }, 
+        {
+            "src": "./tea_harmony/tea_art3.jpg",
+            "alt": "Tea Art Experience",
+            "title": "Tea Art Experience",
+            "description": "Experience on-site",
+            "tags": ["cultural", "experience"]
+        },
+        {
+            "src": "./tea_harmony/tea_art4.jpg",
+            "alt": "Tea Art Experience",
+            "title": "Tea Art Experience",
+            "description": "Experience on-site",
+            "tags": ["cultural", "experience"]
+        },
+        {
+            "src": "./tea_harmony/pandas.jpg",
+            "alt": "Pandas",
+            "title": "Pandas",
+            "description": "Decoration on-site",
+            "tags": ["panda"]
+        },
+        {
+            "src": "./tea_harmony/performance1.jpg",
+            "alt": "Performance",
+            "title": "Performance",
+            "description": "Performance on-site",
+            "tags": ["performance"]
+        },
+        {
+            "src": "./tea_harmony/performance2.jpg",
+            "alt": "Performance",
+            "title": "Performance",
+            "description": "Performance on-site",
+            "tags": ["performance"]
+        }
+    ],
+    "visible": true
+}
