@@ -51,8 +51,8 @@ const adapter = process.env.GITHUB_ACTIONS
 
 // Ref: https://astro.build/config
 export default defineConfig({
-    // TODO: Update site and base when deploying to a subdirectory
-    // site: "https://Cococatty.github.io",
+    // Update site and base when deploying to a subdirectory
+    site: "https://github.com/Cococatty/Cococatty.github.io",
     // base: "/Cococatty.github.io",
     trailingSlash: "always",
     adapter: adapter,
