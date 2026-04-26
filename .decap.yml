@@ -271,25 +271,25 @@ collections:
             - # 主题颜色
                 { name: "color", label: "Color", widget: "string", required: false }
 
-    - # 友链
-        name: "friends"
-        label: "Friends"
-        folder: "src/content/friends"
-        create: true
-        slug: "{{slug}}"
-        format: "json"
-        # 字段列表
-        fields:
-            - # 网站名称
-                { name: "title", label: "Title", widget: "string" }
-            - # 头像链接
-                { name: "imgurl", label: "Avatar URL", widget: "string" }
-            - # 网站描述
-                { name: "desc", label: "Description", widget: "text" }
-            - # 网站链接
-                { name: "siteurl", label: "Site URL", widget: "string" }
-            - # 标签
-                { name: "tags", label: "Tags", widget: "list", required: false, default: [] }
+    # - # 友链
+    #     name: "friends"
+    #     label: "Friends"
+    #     folder: "src/content/friends"
+    #     create: true
+    #     slug: "{{slug}}"
+    #     format: "json"
+    #     # 字段列表
+    #     fields:
+    #         - # 网站名称
+    #             { name: "title", label: "Title", widget: "string" }
+    #         - # 头像链接
+    #             { name: "imgurl", label: "Avatar URL", widget: "string" }
+    #         - # 网站描述
+    #             { name: "desc", label: "Description", widget: "text" }
+    #         - # 网站链接
+    #             { name: "siteurl", label: "Site URL", widget: "string" }
+    #         - # 标签
+    #             { name: "tags", label: "Tags", widget: "list", required: false, default: [] }
 
 
 # 编辑器配置
