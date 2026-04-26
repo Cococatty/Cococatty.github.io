@@ -5,7 +5,7 @@ site:
     # Site title
     title: "Carina's Blog"
     # Site subtitle
-    subtitle: "Blog Template"
+    subtitle: "Illuminate Our Paths"
     # Language configuration
     lang: "en"
     # Translation configuration
@@ -30,7 +30,7 @@ site:
             - "code"
             - "pre"
     # Time zone configuration
-    timeZone: 8
+    timeZone: 12
     # Font configuration
     font:
         # Example font configuration - Zen Maru Gothic
@@ -180,7 +180,6 @@ navbar:
                 -   "Timeline"
                 -   "Diary"
                 - "Albums"
-        # - "Friends"
         - "About"
 
 # Sidebar configuration
