@@ -24,7 +24,14 @@
             "tags": ["cultural", "experience", "portrait", "carina"]
         },
         {
-            "src": "./tea_harmony/tea_art1.jpg",
+            "src": "./tea_harmony/tea_art.jpg",
+            "alt": "Tea Art Experience",
+            "title": "Tea Art Experience",
+            "description": "Experience on-site",
+            "tags": ["cultural", "experience"]
+        },
+        {
+            "src": "./tea_harmony/tea_art3.jpg",
             "alt": "Tea Art Experience",
             "title": "Tea Art Experience",
             "description": "Experience on-site",
@@ -38,14 +45,7 @@
             "tags": ["cultural", "experience"]
         }, 
         {
-            "src": "./tea_harmony/tea_art3.jpg",
-            "alt": "Tea Art Experience",
-            "title": "Tea Art Experience",
-            "description": "Experience on-site",
-            "tags": ["cultural", "experience"]
-        },
-        {
-            "src": "./tea_harmony/tea_art4.jpg",
+            "src": "./tea_harmony/tea_art1.jpg",
             "alt": "Tea Art Experience",
             "title": "Tea Art Experience",
             "description": "Experience on-site",
@@ -59,14 +59,14 @@
             "tags": ["panda"]
         },
         {
-            "src": "./tea_harmony/performance1.jpg",
+            "src": "./tea_harmony/performance.jpg",
             "alt": "Performance",
             "title": "Performance",
             "description": "Performance on-site",
             "tags": ["performance"]
         },
         {
-            "src": "./tea_harmony/performance2.jpg",
+            "src": "./tea_harmony/performance1.jpg",
             "alt": "Performance",
             "title": "Performance",
             "description": "Performance on-site",
