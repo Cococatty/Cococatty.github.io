@@ -40,8 +40,10 @@
     ::file-selector-button {
     border-color: var(--color-gray-200, currentcolor);
     }
+    html {
+    font-size: 18px;
+  }
 }
-
 
 @utility is-theme-transitioning {
     /* 主题过渡保护类 - 临时禁用所有过渡动画 */
