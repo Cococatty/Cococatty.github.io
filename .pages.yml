@@ -191,20 +191,20 @@ content:
       - { name: icon, label: Icon, type: string, required: false }
       - { name: color, label: Color, type: string, required: false }
 
-  # 友链
-  - type: collection
-    # 集合名称
-    name: friends
-    # 后台显示标签
-    label: Friends
-    # 内容存储目录
-    path: src/content/friends
-    # 文件命名规则
-    filename: "{slug}.json"
-    # 字段列表
-    fields:
-      - { name: title, label: Title, type: string }
-      - { name: imgurl, label: Avatar URL, type: string }
-      - { name: desc, label: Description, type: text }
-      - { name: siteurl, label: Site URL, type: string }
-      - { name: tags, label: Tags, type: string, list: true, required: false }
+  # # 友链
+  # - type: collection
+  #   # 集合名称
+  #   name: friends
+  #   # 后台显示标签
+  #   label: Friends
+  #   # 内容存储目录
+  #   path: src/content/friends
+  #   # 文件命名规则
+  #   filename: "{slug}.json"
+  #   # 字段列表
+  #   fields:
+  #     - { name: title, label: Title, type: string }
+  #     - { name: imgurl, label: Avatar URL, type: string }
+  #     - { name: desc, label: Description, type: text }
+  #     - { name: siteurl, label: Site URL, type: string }
+  #     - { name: tags, label: Tags, type: string, list: true, required: false }
