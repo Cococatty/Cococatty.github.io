@@ -1,7 +1,7 @@
 {
     "title": "🧠 Ink & Insights (HolmesRAG System)",
     "description": "A RAG chatbot built with Sherlock Holmes stories",
-    "image": "./sherlock_holmes.jpg",
+    "image": "/assets/article_images/sherlock_holmes.jpg",
     "category": "chatbot",
     "techStack": [
         "AWS",
