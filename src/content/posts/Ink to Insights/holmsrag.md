@@ -4,7 +4,7 @@ updated: 2026-04-29
 published: 2026-04-29
 pinned: true
 description: A RAG chatbot built with Sherlock Holmes stories
-cover: "/public/assets/article_images/sherlock_holmes.jpg"
+cover: "./sherlock_holmes.jpg"
 coverInContent: false
 tags: [AI, AWS, AI_SA, hand-on]
 category: "AI Solution Architect"
