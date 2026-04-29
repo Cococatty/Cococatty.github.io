@@ -4,7 +4,7 @@ Hi, I’m Carina — a **Data Scientist, AI Engineer, and emerging AI Solution A
 
 I specialize in building **end-to-end AI systems** that bridge the gap between research and real-world impact. My work spans across **machine learning, computer vision, data engineering, and cloud-based deployment**, where I focus not just on models, but on delivering scalable and production-ready solutions.
 
-Latest Resume is available [here](./Carina_ZHENG_Resume_Apr_2026.pdf).
+Latest Resume is available [here](/public/assets/docs/Carina_ZHENG_Resume_Apr_2026.pdf).
 
 ---
 
