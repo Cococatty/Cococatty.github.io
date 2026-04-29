@@ -1,0 +1,26 @@
+{
+    "title": "🧠 Ink & Insights (HolmesRAG System)",
+    "description": "A RAG chatbot built with Sherlock Holmes stories",
+    "image": "/public/assets/article_images/sherlock_holmes.jpg",
+    "category": "chatbot",
+    "techStack": [
+        "AWS",
+        "API",
+        "Python",
+        "LangChain",
+        "Prompts",
+        "RAG",
+        "LLM", "Vector"
+    ],
+    "status": "Planning",
+    "sourceCode": "https://github.com/Cococatty/holmsrag",
+    "startDate": "2026-04-29",
+    "endDate": "",
+    "featured": true,
+    "tags": [
+        "Personal Project",
+        "Open Source Project",
+        "RAG",
+        "Chatbot", "AI Solutions Architect"
+    ]
+}

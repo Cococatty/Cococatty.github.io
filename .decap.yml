@@ -176,7 +176,7 @@ collections:
             - # 技术栈
                 { name: "techStack", label: "Tech Stack", widget: "list", default: [] }
             - # 项目状态
-                { name: "status", label: "Status", widget: "select", options: ["completed","in-progress","planned"] }
+                { name: "status", label: "Status", widget: "select", options: ["completed","in-progress","planned","planning"] }
             - # 在线演示
                 { name: "liveDemo", label: "Live Demo", widget: "string", required: false }
             - # 源代码

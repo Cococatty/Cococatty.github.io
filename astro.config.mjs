@@ -33,7 +33,8 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
-
+// new
+import { fileURLToPath, URL } from "node:url";
 
 // Choose adapter depending on deployment environment
 const adapter = process.env.GITHUB_ACTIONS
@@ -206,6 +207,11 @@ export default defineConfig({
         ],
     },
     vite: {
+        resolve: {
+            alias: {
+                "@assets": fileURLToPath(new URL("public/assets", import.meta.url)),
+            },
+        },
         plugins: [tailwindcss()],
         build: {
             cssCodeSplit: true,
