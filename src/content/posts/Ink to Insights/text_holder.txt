@@ -1,0 +1,99 @@
+| Decision         | Recommended Service                          | Why                                                                                                                                                                                                          |
+| ---------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Raw book storage | **Amazon S3**                                | Cheap, simple, durable storage. S3 pricing is usage-based with no minimum charge. ([Amazon Web Services, Inc.][1])                                                                                           |
+| Ingestion        | **Lambda first, ECS later**                  | Lambda is enough for small batch ingestion; ECS is better if parsing becomes heavy.                                                                                                                          |
+| Embeddings       | **Amazon Bedrock embedding model**           | Keeps model access inside AWS and supports multiple providers/models. Bedrock pricing varies by model/provider. ([Amazon Web Services, Inc.][2])                                                             |
+| Vector DB        | **Aurora PostgreSQL pgvector or OpenSearch** | pgvector is cheaper/simpler for a portfolio project; OpenSearch is stronger for production search. OpenSearch Serverless charges compute and storage separately using OCUs. ([Amazon Web Services, Inc.][3]) |
+| LLM              | **Claude / Amazon Nova via Bedrock**         | Good for literary Q&A, summarisation, and tone control.                                                                                                                                                      |
+| API              | **API Gateway + Lambda**                     | Simple serverless backend; Lambda charges mainly by requests and duration. ([Amazon Web Services, Inc.][4])                                                                                                  |
+| Frontend         | **React / Next.js / Astro**                  | Easy portfolio demo and deployable to Amplify, Vercel, or S3 + CloudFront.                                                                                                                                   |
+
+### Alternatives considered
+
+| Alternative            | Why not first choice                                                   |
+| ---------------------- | ---------------------------------------------------------------------- |
+| Fine-tuning an LLM     | Overkill; Sherlock Holmes text is static and RAG is cheaper.           |
+| DynamoDB only          | Great key-value DB, but not ideal for semantic vector search.          |
+| OpenAI API outside AWS | Simpler, but less aligned with AWS Solution Architect portfolio goals. |
+| SageMaker endpoint     | Powerful but too expensive/complex for this project.                   |
+| OpenSearch Serverless  | Good production option, but may be costly for a small demo.            |
+
+
+## 4. Trade-offs
+
+### Cost vs Performance
+
+**Lowest cost version:**
+
+* S3 for books
+* Lambda for ingestion/API
+* Aurora Serverless PostgreSQL with pgvector or even a local FAISS demo
+* Bedrock on-demand model calls
+
+Best for portfolio and MVP.
+
+**Higher performance version:**
+
+* OpenSearch vector search
+* ECS/Fargate backend
+* Caching with ElastiCache
+* Dedicated monitoring and evaluation pipeline
+
+Better for production, but more expensive.
+
+
+
+### Latency vs Complexity
+
+| Option                   |      Latency | Complexity | Notes                            |
+| ------------------------ | -----------: | ---------: | -------------------------------- |
+| Lambda + pgvector        |       Medium |        Low | Best starting point              |
+| Lambda + OpenSearch      |         Fast |     Medium | Better retrieval                 |
+| ECS + OpenSearch + cache |      Fastest |       High | Production-grade                 |
+| Fine-tuned model         | Fast answers |       High | Less transparent, harder to cite |
+
+---
+
+## 5. Optional Cost Estimate
+
+For a small portfolio demo:
+
+| Component                         |                                                                   Rough monthly cost |
+| --------------------------------- | -----------------------------------------------------------------------------------: |
+| S3 book storage                   |                                                                               ~$0–$1 |
+| Lambda API + ingestion            |                                                               ~$0–$5 for light usage |
+| API Gateway                       |                                                                               ~$1–$5 |
+| Bedrock embeddings                |                                                 Usually low, one-time ingestion cost |
+| Bedrock LLM chat                  |                                 Depends on tokens; likely ~$5–$30 for light demo use |
+| Aurora pgvector                   |                                                           ~$15–$50+ depending config |
+| OpenSearch Serverless alternative | Can be much higher due to OCU-based compute pricing ([Amazon Web Services, Inc.][3]) |
+| CloudWatch logs                   |                                                                               ~$0–$5 |
+
+**Practical MVP estimate:** **~$20–$60/month** using pgvector.
+**Production-style estimate:** **$100–$400+/month** with OpenSearch, ECS, caching, and heavier usage.
+
+---
+
+## Recommended MVP Scope
+
+Build this first:
+
+1. Ingest public-domain Sherlock Holmes text into S3.
+2. Clean and chunk text by story/chapter.
+3. Generate embeddings using Bedrock.
+4. Store vectors in PostgreSQL pgvector.
+5. Build a Lambda API:
+
+   * retrieve top relevant chunks
+   * construct prompt
+   * call Bedrock LLM
+   * return answer + source story/chapter
+6. Build a simple web chatbot.
+7. Add evaluation questions to test answer quality.
+
+This would be a strong **AI Solution Architect portfolio project** because it demonstrates RAG, AWS serverless design, vector search, cost-awareness, and responsible LLM grounding.
+
+[1]: https://aws.amazon.com/s3/pricing/?utm_source=chatgpt.com "S3 Pricing - Amazon S3"
+[2]: https://aws.amazon.com/bedrock/pricing/?utm_source=chatgpt.com "Amazon Bedrock Pricing – AWS"
+[3]: https://aws.amazon.com/opensearch-service/pricing/?utm_source=chatgpt.com "Amazon OpenSearch Service - Pricing"
+[4]: https://aws.amazon.com/lambda/pricing/?utm_source=chatgpt.com "AWS Lambda Pricing"
