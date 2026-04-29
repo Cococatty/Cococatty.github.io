@@ -9,7 +9,7 @@ export interface Project {
     image: string;
     category: "library" | "ai" | "software" | "website" | "game";
     techStack: string[];
-    status: "completed" | "in-progress" | "planned";
+    status: "completed" | "in-progress" | "planned" | "planning";
     demoUrl?: string;
     sourceUrl?: string;
     startDate: string;
@@ -40,7 +40,7 @@ export const getProjectStats = () => {
     const inProgress = projectsData.filter(
         (p) => p.status === "in-progress",
     ).length;
-    const planned = projectsData.filter((p) => p.status === "planned").length;
+    const planned = projectsData.filter((p) => p.status === "planned" || p.status === "planning").length;
     return {
         total,
         byStatus: {
