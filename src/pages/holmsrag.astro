@@ -1,14 +1,37 @@
 ---
-import HolmsRAGChat from '../components/HolmsRAGChat.astro';
+export const prerender = true;
+
+import { getEntry, render } from "astro:content";
+import Markdown from "@components/common/markdown.astro";
+import GridLayout from "@layouts/grid.astro";
+import BackwardButton from "@components/backwardButton.astro";
+import HolmsRAGChat from "@components/HolmsRAGChat.astro";
+
+const pageTitle = "HolmsRAG";
+const pageDescription = "HolmsRAG - Sherlock Holmes Chatbot Live Demo";
+
+const holmsragPost = await getEntry("spec", "holmsrag");
+
+if (!holmsragPost) {
+    throw new Error("HolmsRAG page content not found");
+}
+
+const { Content } = await render(holmsragPost);
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HolmsRAG Sherlock Holmes Chatbot</title>
-    <meta name="description" content="A Sherlock Holmes themed RAG chatbot." />
-  </head>
-  <body>
-    <HolmsRAGChat />
-  </body>
-</html>
+
+<GridLayout title={pageTitle} description={pageDescription}>
+    <div class="flex w-full rounded-(--radius-large) overflow-hidden relative min-h-32">
+        <div class="card-base z-10 px-9 py-6 relative w-full ">
+            <BackwardButton currentPath={Astro.url.pathname} />
+            <Markdown class="mt-2">
+                <Content />
+            </Markdown>
+        </div>
+    </div>
+    <div class="flex w-full rounded-(--radius-large) overflow-hidden relative min-h-32 mt-6">
+        <div class="card-base z-10 px-9 py-6 relative w-full">
+            <h2 class="text-xl font-bold mb-4">HolmsRAG Live Demo</h2>
+            <HolmsRAGChat />
+        </div>
+    </div>
+</GridLayout>

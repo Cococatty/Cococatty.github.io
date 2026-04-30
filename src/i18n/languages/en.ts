@@ -11,6 +11,8 @@ export const en: Translation = {
     [Key.archive]: "Archive",
     [Key.about]: "About",
     [Key.search]: "Search",
+    [Key.holmsrag]: "HolmsRAG",
+
 
     // Posts
     [Key.directory]: "Directory",
