@@ -10,7 +10,7 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
       <div>
         <p class="holmsrag-kicker">221B Lakehouse</p>
         <h1>HolmsRAG</h1>
-        <p class="holmsrag-subtitle">Ask Sherlock Holmes questions over your Databricks RAG corpus.</p>
+        <p class="holmsrag-subtitle">Ask Sherlock Holmes any questions.</p>
       </div>
     </header>
 
@@ -71,7 +71,7 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
   setLimitState(localUsed() >= DAILY_LIMIT);
 
   if (!API_URL) {
-    addMessage('assistant', 'HolmsRAG endpoint is not configured. Set PUBLIC_HOLMSRAG_API in your environment.');
+    addMessage('assistant', 'HolmsRAG endpoint is being configured, please combe back later.');
     form.hidden = true;
     quotaText.hidden = true;
   } else {
