@@ -270,7 +270,7 @@ collections:
                 { name: "icon", label: "Icon", widget: "string", required: false }
             - # 主题颜色
                 { name: "color", label: "Color", widget: "string", required: false }
-
+    - # HolmsRAG
         name: "holmsrag"
         label: "HolmsRAG"
         # folder: "src/content/friends"

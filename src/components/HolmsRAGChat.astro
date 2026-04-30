@@ -1,6 +1,6 @@
 ---
 import '../styles/holmsrag.css';
-const apiUrl = Astro.props.apiUrl ?? '/api/chat';
+const apiUrl = Astro.props.apiUrl ?? import.meta.env.PUBLIC_HOLMSRAG_API ?? "";
 const dailyLimit = Astro.props.dailyLimit ?? 5;
 ---
 <main class="holmsrag-shell" data-api-url={apiUrl} data-daily-limit={dailyLimit}>
@@ -40,7 +40,7 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
 
 <script>
   const shell = document.querySelector('.holmsrag-shell');
-  const API_URL = shell?.dataset.apiUrl || '/api/chat';
+  const API_URL = shell?.dataset.apiUrl || '';
   const DAILY_LIMIT = Number(shell?.dataset.dailyLimit || 5);
   const form = document.getElementById('chatForm');
   const input = document.getElementById('questionInput');
@@ -69,6 +69,13 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
   }
 
   setLimitState(localUsed() >= DAILY_LIMIT);
+
+  if (!API_URL) {
+    addMessage('assistant', 'HolmsRAG endpoint is not configured. Set PUBLIC_HOLMSRAG_API in your environment.');
+    form.hidden = true;
+    quotaText.hidden = true;
+    return;
+  }
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();

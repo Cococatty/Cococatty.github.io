@@ -17,6 +17,7 @@ if (!holmsragPost) {
 }
 
 const { Content } = await render(holmsragPost);
+const apiUrl = import.meta.env.PUBLIC_HOLMSRAG_API ?? '';
 ---
 
 <GridLayout title={pageTitle} description={pageDescription}>
@@ -31,7 +32,7 @@ const { Content } = await render(holmsragPost);
     <div class="flex w-full rounded-(--radius-large) overflow-hidden relative min-h-32 mt-6">
         <div class="card-base z-10 px-9 py-6 relative w-full">
             <h2 class="text-xl font-bold mb-4">HolmsRAG Live Demo</h2>
-            <HolmsRAGChat />
+            <HolmsRAGChat apiUrl={apiUrl} />
         </div>
     </div>
 </GridLayout>
