@@ -271,12 +271,12 @@ collections:
             - # 主题颜色
                 { name: "color", label: "Color", widget: "string", required: false }
 
-    # - # 友链
-    #     name: "friends"
-    #     label: "Friends"
-    #     folder: "src/content/friends"
-    #     create: true
-    #     slug: "{{slug}}"
+        name: "holmsrag"
+        label: "HolmsRAG"
+        # folder: "src/content/friends"
+        path: "/holmsrag/{{slug}}" # {文件夹}/{文件名}
+        create: true
+        slug: "{{slug}}"
     #     format: "json"
     #     # 字段列表
     #     fields:

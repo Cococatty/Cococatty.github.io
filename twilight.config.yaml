@@ -180,6 +180,7 @@ navbar:
                 -   "Timeline"
                 -   "Diary"
                 - "Albums"
+        - "HolmsRAG"
         - "About"
 
 # Sidebar configuration

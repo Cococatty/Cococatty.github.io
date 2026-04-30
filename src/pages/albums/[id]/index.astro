@@ -7,6 +7,7 @@ import GridLayout from "@layouts/grid.astro";
 import BackwardButton from "@components/backwardButton.astro";
 import ImageWrapper from "@components/common/imageWrapper.astro";
 
+export const prerender = true;
 
 export const getStaticPaths = async () => {
     return sortedAlbums.filter(album => album.visible).map((album) => ({
