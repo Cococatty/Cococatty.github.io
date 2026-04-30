@@ -74,10 +74,8 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
     addMessage('assistant', 'HolmsRAG endpoint is not configured. Set PUBLIC_HOLMSRAG_API in your environment.');
     form.hidden = true;
     quotaText.hidden = true;
-    return;
-  }
-
-  form.addEventListener('submit', async (event) => {
+  } else {
+    form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const question = input.value.trim();
     if (!question) return;
@@ -114,5 +112,6 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
       sendButton.disabled = false;
       sendButton.textContent = 'Send';
     }
-  });
+    });
+  }
 </script>
