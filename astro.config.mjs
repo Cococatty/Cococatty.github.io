@@ -57,7 +57,6 @@ export default defineConfig({
     // base: "/Cococatty.github.io",
     trailingSlash: "always",
     adapter: adapter,
-    output: "server",
     integrations: [
         decapCmsOauth({
             configPath: "./.decap.yml", // Path to the Decap CMS configuration file
