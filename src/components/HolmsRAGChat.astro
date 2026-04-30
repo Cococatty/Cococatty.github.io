@@ -1,0 +1,111 @@
+---
+import '../styles/holmsrag.css';
+const apiUrl = Astro.props.apiUrl ?? '/api/chat';
+const dailyLimit = Astro.props.dailyLimit ?? 5;
+---
+<main class="holmsrag-shell" data-api-url={apiUrl} data-daily-limit={dailyLimit}>
+  <section class="holmsrag-card" aria-label="HolmsRAG chatbot">
+    <header class="holmsrag-header">
+      <div class="holmsrag-seal" aria-hidden="true">⌕</div>
+      <div>
+        <p class="holmsrag-kicker">221B Lakehouse</p>
+        <h1>HolmsRAG</h1>
+        <p class="holmsrag-subtitle">Ask Sherlock Holmes questions over your Databricks RAG corpus.</p>
+      </div>
+    </header>
+
+    <div class="holmsrag-quota" id="quotaText">5 questions left today</div>
+    <div class="holmsrag-messages" id="messages" aria-live="polite">
+      <div class="holmsrag-message assistant">
+        Good day. Ask me about Sherlock Holmes, and I shall deduce an answer from the canon.
+      </div>
+    </div>
+
+    <form class="holmsrag-composer" id="chatForm">
+      <input
+        id="questionInput"
+        name="question"
+        autocomplete="off"
+        placeholder="Ask about Holmes, Watson, Moriarty..."
+        aria-label="Ask HolmsRAG a question"
+      />
+      <button id="sendButton" type="submit">Send</button>
+    </form>
+
+    <div class="holmsrag-limit" id="limitBox" hidden>
+      You have used today’s 5 questions. Contact Carina to get more tokens.
+    </div>
+  </section>
+</main>
+
+<script>
+  const shell = document.querySelector('.holmsrag-shell');
+  const API_URL = shell?.dataset.apiUrl || '/api/chat';
+  const DAILY_LIMIT = Number(shell?.dataset.dailyLimit || 5);
+  const form = document.getElementById('chatForm');
+  const input = document.getElementById('questionInput');
+  const sendButton = document.getElementById('sendButton');
+  const messages = document.getElementById('messages');
+  const quotaText = document.getElementById('quotaText');
+  const limitBox = document.getElementById('limitBox');
+
+  const todayKey = () => new Date().toISOString().slice(0, 10);
+  const usageKey = () => `holmsrag:${todayKey()}`;
+  const localUsed = () => Number(localStorage.getItem(usageKey()) || 0);
+
+  function addMessage(role, text) {
+    const el = document.createElement('div');
+    el.className = `holmsrag-message ${role}`;
+    el.textContent = text;
+    messages.appendChild(el);
+    messages.scrollTo({ top: messages.scrollHeight, behavior: 'smooth' });
+  }
+
+  function setLimitState(isLimited) {
+    const remaining = Math.max(0, DAILY_LIMIT - localUsed());
+    quotaText.textContent = isLimited ? 'Daily limit reached' : `${remaining} questions left today`;
+    form.hidden = isLimited;
+    limitBox.hidden = !isLimited;
+  }
+
+  setLimitState(localUsed() >= DAILY_LIMIT);
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const question = input.value.trim();
+    if (!question) return;
+
+    if (localUsed() >= DAILY_LIMIT) {
+      setLimitState(true);
+      return;
+    }
+
+    input.value = '';
+    sendButton.disabled = true;
+    sendButton.textContent = '...';
+    addMessage('user', question);
+
+    try {
+      const response = await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question })
+      });
+      const data = await response.json();
+
+      if (response.status === 429 || data.limitReached) {
+        setLimitState(true);
+        return;
+      }
+
+      localStorage.setItem(usageKey(), String(localUsed() + 1));
+      addMessage('assistant', data.answer || 'The trail has gone cold. Please try again.');
+      setLimitState(false);
+    } catch (error) {
+      addMessage('assistant', 'I could not reach the HolmsRAG service. Please check the API endpoint.');
+    } finally {
+      sendButton.disabled = false;
+      sendButton.textContent = 'Send';
+    }
+  });
+</script>

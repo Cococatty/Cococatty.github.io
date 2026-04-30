@@ -44,7 +44,7 @@ const linkPresetNameMap: Record<string, LinkPreset> = {
     Timeline: LinkPreset.Timeline,
     Diary: LinkPreset.Diary,
     Albums: LinkPreset.Albums,
-    // Anime: LinkPreset.Anime,
+    HolmsRAG: LinkPreset.HolmsRAG,
     About: LinkPreset.About,
     // Friends: LinkPreset.Friends,
 };

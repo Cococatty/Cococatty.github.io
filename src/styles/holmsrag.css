@@ -1,0 +1,123 @@
+:root {
+  color-scheme: dark;
+  --paper: #f7efd8;
+  --ink: #23180f;
+  --brass: #b88a44;
+  --smoke: #1f1a17;
+  --coal: #100d0b;
+  --mist: rgba(255, 255, 255, 0.08);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: transparent; }
+
+.holmsrag-shell {
+  min-height: 100vh;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at top left, rgba(184, 138, 68, 0.24), transparent 38%),
+    linear-gradient(135deg, #120f0d, #2a2018 48%, #111);
+}
+
+.holmsrag-card {
+  width: min(100%, 760px);
+  min-height: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border: 1px solid rgba(184, 138, 68, 0.38);
+  border-radius: 28px;
+  background: rgba(16, 13, 11, 0.92);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+  color: var(--paper);
+}
+
+.holmsrag-header { display: flex; gap: 16px; align-items: center; }
+.holmsrag-seal {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+  background: var(--brass);
+  font-size: 34px;
+  font-weight: bold;
+}
+.holmsrag-kicker { margin: 0 0 4px; color: var(--brass); letter-spacing: 0.12em; text-transform: uppercase; font-size: 12px; }
+h1 { margin: 0; font-size: clamp(32px, 5vw, 52px); line-height: 1; }
+.holmsrag-subtitle { margin: 8px 0 0; opacity: 0.78; }
+
+.holmsrag-quota {
+  width: fit-content;
+  border: 1px solid rgba(184, 138, 68, 0.4);
+  border-radius: 999px;
+  padding: 8px 12px;
+  color: var(--brass);
+  background: rgba(184, 138, 68, 0.08);
+  font-size: 14px;
+}
+
+.holmsrag-messages {
+  flex: 1;
+  min-height: 360px;
+  max-height: 520px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 4px;
+}
+
+.holmsrag-message {
+  max-width: 82%;
+  padding: 14px 16px;
+  border-radius: 18px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+.holmsrag-message.assistant {
+  align-self: flex-start;
+  color: var(--paper);
+  background: var(--mist);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.holmsrag-message.user {
+  align-self: flex-end;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.holmsrag-composer { display: flex; gap: 10px; }
+.holmsrag-composer input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid rgba(184, 138, 68, 0.45);
+  border-radius: 16px;
+  padding: 14px 16px;
+  color: var(--paper);
+  background: rgba(255, 255, 255, 0.07);
+  font: inherit;
+}
+.holmsrag-composer button {
+  border: 0;
+  border-radius: 16px;
+  padding: 0 20px;
+  color: var(--ink);
+  background: var(--brass);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.holmsrag-composer button:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.holmsrag-limit {
+  border-radius: 18px;
+  padding: 16px;
+  color: var(--ink);
+  background: var(--paper);
+  font-weight: 700;
+}

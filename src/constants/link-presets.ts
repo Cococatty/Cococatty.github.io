@@ -45,19 +45,14 @@ export const LinkPresets: { [key in LinkPreset]: NavbarLink } = {
         url: "/albums/",
         icon: "material-symbols:photo-library",
         description: i18n(I18nKey.albumsSubtitle),
+    
+    },  
+    [LinkPreset.HolmsRAG]: {
+        name: i18n(I18nKey.holmsrag),
+        url: "/holmsrag/",
+        icon: "material-symbols:neurology",
+        description: "HolmsRAG Liv Demo",
     },
-    // [LinkPreset.Anime]: {
-    //     name: i18n(I18nKey.anime),
-    //     url: "/anime/",
-    //     icon: "material-symbols:movie",
-    //     description: "A list of anime I have watched.",
-    // },
-    // [LinkPreset.Friends]: {
-    //     name: i18n(I18nKey.friends),
-    //     url: "/friends/",
-    //     icon: "material-symbols:group",
-    //     description: "A curated list of friend sites.",
-    // },
     [LinkPreset.About]: {
         name: i18n(I18nKey.about),
         url: "/about/",
