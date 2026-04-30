@@ -71,7 +71,7 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
   setLimitState(localUsed() >= DAILY_LIMIT);
 
   if (!API_URL) {
-    addMessage('assistant', 'HolmsRAG endpoint is not configured. Set PUBLIC_HOLMSRAG_API in your environment.');
+    addMessage('assistant', 'HolmsRAG endpoint is being configured, please combe back later.');
     form.hidden = true;
     quotaText.hidden = true;
   } else {
