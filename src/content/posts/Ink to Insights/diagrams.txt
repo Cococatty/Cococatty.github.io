@@ -1,5 +1,0 @@
-Data layer: S3, chunking, embeddings, vector DB
-Application layer: API Gateway, Lambda/ECS, prompt builder
-AI layer: Bedrock embedding model + Bedrock LLM
-User layer: Web chatbot UI
-Observability: CloudWatch
