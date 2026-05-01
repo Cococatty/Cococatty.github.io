@@ -242,7 +242,7 @@ sidebar:
                 # Type
                 type: "toc"
                 # Position strategy ("top" top fixed | "sticky" sticky)
-                position: "top"
+                position: "sticky"
                 # Table of contents depth (1-6, 1 means only show h1 headings, 2 means show h1 and h2 headings, and so on)
                 depth: 3
 
