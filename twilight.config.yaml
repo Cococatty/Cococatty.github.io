@@ -44,7 +44,7 @@ site:
         # Default hue of theme color (range from 0 to 360. E.g.: red: 0, cyan: 200, teal: 250, pink: 345)
         hue: 255
     # Default theme ("system" follow system | "light" light | "dark" dark)
-    defaultTheme: "dark"
+    defaultTheme: "system"
     # Wallpaper configuration
     wallpaper:
         # Mode ("banner" banner | "fullscreen" fullscreen | "none" solid color)
