@@ -160,7 +160,7 @@ analytics:
         # Umami API address
         baseUrl: "https://api.umami.is/v1/eu"
         # API key
-        apiKey: 'api_QRQpJWaXDn7X9hZ5Ce0ySNeE9TjgIVtB'
+        apiKey: ''
         # Tracking code
         code: ''
 
