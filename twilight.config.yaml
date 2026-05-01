@@ -30,7 +30,7 @@ site:
             - "code"
             - "pre"
     # Time zone configuration
-    timeZone: 12
+    timeZone: "Oceania/Auckland"
     # Font configuration
     font:
         # Example font configuration - Zen Maru Gothic
@@ -42,9 +42,9 @@ site:
     # Theme color configuration
     themeColor:
         # Default hue of theme color (range from 0 to 360. E.g.: red: 0, cyan: 200, teal: 250, pink: 345)
-        hue: 255
+        hue: 345
     # Default theme ("system" follow system | "light" light | "dark" dark)
-    defaultTheme: "dark"
+    defaultTheme: "system"
     # Wallpaper configuration
     wallpaper:
         # Mode ("banner" banner | "fullscreen" fullscreen | "none" solid color)
@@ -225,8 +225,26 @@ sidebar:
                 responsive:
                     # Collapse threshold
                     collapseThreshold: 20
-        # # Right sidebar
-        # right:
+        # Right sidebar
+        right:
+            - # Component - Article table of contents (preset)
+                # Type
+                type: "toc"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "sticky"
+                # Table of contents depth (1-6, 1 means only show h1 headings, 2 means show h1 and h2 headings, and so on)
+                depth: 3
+            - # Component - Article statistics (preset)
+                # Type
+                type: "statistics"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "sticky"
+                # Page visibility configuration
+                visibility:
+                    # Match mode: 'include' (include), 'exclude' (exclude)
+                    mode: "include"
+                    # Page path matching rule list (supports regex strings)
+                    paths: ["^/$", "^/archive$"]
         #     - # Component - Announcement (preset)
         #         # Type
         #         type: "announcement"
@@ -238,25 +256,7 @@ sidebar:
         #             mode: "include"
         #             # Page path matching rule list (supports regex strings)
         #             paths: ["^/$"]
-        #     - # Component - Article table of contents (preset)
-        #         # Type
-        #         type: "toc"
-        #         # Position strategy ("top" top fixed | "sticky" sticky)
-        #         position: "sticky"
-        #         # Table of contents depth (1-6, 1 means only show h1 headings, 2 means show h1 and h2 headings, and so on)
-        #         depth: 3
-        #     - # Component - Article statistics (preset)
-        #         # Type
-        #         type: "statistics"
-        #         # Position strategy ("top" top fixed | "sticky" sticky)
-        #         position: "sticky"
-        #         # Page visibility configuration
-        #         visibility:
-        #             # Match mode: 'include' (include), 'exclude' (exclude)
-        #             mode: "include"
-        #             # Page path matching rule list (supports regex strings)
-        #             paths: ["^/$", "^/archive$"]
-
+        
 # Profile configuration
 profile:
     # Avatar configuration (relative to /public directory)
