@@ -204,12 +204,12 @@ sidebar:
                 # Type
                 type: "directory"
                 # Position strategy ("top" top fixed | "sticky" sticky)
-                position: "sticky"
+                position: "top"
             - # Component - Article categories (preset)
                 # Type
                 type: "categories"
                 # Position strategy ("top" top fixed | "sticky" sticky)
-                position: "sticky"
+                position: "top"
                 # Responsive configuration
                 responsive:
                     # Collapse threshold
@@ -220,7 +220,7 @@ sidebar:
                 # Type
                 type: "tags"
                 # Position strategy ("top" top fixed | "sticky" sticky)
-                position: "sticky"
+                position: "top"
                 # Responsive configuration
                 responsive:
                     # Collapse threshold
