@@ -152,15 +152,15 @@ site:
 # Analytics configuration
 analytics:
     # Whether to enable analytics
-    enabled: false
+    enabled: true
     # Analytics platform
     platform: "umami"
     # Umami analytics configuration
     umami:
         # Umami API address
-        baseUrl: "https://api.umami.is"
+        baseUrl: "https://api.umami.is/v1/eu"
         # API key
-        apiKey: ''
+        apiKey: 'api_QRQpJWaXDn7X9hZ5Ce0ySNeE9TjgIVtB'
         # Tracking code
         code: ''
 
@@ -227,6 +227,17 @@ sidebar:
                     collapseThreshold: 20
         # Right sidebar
         right:
+            - # Component - Announcement (preset)
+                # Type
+                type: "announcement"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "top"
+                # Page visibility configuration
+                visibility:
+                    # Match mode: 'include' (include), 'exclude' (exclude)
+                    mode: "include"
+                    # Page path matching rule list (supports regex strings)
+                    paths: ["^/$"]        
             - # Component - Article table of contents (preset)
                 # Type
                 type: "toc"
@@ -234,29 +245,18 @@ sidebar:
                 position: "sticky"
                 # Table of contents depth (1-6, 1 means only show h1 headings, 2 means show h1 and h2 headings, and so on)
                 depth: 3
-            - # Component - Article statistics (preset)
-                # Type
-                type: "statistics"
-                # Position strategy ("top" top fixed | "sticky" sticky)
-                position: "sticky"
-                # Page visibility configuration
-                visibility:
-                    # Match mode: 'include' (include), 'exclude' (exclude)
-                    mode: "include"
-                    # Page path matching rule list (supports regex strings)
-                    paths: ["^/$", "^/archive$"]
-        #     - # Component - Announcement (preset)
-        #         # Type
-        #         type: "announcement"
-        #         # Position strategy ("top" top fixed | "sticky" sticky)
-        #         position: "top"
-        #         # Page visibility configuration
-        #         visibility:
-        #             # Match mode: 'include' (include), 'exclude' (exclude)
-        #             mode: "include"
-        #             # Page path matching rule list (supports regex strings)
-        #             paths: ["^/$"]
-        
+            # - # Component - Article statistics (preset)
+            #     # Type
+            #     type: "statistics"
+            #     # Position strategy ("top" top fixed | "sticky" sticky)
+            #     position: "sticky"
+            #     # Page visibility configuration
+            #     visibility:
+            #         # Match mode: 'include' (include), 'exclude' (exclude)
+            #         mode: "include"
+            #         # Page path matching rule list (supports regex strings)
+            #         paths: ["^/$", "^/archive$"]
+
 # Profile configuration
 profile:
     # Avatar configuration (relative to /public directory)
@@ -313,7 +313,7 @@ post:
     # Comment configuration
     comment:
         # Enable comment feature
-        enable: false
+        enable: true
         # Twikoo comment system configuration
         twikoo:
             # Environment ID
