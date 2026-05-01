@@ -25,7 +25,8 @@ export const zh: Translation = {
     [Key.statistics]: "统计",
     [Key.tableOfContents]: "目录",
 
-    // 统计
+    // stats
+    [Key.activities]: "活动",
     [Key.pageViews]: "浏览量",
     [Key.visitors]: "访客",
     [Key.statsLoading]: "统计加载中...",

@@ -9,8 +9,7 @@ enum I18nKey {
     search = "search",
     holmsrag = "holmsrag",
 
-
-    // 文章
+    // sidebar
     directory = "directory",
     tags = "tags",
     categories = "categories",
@@ -21,7 +20,8 @@ enum I18nKey {
     statistics = "statistics",
     tableOfContents = "tableOfContents",
 
-    // 统计
+    // stats
+    activities = "activities",
     pageViews = "pageViews",
     visitors = "visitors",
     statsLoading = "statsLoading",

@@ -26,6 +26,7 @@ export const ja: Translation = {
     [Key.tableOfContents]: "目次",
 
     // 統計
+    [Key.activities]: "Activities",
     [Key.pageViews]: "閲覧数",
     [Key.visitors]: "訪問者",
     [Key.statsLoading]: "統計を読み込み中...",

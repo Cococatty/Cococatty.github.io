@@ -34,7 +34,7 @@
         month: i18n(I18nKey.month),
         day: i18n(I18nKey.day),
         posts: i18n(I18nKey.posts),
-        activities: "Activities",
+        activities: i18n(I18nKey.activities),
         categories: i18n(I18nKey.categories),
         tags: i18n(I18nKey.tags),
         statistics: i18n(I18nKey.statistics),
