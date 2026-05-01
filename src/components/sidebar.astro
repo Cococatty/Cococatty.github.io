@@ -100,7 +100,7 @@ function renderComponent(component: any, index: number) {
 
     <!-- 粘性组件区域 -->
     {stickyComponents.length > 0 && (
-        <div id="sidebar-sticky" class="flex flex-col w-full gap-4 sticky top-4">
+        <div id="sidebar-sticky" class:list={["flex flex-col w-full gap-4", stickyComponents.some(c => c.type === 'toc') ? "toc-sticky-centered" : "sticky top-4"]}>
             {stickyComponents.map((component, index) => {
                 const renderData = renderComponent(component, index);
                 if (!renderData) return null;
@@ -111,3 +111,11 @@ function renderComponent(component: any, index: number) {
         </div>
     )}
 </div>
+
+<style>
+    .toc-sticky-centered {
+        position: sticky;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+</style>
