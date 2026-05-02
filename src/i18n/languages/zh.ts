@@ -11,7 +11,7 @@ export const zh: Translation = {
     [Key.archive]: "归档",
     [Key.about]: "关于",
     [Key.search]: "搜索",
-    [Key.holmsrag]: "HolmsRAG",
+    [Key.holmesrag]: "HolmesRAG",
 
 
     // 文章

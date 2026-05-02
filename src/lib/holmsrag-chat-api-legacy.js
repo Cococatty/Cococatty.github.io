@@ -17,16 +17,16 @@ function clientKey(request) {
   return `${ip}:${day}`;
 }
 
-async function callHolmsRag(question) {
+async function callHolmesRag(question) {
   const endpoint = import.meta.env.DATABRICKS_RAG_ENDPOINT;
   const token = import.meta.env.DATABRICKS_TOKEN;
 
   if (!endpoint || !token) {
-    return `Elementary. In production, this will query your Databricks HolmsRAG endpoint for: “${question}”`;
+    return `Elementary. In production, this will query your Databricks HolmesRAG endpoint for: “${question}”`;
   }
 
   const response = `🔍 Holmes says: I deduce you asked: "${question}"`;
-  // TODO: Implement actual call to HolmsRAG when endpoint and token are available. For now, we return a mock response.
+  // TODO: Implement actual call to HolmesRAG when endpoint and token are available. For now, we return a mock response.
   // const response = await fetch(endpoint, {
   //   method: 'POST',
   //   headers: {
@@ -43,7 +43,7 @@ async function callHolmsRag(question) {
   }
 
   const data = await response.json();
-  return data.choices?.[0]?.message?.content || data.answer || 'No answer returned by HolmsRAG.';
+  return data.choices?.[0]?.message?.content || data.answer || 'No answer returned by HolmesRAG.';
 }
 
 export async function POST({ request }) {
@@ -65,10 +65,10 @@ export async function POST({ request }) {
   }
 
   try {
-    const answer = await callHolmsRag(question);
+    const answer = await callHolmesRag(question);
     memory.set(key, used + 1);
     return json({ answer, used: used + 1, remaining: DAILY_LIMIT - used - 1 });
   } catch (error) {
-    return json({ error: 'HolmsRAG service unavailable' }, 502);
+    return json({ error: 'HolmesRAG service unavailable' }, 502);
   }
 }

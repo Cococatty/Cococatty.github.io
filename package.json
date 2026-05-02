@@ -1,9 +1,9 @@
 {
-"name": "holmsrag-chatbot-astro",
+"name": "holmesrag-chatbot-astro",
 "type": "module",
 "version": "1.0.0",
 "private": true,
-"description": "HolmsRAG + Twilight blog",
+"description": "HolmesRAG + Twilight blog",
 
 "scripts": {
 "type-check": "tsc --noEmit --isolatedDeclarations",

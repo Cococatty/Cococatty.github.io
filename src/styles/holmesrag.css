@@ -11,7 +11,7 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: transparent; }
 
-.holmsrag-shell {
+.holmesrag-shell {
   min-height: 100vh;
   padding: 24px;
   display: grid;
@@ -21,7 +21,7 @@ body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: tr
     linear-gradient(135deg, #120f0d, #2a2018 48%, #111);
 }
 
-.holmsrag-card {
+.holmesrag-card {
   width: min(100%, 760px);
   min-height: 680px;
   display: flex;
@@ -35,8 +35,8 @@ body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: tr
   color: var(--paper);
 }
 
-.holmsrag-header { display: flex; gap: 16px; align-items: center; }
-.holmsrag-seal {
+.holmesrag-header { display: flex; gap: 16px; align-items: center; }
+.holmesrag-seal {
   width: 58px;
   height: 58px;
   border-radius: 50%;
@@ -47,11 +47,11 @@ body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: tr
   font-size: 34px;
   font-weight: bold;
 }
-.holmsrag-kicker { margin: 0 0 4px; color: var(--brass); letter-spacing: 0.12em; text-transform: uppercase; font-size: 12px; }
+.holmesrag-kicker { margin: 0 0 4px; color: var(--brass); letter-spacing: 0.12em; text-transform: uppercase; font-size: 12px; }
 h1 { margin: 0; font-size: clamp(32px, 5vw, 52px); line-height: 1; }
-.holmsrag-subtitle { margin: 8px 0 0; opacity: 0.78; }
+.holmesrag-subtitle { margin: 8px 0 0; opacity: 0.78; }
 
-.holmsrag-quota {
+.holmesrag-quota {
   width: fit-content;
   border: 1px solid rgba(184, 138, 68, 0.4);
   border-radius: 999px;
@@ -61,7 +61,7 @@ h1 { margin: 0; font-size: clamp(32px, 5vw, 52px); line-height: 1; }
   font-size: 14px;
 }
 
-.holmsrag-messages {
+.holmesrag-messages {
   flex: 1;
   min-height: 360px;
   max-height: 520px;
@@ -72,27 +72,27 @@ h1 { margin: 0; font-size: clamp(32px, 5vw, 52px); line-height: 1; }
   padding: 4px;
 }
 
-.holmsrag-message {
+.holmesrag-message {
   max-width: 82%;
   padding: 14px 16px;
   border-radius: 18px;
   line-height: 1.5;
   white-space: pre-wrap;
 }
-.holmsrag-message.assistant {
+.holmesrag-message.assistant {
   align-self: flex-start;
   color: var(--paper);
   background: var(--mist);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
-.holmsrag-message.user {
+.holmesrag-message.user {
   align-self: flex-end;
   color: var(--ink);
   background: var(--paper);
 }
 
-.holmsrag-composer { display: flex; gap: 10px; }
-.holmsrag-composer input {
+.holmesrag-composer { display: flex; gap: 10px; }
+.holmesrag-composer input {
   flex: 1;
   min-width: 0;
   border: 1px solid rgba(184, 138, 68, 0.45);
@@ -102,7 +102,7 @@ h1 { margin: 0; font-size: clamp(32px, 5vw, 52px); line-height: 1; }
   background: rgba(255, 255, 255, 0.07);
   font: inherit;
 }
-.holmsrag-composer button {
+.holmesrag-composer button {
   border: 0;
   border-radius: 16px;
   padding: 0 20px;
@@ -112,9 +112,9 @@ h1 { margin: 0; font-size: clamp(32px, 5vw, 52px); line-height: 1; }
   font-weight: 700;
   cursor: pointer;
 }
-.holmsrag-composer button:disabled { opacity: 0.55; cursor: not-allowed; }
+.holmesrag-composer button:disabled { opacity: 0.55; cursor: not-allowed; }
 
-.holmsrag-limit {
+.holmesrag-limit {
   border-radius: 18px;
   padding: 16px;
   color: var(--ink);
