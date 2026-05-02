@@ -47,11 +47,11 @@ export const LinkPresets: { [key in LinkPreset]: NavbarLink } = {
         description: i18n(I18nKey.albumsSubtitle),
     
     },  
-    [LinkPreset.HolmsRAG]: {
-        name: i18n(I18nKey.holmsrag),
-        url: "/holmsrag/",
+    [LinkPreset.HolmesRAG]: {
+        name: i18n(I18nKey.holmesrag),
+        url: "/holmesrag/",
         icon: "material-symbols:neurology",
-        description: "HolmsRAG Liv Demo",
+        description: "HolmesRAG Liv Demo",
     },
     [LinkPreset.About]: {
         name: i18n(I18nKey.about),

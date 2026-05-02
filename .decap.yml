@@ -270,11 +270,11 @@ collections:
                 { name: "icon", label: "Icon", widget: "string", required: false }
             - # 主题颜色
                 { name: "color", label: "Color", widget: "string", required: false }
-    - # HolmsRAG
-        name: "holmsrag"
-        label: "HolmsRAG"
+    - # HolmesRAG
+        name: "holmesrag"
+        label: "HolmesRAG"
         # folder: "src/content/friends"
-        path: "/holmsrag/{{slug}}" # {文件夹}/{文件名}
+        path: "/holmesrag/{{slug}}" # {文件夹}/{文件名}
         create: true
         slug: "{{slug}}"
     #     format: "json"

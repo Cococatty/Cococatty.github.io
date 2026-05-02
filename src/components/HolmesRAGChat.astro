@@ -1,45 +1,45 @@
 ---
-import '../styles/holmsrag.css';
-const apiUrl = Astro.props.apiUrl ?? import.meta.env.PUBLIC_HOLMSRAG_API ?? "";
+import '../styles/holmesrag.css';
+const apiUrl = Astro.props.apiUrl ?? import.meta.env.PUBLIC_HOLMESRAG_API ?? "";
 const dailyLimit = Astro.props.dailyLimit ?? 5;
 ---
-<main class="holmsrag-shell" data-api-url={apiUrl} data-daily-limit={dailyLimit}>
-  <section class="holmsrag-card" aria-label="HolmsRAG chatbot">
-    <header class="holmsrag-header">
-      <div class="holmsrag-seal" aria-hidden="true">⌕</div>
+<main class="holmesrag-shell" data-api-url={apiUrl} data-daily-limit={dailyLimit}>
+  <section class="holmesrag-card" aria-label="HolmesRAG chatbot">
+    <header class="holmesrag-header">
+      <div class="holmesrag-seal" aria-hidden="true">⌕</div>
       <div>
-        <p class="holmsrag-kicker">221B Lakehouse</p>
-        <h1>HolmsRAG</h1>
-        <p class="holmsrag-subtitle">Ask Sherlock Holmes any questions.</p>
+        <p class="holmesrag-kicker">221B Lakehouse</p>
+        <h1>HolmesRAG</h1>
+        <p class="holmesrag-subtitle">Ask Sherlock Holmes any questions.</p>
       </div>
     </header>
 
-    <div class="holmsrag-quota" id="quotaText">5 questions left today</div>
-    <div class="holmsrag-messages" id="messages" aria-live="polite">
-      <div class="holmsrag-message assistant">
+    <div class="holmesrag-quota" id="quotaText">5 questions left today</div>
+    <div class="holmesrag-messages" id="messages" aria-live="polite">
+      <div class="holmesrag-message assistant">
         Good day. Ask me about Sherlock Holmes, and I shall deduce an answer from the canon.
       </div>
     </div>
 
-    <form class="holmsrag-composer" id="chatForm">
+    <form class="holmesrag-composer" id="chatForm">
       <input
         id="questionInput"
         name="question"
         autocomplete="off"
         placeholder="Ask about Holmes, Watson, Moriarty..."
-        aria-label="Ask HolmsRAG a question"
+        aria-label="Ask HolmesRAG a question"
       />
       <button id="sendButton" type="submit">Send</button>
     </form>
 
-    <div class="holmsrag-limit" id="limitBox" hidden>
+    <div class="holmesrag-limit" id="limitBox" hidden>
       You have used today’s 5 questions. Contact Carina to get more tokens.
     </div>
   </section>
 </main>
 
 <script>
-  const shell = document.querySelector('.holmsrag-shell');
+  const shell = document.querySelector('.holmesrag-shell');
   const API_URL = shell?.dataset.apiUrl || '';
   const DAILY_LIMIT = Number(shell?.dataset.dailyLimit || 5);
   const form = document.getElementById('chatForm');
@@ -50,12 +50,12 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
   const limitBox = document.getElementById('limitBox');
 
   const todayKey = () => new Date().toISOString().slice(0, 10);
-  const usageKey = () => `holmsrag:${todayKey()}`;
+  const usageKey = () => `holmesrag:${todayKey()}`;
   const localUsed = () => Number(localStorage.getItem(usageKey()) || 0);
 
   function addMessage(role, text) {
     const el = document.createElement('div');
-    el.className = `holmsrag-message ${role}`;
+    el.className = `holmesrag-message ${role}`;
     el.textContent = text;
     messages.appendChild(el);
     messages.scrollTo({ top: messages.scrollHeight, behavior: 'smooth' });
@@ -71,7 +71,7 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
   setLimitState(localUsed() >= DAILY_LIMIT);
 
   if (!API_URL) {
-    addMessage('assistant', 'HolmsRAG endpoint is being configured, please combe back later.');
+    addMessage('assistant', 'HolmesRAG endpoint is being configured, please combe back later.');
     form.hidden = true;
     quotaText.hidden = true;
   } else {
@@ -107,7 +107,7 @@ const dailyLimit = Astro.props.dailyLimit ?? 5;
       addMessage('assistant', data.answer || 'The trail has gone cold. Please try again.');
       setLimitState(false);
     } catch (error) {
-      addMessage('assistant', 'I could not reach the HolmsRAG service. Please check the API endpoint.');
+      addMessage('assistant', 'I could not reach the HolmesRAG service. Please check the API endpoint.');
     } finally {
       sendButton.disabled = false;
       sendButton.textContent = 'Send';
