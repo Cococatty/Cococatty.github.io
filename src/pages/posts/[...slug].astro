@@ -20,6 +20,7 @@ import PasswordProtection from "@components/common/passwordProtection.astro";
 import PostMetadata from "@components/post/postMeta.astro";
 import GridLayout from "@layouts/grid.astro";
 
+export const prerender = true;
 
 export async function getStaticPaths() {
     const blogEntries = await getSortedPosts();

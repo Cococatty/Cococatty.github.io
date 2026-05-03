@@ -1,0 +1,22 @@
+name: Build on Push (All Branches)
+
+on:
+    push:
+        branches: '**'   # matches all branches
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with: 
+        node-version: 20
+    - name: Install dependencies
+      run: |
+        corepack enable
+        pnpm install
+    - name: Build project
+      run: pnpm run build

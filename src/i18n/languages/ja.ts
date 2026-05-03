@@ -11,6 +11,8 @@ export const ja: Translation = {
     [Key.archive]: "アーカイブ",
     [Key.about]: "について",
     [Key.search]: "検索",
+    [Key.holmesrag]: "HolmesRAG",
+
 
     // 投稿
     [Key.directory]: "ディレクトリ",
@@ -24,6 +26,7 @@ export const ja: Translation = {
     [Key.tableOfContents]: "目次",
 
     // 統計
+    [Key.activities]: "Activities",
     [Key.pageViews]: "閲覧数",
     [Key.visitors]: "訪問者",
     [Key.statsLoading]: "統計を読み込み中...",

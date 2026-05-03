@@ -162,6 +162,7 @@ export class TableOfContents extends HTMLElement {
 
     isPostPage() {
         return window.location.pathname.includes('/posts/') ||
+               window.location.pathname.includes('about') ||
                document.querySelector('.custom-md, .markdown-content') !== null;
     }
 

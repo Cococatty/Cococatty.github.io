@@ -11,6 +11,8 @@ export const zh: Translation = {
     [Key.archive]: "归档",
     [Key.about]: "关于",
     [Key.search]: "搜索",
+    [Key.holmesrag]: "HolmesRAG",
+
 
     // 文章
     [Key.directory]: "目录",
@@ -23,7 +25,8 @@ export const zh: Translation = {
     [Key.statistics]: "统计",
     [Key.tableOfContents]: "目录",
 
-    // 统计
+    // stats
+    [Key.activities]: "活动",
     [Key.pageViews]: "浏览量",
     [Key.visitors]: "访客",
     [Key.statsLoading]: "统计加载中...",

@@ -12,8 +12,9 @@
         "RAG",
         "LLM", "Vector"
     ],
-    "status": "Planning",
-    "sourceCode": "https://github.com/Cococatty/holmsrag",
+    "status": "in-progress",
+    "liveDemo": "https://carina.nz",
+    "sourceCode": "https://github.com/Cococatty/holmesrag",
     "startDate": "2026-04-29",
     "endDate": "",
     "featured": true,

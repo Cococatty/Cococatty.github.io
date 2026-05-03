@@ -11,6 +11,8 @@ export const en: Translation = {
     [Key.archive]: "Archive",
     [Key.about]: "About",
     [Key.search]: "Search",
+    [Key.holmesrag]: "HolmesRAG",
+
 
     // Posts
     [Key.directory]: "Directory",
@@ -24,6 +26,7 @@ export const en: Translation = {
     [Key.tableOfContents]: "Table of Contents",
 
     // Page Stats
+    [Key.activities]: "Activities",
     [Key.pageViews]: "Views",
     [Key.visitors]: "Visitors",
     [Key.statsLoading]: "Loading stats...",

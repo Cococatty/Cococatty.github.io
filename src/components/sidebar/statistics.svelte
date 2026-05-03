@@ -34,7 +34,7 @@
         month: i18n(I18nKey.month),
         day: i18n(I18nKey.day),
         posts: i18n(I18nKey.posts),
-        activities: "Activities",
+        activities: i18n(I18nKey.activities),
         categories: i18n(I18nKey.categories),
         tags: i18n(I18nKey.tags),
         statistics: i18n(I18nKey.statistics),
@@ -156,11 +156,9 @@
 
         if (timeScale === 'year') {
             // Show from the oldest post's year to current year, at least 5 years
-            const oldestYear = posts.length > 0
-                ? Math.min(...posts.map(p => dayjs(p.data.published).year()))
-                : now.year();
+            const oldestYear = 2025
             const currentYear = now.year();
-            const startYear = Math.min(oldestYear, currentYear - 4);
+            const startYear = 2025;
 
             for (let year = startYear; year <= currentYear; year++) {
                 const yearStr = year.toString();

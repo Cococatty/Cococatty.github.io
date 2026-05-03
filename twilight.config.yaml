@@ -30,7 +30,7 @@ site:
             - "code"
             - "pre"
     # Time zone configuration
-    timeZone: 12
+    timeZone: "Oceania/Auckland"
     # Font configuration
     font:
         # Example font configuration - Zen Maru Gothic
@@ -44,7 +44,7 @@ site:
         # Default hue of theme color (range from 0 to 360. E.g.: red: 0, cyan: 200, teal: 250, pink: 345)
         hue: 255
     # Default theme ("system" follow system | "light" light | "dark" dark)
-    defaultTheme: "dark"
+    defaultTheme: "system"
     # Wallpaper configuration
     wallpaper:
         # Mode ("banner" banner | "fullscreen" fullscreen | "none" solid color)
@@ -152,13 +152,13 @@ site:
 # Analytics configuration
 analytics:
     # Whether to enable analytics
-    enabled: false
+    enabled: true
     # Analytics platform
     platform: "umami"
     # Umami analytics configuration
     umami:
         # Umami API address
-        baseUrl: "https://api.umami.is"
+        baseUrl: "https://api.umami.is/v1/eu"
         # API key
         apiKey: ''
         # Tracking code
@@ -180,6 +180,7 @@ navbar:
                 -   "Timeline"
                 -   "Diary"
                 - "Albums"
+        - "HolmesRAG"
         - "About"
 
 # Sidebar configuration
@@ -203,12 +204,12 @@ sidebar:
                 # Type
                 type: "directory"
                 # Position strategy ("top" top fixed | "sticky" sticky)
-                position: "sticky"
+                position: "top"
             - # Component - Article categories (preset)
                 # Type
                 type: "categories"
                 # Position strategy ("top" top fixed | "sticky" sticky)
-                position: "sticky"
+                position: "top"
                 # Responsive configuration
                 responsive:
                     # Collapse threshold
@@ -219,42 +220,43 @@ sidebar:
                 # Type
                 type: "tags"
                 # Position strategy ("top" top fixed | "sticky" sticky)
-                position: "sticky"
+                position: "top"
                 # Responsive configuration
                 responsive:
                     # Collapse threshold
                     collapseThreshold: 20
-        # # Right sidebar
-        # right:
-        #     - # Component - Announcement (preset)
-        #         # Type
-        #         type: "announcement"
-        #         # Position strategy ("top" top fixed | "sticky" sticky)
-        #         position: "top"
-        #         # Page visibility configuration
-        #         visibility:
-        #             # Match mode: 'include' (include), 'exclude' (exclude)
-        #             mode: "include"
-        #             # Page path matching rule list (supports regex strings)
-        #             paths: ["^/$"]
-        #     - # Component - Article table of contents (preset)
-        #         # Type
-        #         type: "toc"
-        #         # Position strategy ("top" top fixed | "sticky" sticky)
-        #         position: "sticky"
-        #         # Table of contents depth (1-6, 1 means only show h1 headings, 2 means show h1 and h2 headings, and so on)
-        #         depth: 3
-        #     - # Component - Article statistics (preset)
-        #         # Type
-        #         type: "statistics"
-        #         # Position strategy ("top" top fixed | "sticky" sticky)
-        #         position: "sticky"
-        #         # Page visibility configuration
-        #         visibility:
-        #             # Match mode: 'include' (include), 'exclude' (exclude)
-        #             mode: "include"
-        #             # Page path matching rule list (supports regex strings)
-        #             paths: ["^/$", "^/archive$"]
+        # Right sidebar
+        right:
+            - # Component - Announcement (preset)
+                # Type
+                type: "announcement"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "top"
+                # Page visibility configuration
+                visibility:
+                    # Match mode: 'include' (include), 'exclude' (exclude)
+                    mode: "include"
+                    # Page path matching rule list (supports regex strings)
+                    paths: ["^/$"]        
+            - # Component - Article table of contents (preset)
+                # Type
+                type: "toc"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "sticky"
+                # Table of contents depth (1-6, 1 means only show h1 headings, 2 means show h1 and h2 headings, and so on)
+                depth: 3
+
+            # - # Component - Article statistics (preset)
+            #     # Type
+            #     type: "statistics"
+            #     # Position strategy ("top" top fixed | "sticky" sticky)
+            #     position: "sticky"
+            #     # Page visibility configuration
+            #     visibility:
+            #         # Match mode: 'include' (include), 'exclude' (exclude)
+            #         mode: "include"
+            #         # Page path matching rule list (supports regex strings)
+            #         paths: ["^/$", "^/archive$"]
 
 # Profile configuration
 profile:
@@ -312,7 +314,7 @@ post:
     # Comment configuration
     comment:
         # Enable comment feature
-        enable: false
+        enable: true
         # Twikoo comment system configuration
         twikoo:
             # Environment ID
