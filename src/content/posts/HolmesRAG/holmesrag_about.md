@@ -1,12 +1,12 @@
 ---
-title: 🧠 Ink & Insights (HolmesRAG System)
+title: 🧠 Ink & Insights (HolmesRAG System), WIP
 updated: 2026-04-29
 published: 2026-04-29
-pinned: true
+pinned: false
 description: A RAG chatbot built with Sherlock Holmes stories
 cover: "/assets/article_images/sherlock_holmes.jpg"
 coverInContent: false
-tags: [AI, AWS, AI_SA, hand-on]
+tags: [AI, AWS, AI_SA, hand-on, WIP]
 category: "AI Solution Architect"
 draft: false
 ---
