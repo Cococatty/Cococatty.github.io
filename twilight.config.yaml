@@ -298,7 +298,7 @@ announcement:
 # Post configuration
 post:
     # Show "Last Modified" card
-    showLastModified: true
+    showLastModified: false
     # Code highlighting configuration
     expressiveCode:
         # Theme
