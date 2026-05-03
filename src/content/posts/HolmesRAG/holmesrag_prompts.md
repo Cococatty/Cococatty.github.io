@@ -1,5 +1,5 @@
 ---
-title: 🧠 Key Prompts Used During Development
+title: 🤖 Key Prompts Used During Development
 updated: 2026-05-03
 published: 2026-05-03
 pinned: true
