@@ -65,6 +65,7 @@ export const zh: Translation = {
 
     [Key.author]: "作者",
     [Key.publishedAt]: "发布于",
+    [Key.lastUpdated]: "最后更新",
     [Key.license]: "许可协议",
 
     // 404页面

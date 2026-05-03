@@ -152,7 +152,7 @@ site:
 # Analytics configuration
 analytics:
     # Whether to enable analytics
-    enabled: true
+    enabled: false
     # Analytics platform
     platform: "umami"
     # Umami analytics configuration

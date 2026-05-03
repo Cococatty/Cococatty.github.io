@@ -12,6 +12,7 @@ interface Props {
     title: string;
     id: string;
     pubDate: Date;
+    updated?: Date;
     class: string;
     author: string;
     sourceLink: string;
@@ -20,7 +21,7 @@ interface Props {
     postUrl?: string;
 }
 
-const { title, id, pubDate, author, sourceLink, licenseName, licenseUrl, postUrl: propPostUrl } =
+const { title, id, pubDate, updated, author, sourceLink, licenseName, licenseUrl, postUrl: propPostUrl } =
     Astro.props;
 const className = Astro.props.class;
 const profileConf = profileConfig;
@@ -40,6 +41,12 @@ const postUrl = sourceLink || propPostUrl || getPostUrlBySlug(id);
             <div class="transition text-black/30 dark:text-white/30 text-sm">{i18n(I18nKey.author)}</div>
             <div class="transition text-black/75 dark:text-white/75 line-clamp-2">{author || profileConf.name}</div>
         </div>
+        {updated && updated.getTime() !== pubDate.getTime() && (
+            <div>
+                <div class="transition text-black/30 dark:text-white/30 text-sm">{i18n(I18nKey.lastUpdated)}</div>
+                <div class="transition text-black/75 dark:text-white/75 line-clamp-2">{formatDateToYYYYMMDD(updated)}</div>
+            </div>
+        )}
         <div>
             <div class="transition text-black/30 dark:text-white/30 text-sm">{i18n(I18nKey.publishedAt)}</div>
             <div class="transition text-black/75 dark:text-white/75 line-clamp-2">{formatDateToYYYYMMDD(pubDate)}</div>

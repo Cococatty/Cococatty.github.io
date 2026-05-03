@@ -1,6 +1,6 @@
 ---
 title: 🧠 Ink & Insights (HolmesRAG System), WIP
-updated: 2026-04-29
+updated: 2026-05-03
 published: 2026-04-29
 pinned: false
 description: A RAG chatbot built with Sherlock Holmes stories
