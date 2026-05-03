@@ -1,7 +1,7 @@
 ---
 title: AWS Solutions Architect Associate Certificate
 published: 2026-04-26
-pinned: true
+pinned: false
 description: A simple post recording my preparation.
 tags: [AI, AWS, AI_SA]
 category: "AI Solution Architect"
