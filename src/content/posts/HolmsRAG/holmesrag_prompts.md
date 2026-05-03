@@ -1,14 +1,13 @@
 ---
 title: 🧠 Key Prompts Used During Development
-updated: 2026-04-29
-published: 2026-04-29
+updated: 2026-05-03
+published: 2026-05-03
 pinned: true
-description: A RAG chatbot built with Sherlock Holmes stories
-cover: "/assets/article_images/sherlock_holmes.jpg"
+description: All the key prompts I used to built HolmesRAG
+cover: "./holmes_questions.jpg"
 coverInContent: false
-tags: [AI, AWS, AI_SA, hand-on]
-category: "AI Solution Architect"
-draft: false
+tags: [AI, AI_SA, hand-on, Project_Management]
+category: "Project_Management"
 ---
 
 # Project Management
