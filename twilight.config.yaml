@@ -314,7 +314,7 @@ post:
     # Comment configuration
     comment:
         # Enable comment feature
-        enable: true
+        enable: false
         # Twikoo comment system configuration
         twikoo:
             # Environment ID
