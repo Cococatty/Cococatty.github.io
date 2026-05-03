@@ -65,6 +65,7 @@ export const en: Translation = {
 
     [Key.author]: "Author",
     [Key.publishedAt]: "Published at",
+    [Key.lastUpdated]: "Last updated",
     [Key.license]: "License",
 
     // 404 Page

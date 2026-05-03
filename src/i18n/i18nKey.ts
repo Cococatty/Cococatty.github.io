@@ -61,6 +61,7 @@ enum I18nKey {
 
     author = "author",
     publishedAt = "publishedAt",
+    lastUpdated = "lastUpdated",
     license = "license",
 
     // 404页面
