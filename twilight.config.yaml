@@ -30,7 +30,7 @@ site:
             - "code"
             - "pre"
     # Time zone configuration
-    timeZone: "Oceania/Auckland"
+    timeZone: 12
     # Font configuration
     font:
         # Example font configuration - Zen Maru Gothic
@@ -179,7 +179,7 @@ navbar:
                 -   "Skills"
                 -   "Timeline"
                 -   "Diary"
-                - "Albums"
+                -   "Albums"
         - "HolmesRAG"
         - "About"
 
