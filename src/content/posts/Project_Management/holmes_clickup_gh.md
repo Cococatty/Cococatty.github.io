@@ -109,4 +109,6 @@ The current project management setup is:
 
 # Viola-la-la!
 
+![Repo connection](clickup_gh/gh_setup.png)
+
 ![Connected](clickup_gh/connected.png)
