@@ -1,5 +1,6 @@
 ---
 title: AWS Solutions Architect Associate Certificate
+updated: 2026-05-04
 published: 2026-04-26
 pinned: false
 description: A simple post recording my preparation.
@@ -54,7 +55,7 @@ In practical terms, it accelerates my move toward roles like:
 
 ### How it makes me more competent as an AI professional
 
-Right now, your strengths are very strong in:
+Right now, my strengths sit strongly in:
 
 * Model development (CV, ML systems)
 * Engineering execution (pipelines, CI/CD, deployment)
@@ -62,7 +63,7 @@ Right now, your strengths are very strong in:
 
 The certification strengthens the **system-level thinking layer**, which is what differentiates senior AI professionals.
 
-Specifically, it improves your ability to:
+Specifically, it improves my ability to:
 
 **1. Design end-to-end AI systems properly**
 
@@ -82,8 +83,8 @@ Specifically, it improves your ability to:
 
 **3. Build scalable GenAI/ML platforms**
 
-* Your experience already includes pipelines and AWS usage 
-* This cert helps you design:
+* My experience already includes pipelines and AWS usage 
+* This cert helps me design:
 
   * Multi-tenant AI systems
   * Real-time + batch hybrid architectures
