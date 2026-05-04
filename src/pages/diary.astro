@@ -14,25 +14,13 @@ const pageTitle = LinkPresets[LinkPreset.Diary].name;
 const pageDescription = LinkPresets[LinkPreset.Diary].description;
 
 // 时间格式化函数
-function formatTime(dateString: string): string {
-    var TG = 8;
-    if (siteConfig.timeZone >= -12 && siteConfig.timeZone <= 12) TG = siteConfig.timeZone;
-    const timeGap = TG;
-    const now = new Date();
+function formatDate(dateString: string): string {
     const date = new Date(dateString);
-    const diffInMinutes = Math.floor(
-        (now.getTime() + timeGap*60*60*1000 - date.getTime()) / (1000 * 60),
-    );
-    if (diffInMinutes < 60) {
-        return `${diffInMinutes}${i18n(I18nKey.diaryMinutesAgo)}`;
-    }
-    if (diffInMinutes < 1440) {
-        // 24小时
-        const hours = Math.floor(diffInMinutes / 60);
-        return `${hours}${i18n(I18nKey.diaryHoursAgo)}`;
-    }
-    const days = Math.floor(diffInMinutes / 1440);
-    return `${days}${i18n(I18nKey.diaryDaysAgo)}`;
+    return date.toLocaleDateString(siteConfig.lang, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    });
 }
 ---
 
@@ -86,7 +74,7 @@ function formatTime(dateString: string): string {
                                     <div class="moment-time flex items-center gap-1.5 text-75 text-xs md:text-sm lg:text-base">
                                         <i class="time-icon text-xs md:text-sm">🕐</i>
                                         <time datetime={moment.date}>
-                                            {formatTime(moment.date)}
+                                            {formatDate(moment.date)}
                                         </time>
                                     </div>
                                 </div>
