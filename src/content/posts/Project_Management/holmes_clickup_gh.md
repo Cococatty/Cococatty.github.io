@@ -106,3 +106,7 @@ The current project management setup is:
 
 - ClickUp = EPICs, Features, Sprints (planning layer) --> remains clean for Agile planning;
 - GitHub = Issues + Projects board (execution layer) --> fast for dev work.
+
+# Viola-la-la!
+
+![Connected](clickup_gh/connected.png)
