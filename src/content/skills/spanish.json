@@ -1,0 +1,15 @@
+{
+    "name": "Spanish",
+    "description": "Beginner level proficiency in Spanish, with a focus on conversational skills and basic grammar.",
+    "icon": "logos:duolingo-alt",
+    "category": "Language",
+    "level": "beginner",
+    "experience": {
+        "years": 2,
+        "months": 2
+    },
+    "projects": [
+        ""
+    ],
+    "color": "#55ee52"
+}
