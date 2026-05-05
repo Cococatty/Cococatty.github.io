@@ -152,17 +152,17 @@ site:
 # Analytics configuration
 analytics:
     # Whether to enable analytics
-    enabled: false
+    enabled: true
     # Analytics platform
     platform: "umami"
     # Umami analytics configuration
     umami:
         # Umami API address
-        baseUrl: "https://api.umami.is/v1/eu"
+        baseUrl: "https://cloud.umami.is"
         # API key
-        apiKey: ''
+        # apiKey: ''
         # Tracking code
-        code: ''
+        code: '<script defer src="https://cloud.umami.is/script.js" data-website-id="8b30ae64-8c4e-4bdf-b359-64096031d618"></script>'
 
 # Navbar configuration
 navbar:
