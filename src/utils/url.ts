@@ -43,6 +43,25 @@ export function getPostUrl(post: any): string {
     return getPostUrlBySlug(post.id);
 }
 
+export function getDiaryUrlBySlug(slug: string): string {
+    const slugWithoutExt = removeFileExtension(slug);
+    return url(`/diary/${slugWithoutExt}/`);
+}
+
+export function getDiaryUrlByRouteName(routeName: string): string {
+    const cleanRouteName = routeName.replace(/^\/+/, "");
+    return url(`/diary/${cleanRouteName}/`);
+}
+
+export function getDiaryUrl(entry: CollectionEntry<"diary">): string;
+export function getDiaryUrl(entry: { id: string; data: { routeName?: string } }): string;
+export function getDiaryUrl(entry: any): string {
+    if (entry.data.routeName) {
+        return getDiaryUrlByRouteName(entry.data.routeName);
+    }
+    return getDiaryUrlBySlug(entry.id);
+}
+
 export function getCategoryUrl(category: string | string[] | null): string {
     if (!category) return url("/archive/?uncategorized=true");
     const parts = Array.isArray(category)

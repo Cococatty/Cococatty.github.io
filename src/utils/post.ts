@@ -59,15 +59,23 @@ export async function getTagList(): Promise<Tag[]> {
     const allBlogPosts = await getCollection<"posts">("posts", ({ data }) => {
         return import.meta.env.PROD ? data.draft !== true : true;
     });
+    const allDiaryEntries = await getCollection<"diary">("diary", ({ data }) => {
+        return import.meta.env.PROD ? data.draft !== true : true;
+    });
 
     const countMap: { [key: string]: number } = {};
-    allBlogPosts.forEach((post: { data: { tags: string[] } }) => {
-        const tags = parseTags(post.data.tags);
-        tags.forEach((tag: string) => {
-            if (!countMap[tag]) countMap[tag] = 0;
-            countMap[tag]++;
+    const collectTags = (items: Array<{ data: { tags: string[] } }>) => {
+        items.forEach((item) => {
+            const tags = parseTags(item.data.tags);
+            tags.forEach((tag: string) => {
+                if (!countMap[tag]) countMap[tag] = 0;
+                countMap[tag]++;
+            });
         });
-    });
+    };
+
+    collectTags(allBlogPosts);
+    collectTags(allDiaryEntries);
 
     // sort tags
     const keys: string[] = Object.keys(countMap).sort((a, b) => {

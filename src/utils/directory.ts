@@ -1,6 +1,6 @@
 import { getSortedPosts } from "./post";
 import { sortedAlbums } from "./albums";
-import { sortedMoments } from "./diary";
+import { getSortedDiaryEntries } from "./diary";
 import { projectsData } from "./projects";
 import { skillsData } from "./skills";
 import { timelineData } from "./timeline";
@@ -55,11 +55,12 @@ export async function getDirectoryTree(): Promise<DirectoryNode[]> {
         addNode(basePathParts, album.title || album.id, `/albums/${album.id}/`);
     }
 
-    for (const moment of sortedMoments) {
-        const basePathParts = moment.basePath?.split('/') || [];
+    const diaryEntries = await getSortedDiaryEntries();
+    for (const entry of diaryEntries) {
+        const basePathParts = entry.filePath?.replace(/^src\//, "").split('/') || [];
         if (basePathParts[0] === 'content') basePathParts.shift();
         if (basePathParts[0] === 'diary') basePathParts[0] = rootMap.diary;
-        addNode(basePathParts, moment.title || moment.id, `/diary/`);
+        addNode(basePathParts, entry.data.title || entry.id, `/diary/`);
     }
 
     for (const project of projectsData) {
