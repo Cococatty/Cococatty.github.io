@@ -1,7 +1,7 @@
 ---
 import { LinkPresets } from "@constants/link-presets";
 import { LinkPreset } from "@/types/config";
-import { getSortedPostsList } from "@utils/post";
+import { getSortedArchive } from "@utils/post";
 import ArchivePanel from "@components/archivePanel.svelte";
 import GridLayout from "@layouts/grid.astro";
 import BackwardButton from "@components/backwardButton.astro";
@@ -10,7 +10,7 @@ import BackwardButton from "@components/backwardButton.astro";
 const pageTitle = LinkPresets[LinkPreset.Archive].name;
 const pageDescription = LinkPresets[LinkPreset.Archive].description;
 
-const sortedPostsList = await getSortedPostsList();
+const sortedArchive = await getSortedArchive();
 ---
 
 <GridLayout title={pageTitle} description={pageDescription}>
@@ -29,7 +29,7 @@ const sortedPostsList = await getSortedPostsList();
                 )}
             </header>
             <!-- 归档面板 -->
-            <ArchivePanel sortedPosts={sortedPostsList} client:idle></ArchivePanel>
+            <ArchivePanel sortedPosts={sortedArchive} client:idle></ArchivePanel>
         </div>
     </div>
 </GridLayout>

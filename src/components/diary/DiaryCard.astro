@@ -1,8 +1,9 @@
 ---
 import { Icon } from "astro-icon/components";
-import { getDiaryUrl } from "@utils/url";
+import { getDiaryUrl, getFileDirFromPath } from "@utils/url";
 import type { CollectionEntry } from "astro:content";
 import PostMetadata from "@components/post/postMeta.astro";
+import ImageWrapper from "@components/common/imageWrapper.astro";
 
 interface Props {
     entry: CollectionEntry<"diary">;
@@ -12,11 +13,14 @@ interface Props {
 
 const { entry, class: className, style } = Astro.props;
 const url = getDiaryUrl(entry);
-const { title, description, tags, published, updated } = entry.data;
+const { title, description, tags, published, updated, images } = entry.data;
+const cover = images && images.length > 0 ? images[0] : undefined;
+const hasCover = cover !== undefined && cover !== null && cover !== "";
+const imageBaseDir = getFileDirFromPath(entry.filePath || "");
 ---
 
-<div class:list={["card-base flex flex-col w-full rounded-(--radius-large) overflow-hidden relative", className]} style={style}>
-    <div class="p-6 md:p-7">
+<div class:list={["card-base flex flex-col-reverse md:flex-col w-full rounded-(--radius-large) overflow-hidden relative", className]} style={style}>
+    <div class:list={["p-6 md:p-7", {"w-full md:w-[calc(100%-52px-12px)]": !hasCover, "w-full md:w-[calc(100%-28%-12px)]": hasCover}]}>
         <a href={url}
             class="transition group block font-bold mb-4 text-3xl text-90 hover:text-(--primary) dark:hover:text-(--primary)"
         >
@@ -38,4 +42,13 @@ const { title, description, tags, published, updated } = entry.data;
             </p>
         )}
     </div>
-</div>
+    {hasCover &&
+        <a href={url} aria-label={title} class:list={["group",
+                "max-h-[20vh] md:max-h-none mx-4 mt-4 -mb-2 md:mb-0 md:mx-0 md:mt-0",
+                "md:w-[28%] md:h-full md:rounded-none md:m-0"]}>
+            <ImageWrapper src={cover} basePath={imageBaseDir} alt="Cover Image of the Diary"
+                loading="eager"
+            >
+            </ImageWrapper>
+        </a>
+    }

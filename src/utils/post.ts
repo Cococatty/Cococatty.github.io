@@ -55,6 +55,55 @@ export async function getSortedPostsList(): Promise<PostForList[]> {
 
     return sortedPostsList;
 }
+
+export type ArchiveItem = {
+    id: string;
+    data: {
+        title: string;
+        tags: string[];
+        category?: string | string[] | null;
+        published: Date | string;
+        routeName?: string;
+    };
+    url: string;
+    type: 'post' | 'diary';
+};
+
+export async function getSortedArchive(): Promise<ArchiveItem[]> {
+    const allBlogPosts = await getCollection("posts", ({ data }) => {
+        return import.meta.env.PROD ? data.draft !== true : true;
+    });
+
+    const allDiaryEntries = await getCollection("diary", ({ data }) => {
+        return import.meta.env.PROD ? data.draft !== true : true;
+    });
+
+    const posts = allBlogPosts.map((post) => ({
+        id: post.id,
+        data: post.data,
+        url: `/posts/${post.id}/`,
+        type: 'post' as const,
+    }));
+
+    const diary = allDiaryEntries.map((entry) => ({
+        id: entry.id,
+        data: {
+            title: entry.data.title,
+            tags: entry.data.tags,
+            category: entry.data.category,
+            published: entry.data.published,
+        },
+        url: `/diary/${entry.id}/`,
+        type: 'diary' as const,
+    }));
+
+    const combined = [...posts, ...diary];
+    return combined.sort((a, b) => {
+        const dateA = new Date(a.data.published).getTime();
+        const dateB = new Date(b.data.published).getTime();
+        return dateB - dateA;
+    });
+}
 export async function getTagList(): Promise<Tag[]> {
     const allBlogPosts = await getCollection<"posts">("posts", ({ data }) => {
         return import.meta.env.PROD ? data.draft !== true : true;
@@ -103,9 +152,18 @@ export async function getCategoryList(): Promise<Category[]> {
     const allBlogPosts = await getCollection<"posts">("posts", ({ data }) => {
         return import.meta.env.PROD ? data.draft !== true : true;
     });
+    const allDiaryEntries = await getCollection<"diary">("diary", ({ data }) => {
+        return import.meta.env.PROD ? data.draft !== true : true;
+    });
     const count: { [key: string]: number } = {};
-    allBlogPosts.forEach((post: { data: { category: string | string[] | null } }) => {
-        const categoryParts = getCategoryPathParts(post.data.category);
+    
+    const items = [
+        ...allBlogPosts,
+        ...allDiaryEntries,
+    ];
+    
+    items.forEach((item: { data: { category: string | string[] | null } }) => {
+        const categoryParts = getCategoryPathParts(item.data.category);
         if (!categoryParts) {
             const ucKey = i18n(I18nKey.uncategorized);
             count[ucKey] = count[ucKey] ? count[ucKey] + 1 : 1;
@@ -135,6 +193,9 @@ export async function getCategoryTree(): Promise<CategoryTreeItem[]> {
     const allBlogPosts = await getCollection<"posts">("posts", ({ data }) => {
         return import.meta.env.PROD ? data.draft !== true : true;
     });
+    const allDiaryEntries = await getCollection<"diary">("diary", ({ data }) => {
+        return import.meta.env.PROD ? data.draft !== true : true;
+    });
 
     type CategoryTreeInternal = {
         name: string;
@@ -146,7 +207,8 @@ export async function getCategoryTree(): Promise<CategoryTreeItem[]> {
     const root = new Map<string, CategoryTreeInternal>();
     const uncategorizedKey = i18n(I18nKey.uncategorized);
 
-    for (const post of allBlogPosts) {
+    const items = [...allBlogPosts, ...allDiaryEntries];
+    for (const post of items) {
         const rawParts = getCategoryPathParts(post.data.category);
         const categoryParts = rawParts && rawParts.length > 0 ? rawParts : [uncategorizedKey];
         let currentLevel = root;

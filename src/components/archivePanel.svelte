@@ -1,14 +1,13 @@
 <script lang="ts">
 import { onMount } from "svelte";
 
-import { getPostUrl } from "@utils/url";
 import { getCategoryPathLabel, getCategoryPathParts } from "@utils/category";
 import { parseTags } from "@utils/tag";
 import { i18n } from "@i18n/translation";
 import I18nKey from "@i18n/i18nKey";
 
 
-interface Post {
+interface ArchiveItem {
     id: string;
     data: {
         title: string;
@@ -17,15 +16,17 @@ interface Post {
         published: Date | string;
         routeName?: string;
     };
+    url: string;
+    type: 'post' | 'diary';
 }
 
 interface Group {
     year: number;
-    posts: Post[];
+    posts: ArchiveItem[];
 }
 
 interface Props {
-    sortedPosts?: Post[];
+    sortedPosts?: ArchiveItem[];
 }
 
 let { sortedPosts = [] }: Props = $props();
@@ -107,7 +108,7 @@ let groups = $derived.by(() => {
             acc[year].push(post);
             return acc;
         },
-        {} as Record<number, Post[]>,
+        {} as Record<number, ArchiveItem[]>,
     );
 
     const groupedPostsArray = Object.keys(grouped).map((yearStr) => ({
@@ -136,7 +137,7 @@ let groups = $derived.by(() => {
                 </div>
             </div>
             {#each group.posts as post}
-                <a href={getPostUrl(post)}
+                <a href={post.url}
                     aria-label={post.data.title}
                     class="group btn-plain block! h-10 w-full rounded-lg hover:text-[initial]"
                 >
