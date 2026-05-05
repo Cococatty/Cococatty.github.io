@@ -5,6 +5,8 @@ const diaryModules = import.meta.glob('../content/diary/**/*.json', { eager: tru
 export interface Moment {
     id: string;
     title?: string;
+    description?: string;
+    tags?: string[];
     content: string;
     date: string;
     images?: string[];

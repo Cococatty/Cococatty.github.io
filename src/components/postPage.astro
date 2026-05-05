@@ -2,7 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 
 import PostCard from "@components/post/postCard.astro";
-
+import DiaryCard from "@components/diary/DiaryCard.astro";
 
 const { page } = Astro.props;
 
@@ -11,11 +11,19 @@ const interval = 30;
 ---
 
 <div class="transition flex flex-col gap-3 py-1 md:py-0 md:gap-4 mb-4">
-    {page.data.map((entry: CollectionEntry<"posts">) => (
-        <PostCard
-            entry={entry}
-            class:list="onload-animation-up"
-            style={`animation-delay: ${delay++ * interval}ms;`}
-        ></PostCard>
+    {page.data.map((item: any) => (
+        item.type === "post" ? (
+            <PostCard
+                entry={item.entry}
+                class:list="onload-animation-up"
+                style={`animation-delay: ${delay++ * interval}ms;`}
+            ></PostCard>
+        ) : (
+            <DiaryCard
+                moment={item.moment}
+                class:list="onload-animation-up"
+                style={`animation-delay: ${delay++ * interval}ms;`}
+            ></DiaryCard>
+        )
     ))}
 </div>

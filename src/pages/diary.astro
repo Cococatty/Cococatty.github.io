@@ -3,6 +3,7 @@ import { LinkPresets } from "@constants/link-presets";
 import { LinkPreset } from "@/types/config";
 import { siteConfig } from "@/config";
 import { sortedMoments } from "@/utils/diary";
+import { getTagUrl } from "@utils/url";
 import { i18n } from "@i18n/translation";
 import I18nKey from "@i18n/i18nKey";
 import GridLayout from "@layouts/grid.astro";
@@ -53,7 +54,17 @@ function formatDate(dateString: string): string {
                                     {moment.title && (
                                         <h2 class="moment-title text-base md:text-lg lg:text-xl font-bold text-90 mb-2">{moment.title}</h2>
                                     )}
+                                    {moment.description && (
+                                        <p class="moment-description text-sm md:text-base lg:text-lg text-75 mb-3 md:mb-4">{moment.description}</p>
+                                    )}
                                     <p class="moment-text text-sm md:text-base lg:text-lg text-90 leading-relaxed mb-3 md:mb-4">{moment.content}</p>
+                                    {moment.tags && moment.tags.length > 0 && (
+                                        <div class="moment-tags flex flex-wrap gap-2 mb-3 md:mb-4">
+                                            {moment.tags.map(tag => (
+                                                <a href={getTagUrl(tag)} class="tag-chip">{tag.trim()}</a>
+                                            ))}
+                                        </div>
+                                    )}
                                     {moment.images && moment.images.length > 0 && (
                                         <div class="moment-images flex flex-wrap gap-2 md:gap-3 lg:gap-4 mb-3 md:mb-4">
                                             {moment.images.map((image, index) => (
@@ -152,6 +163,33 @@ function formatDate(dateString: string): string {
     }
 
     /* 让内容中的换行符生效（\n -> 换行） */
+    .moment-description {
+        color: var(--text-secondary);
+        line-height: 1.75;
+    }
+
+    .moment-tags {
+        margin-top: 0.75rem;
+    }
+
+    .tag-chip {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.35rem 0.75rem;
+        border-radius: 9999px;
+        background: var(--line-divider);
+        color: var(--text);
+        font-size: 0.8rem;
+        transition: background 0.25s ease, color 0.25s ease;
+        text-decoration: none;
+    }
+
+    .tag-chip:hover {
+        background: var(--primary);
+        color: white;
+    }
+
     .moment-text {
         white-space: pre-line;
     }

@@ -1,29 +1,69 @@
 ---
 export const prerender = true;
 
-
+import type { CollectionEntry } from "astro:content";
 import type { GetStaticPaths } from "astro";
 
 import { PAGE_SIZE } from "@constants/constants";
 import { getSortedPosts } from "@utils/post";
+import { sortedMoments, type Moment } from "@/utils/diary";
 import Pagination from "@components/pagination.astro";
-import PostPage from "@components/postPage.astro";
+import PostCard from "@components/post/postCard.astro";
+import DiaryCard from "@components/diary/DiaryCard.astro";
 import GridLayout from "@layouts/grid.astro";
 
 
+type FeedItem =
+    | { type: "post"; entry: CollectionEntry<"posts">; updatedAt: number }
+    | { type: "diary"; moment: Moment; updatedAt: number };
+
 export const getStaticPaths = (async ({ paginate }) => {
     const allBlogPosts = await getSortedPosts();
-    return paginate(allBlogPosts, { pageSize: PAGE_SIZE });
+
+    const postFeeds: FeedItem[] = allBlogPosts.map((entry) => ({
+        type: "post",
+        entry,
+        updatedAt: new Date(entry.data.updated || entry.data.published).getTime(),
+    }));
+
+    const diaryFeeds: FeedItem[] = sortedMoments.map((moment) => ({
+        type: "diary",
+        moment,
+        updatedAt: new Date(moment.date).getTime(),
+    }));
+
+    const combinedFeed: FeedItem[] = [...postFeeds, ...diaryFeeds].sort(
+        (a, b) => b.updatedAt - a.updatedAt,
+    );
+
+    return paginate(combinedFeed, { pageSize: PAGE_SIZE });
 }) satisfies GetStaticPaths;
 // https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
 
-
 const { page } = Astro.props;
-
-const len = page.data.length;
+const feedItems = page.data as FeedItem[];
+let delay = 0;
+const interval = 30;
+const len = feedItems.length;
 ---
 
 <GridLayout>
-    <PostPage page={page}></PostPage>
-    <Pagination class="mx-auto onload-animation-up" page={page} style={`animation-delay: ${(len)*50}ms`}></Pagination>
+    <div class="transition flex flex-col gap-3 py-1 md:py-0 md:gap-4 mb-4">
+        {feedItems.map((item) => (
+            item.type === "post" ? (
+                <PostCard
+                    entry={item.entry}
+                    class="onload-animation-up"
+                    style={`animation-delay: ${delay++ * interval}ms;`}
+                />
+            ) : (
+                <DiaryCard
+                    moment={item.moment}
+                    class="onload-animation-up"
+                    style={`animation-delay: ${delay++ * interval}ms;`}
+                />
+            )
+        ))}
+    </div>
+    <Pagination class="mx-auto onload-animation-up" page={page} style={`animation-delay: ${(len) * 50}ms`} />
 </GridLayout>
