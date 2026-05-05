@@ -54,14 +54,14 @@ export async function getDirectoryTree(): Promise<DirectoryNode[]> {
         if (basePathParts[0] === 'albums') basePathParts[0] = rootMap.albums;
         addNode(basePathParts, album.title || album.id, `/albums/${album.id}/`);
     }
-
-    const diaryEntries = await getSortedDiaryEntries();
-    for (const entry of diaryEntries) {
-        const basePathParts = entry.filePath?.replace(/^src\//, "").split('/') || [];
-        if (basePathParts[0] === 'content') basePathParts.shift();
-        if (basePathParts[0] === 'diary') basePathParts[0] = rootMap.diary;
-        addNode(basePathParts, entry.data.title || entry.id, `/diary/`);
-    }
+    // TODO: Disable diary in Directory Tree
+    // const diaryEntries = await getSortedDiaryEntries();
+    // for (const entry of diaryEntries) {
+    //     const basePathParts = entry.filePath?.replace(/^src\//, "").split('/') || [];
+    //     if (basePathParts[0] === 'content') basePathParts.shift();
+    //     if (basePathParts[0] === 'diary') basePathParts[0] = rootMap.diary;
+    //     addNode(basePathParts, entry.data.title || entry.id, `/diary/`);
+    // }
 
     for (const project of projectsData) {
         const basePathParts = project.basePath?.split('/') || [];
