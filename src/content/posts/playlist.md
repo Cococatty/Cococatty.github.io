@@ -2,7 +2,7 @@
 title: Recent Favourite Playlist
 published: 2026-04-24
 description: My Recent Favourite Playlist from grgr_playlist
-tags: [Markdown, Music]
+tags: []
 category: LilMinorThings
 draft: false
 ---
