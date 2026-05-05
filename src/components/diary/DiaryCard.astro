@@ -1,0 +1,41 @@
+---
+import { Icon } from "astro-icon/components";
+import { getDiaryUrl } from "@utils/url";
+import type { CollectionEntry } from "astro:content";
+import PostMetadata from "@components/post/postMeta.astro";
+
+interface Props {
+    entry: CollectionEntry<"diary">;
+    class?: string;
+    style?: string;
+}
+
+const { entry, class: className, style } = Astro.props;
+const url = getDiaryUrl(entry);
+const { title, description, tags, published, updated } = entry.data;
+---
+
+<div class:list={["card-base flex flex-col w-full rounded-(--radius-large) overflow-hidden relative", className]} style={style}>
+    <div class="p-6 md:p-7">
+        <a href={url}
+            class="transition group block font-bold mb-4 text-3xl text-90 hover:text-(--primary) dark:hover:text-(--primary)"
+        >
+            {title}
+            <Icon class="inline text-(--primary) text-3xl ml-2 relative top-1" name="material-symbols:chevron-right-rounded" />
+        </a>
+        <PostMetadata
+            published={published}
+            updated={updated}
+            tags={tags}
+            hideTagsForMobile={true}
+            hideUpdateDate={false}
+            postUrl={url}
+            className="mb-4"
+        />
+        {description && (
+            <p class="text-75 text-base leading-relaxed">
+                {description}
+            </p>
+        )}
+    </div>
+</div>

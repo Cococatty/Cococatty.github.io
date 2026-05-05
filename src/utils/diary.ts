@@ -1,29 +1,14 @@
-// Diary data configuration file
-// Used to manage data for the diary display page
-const diaryModules = import.meta.glob('../content/diary/**/*.json', { eager: true });
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 
-export interface Moment {
-    id: string;
-    title?: string;
-    content: string;
-    date: string;
-    images?: string[];
-    basePath?: string;
+export async function getSortedDiaryEntries(): Promise<CollectionEntry<"diary">[]> {
+    const entries = await getCollection("diary", ({ data }) => {
+        return import.meta.env.PROD ? data.draft !== true : true;
+    });
+
+    return entries.sort((a, b) => {
+        const dateA = new Date(a.data.updated || a.data.published).getTime();
+        const dateB = new Date(b.data.updated || b.data.published).getTime();
+        return dateB - dateA;
+    });
 }
-
-export const moments: Moment[] = Object.entries(diaryModules).map(([path, mod]: [string, any]) => {
-    const id = path.split('/').pop()?.replace('.json', '') || '';
-    const data = mod.default as any;
-    const basePath = path.replace('../', '').replace(/\/[^/]+$/, '');
-    const moment: Moment = {
-        id,
-        ...data,
-        basePath,
-    };
-    return moment;
-});
-
-// Sort moments by date in descending order
-export const sortedMoments = [...moments].sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-);

@@ -238,6 +238,15 @@ sidebar:
                     mode: "include"
                     # Page path matching rule list (supports regex strings)
                     paths: ["^/$"]        
+            - # Component - Diary cards (preset)
+                # Type
+                type: "diary"
+                # Position strategy ("top" top fixed | "sticky" sticky)
+                position: "top"
+                # Page visibility configuration
+                visibility:
+                    mode: "include"
+                    paths: ["^/$"]
             - # Component - Article table of contents (preset)
                 # Type
                 type: "toc"

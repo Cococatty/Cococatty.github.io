@@ -60,6 +60,42 @@ const postsCollection = defineCollection({
     }),
 });
 
+const diaryCollection = defineCollection({
+    loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/diary" }),
+    schema: z.object({
+        title: z.string(),
+        published: dateSchema,
+        updated: optionalDateSchema,
+        description: z.string().optional().default(""),
+        cover: z.string().optional().default(""),
+        coverInContent: z.boolean().optional().default(false),
+        category: categorySchema,
+        tags: tagsSchema,
+        images: z.array(z.string()).optional().default([]),
+        lang: z.string().optional().default(""),
+        pinned: z.boolean().optional().default(false),
+        author: z.string().optional().default(""),
+        sourceLink: z.string().optional().default(""),
+        licenseName: z.string().optional().default(""),
+        licenseUrl: z.string().optional().default(""),
+        comment: z.boolean().optional().default(true),
+        draft: z.boolean().optional().default(false),
+
+        /* Page encryption fields */
+        encrypted: z.boolean().optional().default(false),
+        password: z.string().optional().default(""),
+
+        /* Custom routeName */
+        routeName: z.string().optional(),
+
+        /* For internal use */
+        prevTitle: z.string().default(""),
+        prevSlug: z.string().default(""),
+        nextTitle: z.string().default(""),
+        nextSlug: z.string().default(""),
+    }),
+});
+
 const specCollection = defineCollection({
     loader: glob({ pattern: '[^_]*.{md,mdx}', base: "./src/content" }),
     schema: z.object({}),
@@ -67,5 +103,6 @@ const specCollection = defineCollection({
 
 export const collections = {
     posts: postsCollection,
+    diary: diaryCollection,
     spec: specCollection,
 };

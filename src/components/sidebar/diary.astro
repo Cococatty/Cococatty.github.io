@@ -1,0 +1,49 @@
+---
+import { getDiaryUrl } from "@utils/url";
+import { formatDateToYYYYMMDD } from "@utils/date";
+import { getSortedDiaryEntries } from "@utils/diary";
+import { i18n } from "@i18n/translation";
+import I18nKey from "@i18n/i18nKey";
+import WidgetLayout from "@components/sidebar/widgetLayout.astro";
+
+const diaryEntries = await getSortedDiaryEntries();
+
+interface Props {
+    class?: string;
+    style?: string;
+}
+const className = Astro.props.class;
+const style = Astro.props.style;
+---
+
+<WidgetLayout
+    id="sidebar-diary"
+    name={i18n(I18nKey.diary)}
+    class={className}
+    style={style}
+>
+    {diaryEntries.length === 0 ? (
+        <div class="text-75 text-sm">No diary entries yet.</div>
+    ) : (
+        <ul class="space-y-4">
+            {diaryEntries.map((entry) => (
+                <li class="rounded-xl border border-(--line-divider) bg-(--card-bg) p-4 hover:shadow-lg transition-all">
+                    <a href={getDiaryUrl(entry)} class="block">
+                        <div class="font-medium text-base text-90 hover:text-(--primary) transition-colors">{entry.data.title}</div>
+                    </a>
+                    <div class="text-75 text-xs mt-2">{formatDateToYYYYMMDD(entry.data.published)}</div>
+                    {entry.data.description && (
+                        <div class="text-75 text-sm mt-2 line-clamp-2">{entry.data.description}</div>
+                    )}
+                    {entry.data.tags && entry.data.tags.length > 0 && (
+                        <div class="flex flex-wrap gap-2 mt-3">
+                            {entry.data.tags.map((tag) => (
+                                <span class="rounded-full border border-(--line-divider) px-2 py-1 text-75 text-xs">{tag}</span>
+                            ))}
+                        </div>
+                    )}
+                </li>
+            ))}
+        </ul>
+    )}
+</WidgetLayout>

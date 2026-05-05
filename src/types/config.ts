@@ -265,6 +265,7 @@ export type WidgetComponentType =
     | "tags"
     | "statistics"
     | "toc"
+    | "diary"
     | "custom";
 
 
