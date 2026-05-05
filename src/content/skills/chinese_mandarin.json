@@ -1,0 +1,15 @@
+{
+    "name": "Mandarin Chinese",
+    "description": "Native proficiency in Mandarin Chinese, with strong skills in reading, writing, and speaking.",
+    "icon": "",
+    "category": "Language",
+    "level": "expert",
+    "experience": {
+        "years": 0,
+        "months": 0
+    },
+    "projects": [
+        ""
+    ],
+    "color": "#55ee52"
+}
