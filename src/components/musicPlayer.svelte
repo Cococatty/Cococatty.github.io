@@ -60,7 +60,7 @@ let currentTime = $state(0);
 // 歌曲总时长
 let duration = $state(0);
 // 音量
-let volume = $state(0.75);
+let volume = $state(0.5);
 // 是否静音
 let isMuted = $state(false);
 // 是否正在加载
@@ -886,7 +886,7 @@ onDestroy(() => {
             <!-- 歌词显示切换按钮 -->
             <button class="w-10 h-10 rounded-lg btn-plain"
                     onclick={toggleLyrics}
-                    title="切换歌词显示">
+                    title={i18n(Key.musicSwitchLyrics)}>
                 <Icon icon="material-symbols:lyrics" class="text-lg {showLyrics ? 'text-(--primary)' : 'opacity-90'}" />
             </button>
         </div>

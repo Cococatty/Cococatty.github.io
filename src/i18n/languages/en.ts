@@ -272,6 +272,7 @@ export const en: Translation = {
     [Key.musicUnknownTrack]: "Unknown Track",
     [Key.musicSwitchToLocal]: "Switch to Local mode",
     [Key.musicSwitchToMeting]: "Switch to Meting mode",
+    [Key.musicSwitchLyrics]: "Switch Lyrics Display",
     [Key.musicProgress]: "Progress",
     [Key.musicCollapse]: "Collapse player",
     [Key.musicVolume]: "Volume",
