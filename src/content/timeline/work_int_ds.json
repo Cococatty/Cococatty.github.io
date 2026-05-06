@@ -1,0 +1,43 @@
+{
+    "title": "Intermediate Data Scientist",
+    "description": "",
+    "type": "work",
+    "location": "Auckland, New Zealand",
+    "organization": "Plexure",
+    "startDate": "Oct 2023",
+    "endDate": null,
+    "skills": [
+        "Git",
+        "Python",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Big Data",
+        "Cloud Computing",
+        "Databricks",
+        "Azure",
+        "AWS",
+        "MLOps",
+        "ETL Pipelines",
+        "Data Engineering",
+        "Model Deployment",
+        "Model Optimization",
+        "Model Interpretability",
+        "Model Monitoring",
+        "Model Maintenance",
+        "Model Versioning",
+        "Model Testing",
+        "Model Validation",
+        "Tech and Business Documentation"
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "Plexure Website",
+            "url": "https://tasksoftware.com/plexure/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": true
+}

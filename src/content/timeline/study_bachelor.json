@@ -1,0 +1,21 @@
+{
+    "title": "Bachelor of Statistics and Computer Science",
+    "description": "",
+    "type": "education",
+    "location": "Christchurch, New Zealand",
+    "organization": "University of Canterbury",
+    "startDate": "Feb 2014",
+    "endDate": "Jan 2016",
+    "skills": [],
+    "achievements": ["Wine Club, CompSoc, MathSoc (Event manager of 2016). Class representative for various classes, I organize group study session, online and offline discussions."],
+    "links": [
+        {
+            "name": "University of Canterbury",
+            "url": "https://www.canterbury.ac.nz/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": false
+}

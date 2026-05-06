@@ -1,0 +1,22 @@
+{
+    "title": "Diploma in Information and Communications Technology",
+    "description": "Programming and software development fundamentals, including data structures, algorithms, databases, web development, and software engineering principles.",
+    "type": "education",
+    "location": "Christchurch, New Zealand",
+    "organization": "Christchurch Polytechnic Institute of Technology (CPIT)",
+    "startDate": "Jul 2009",
+    "endDate": "Jun 2011",
+    "skills": [        
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "Christchurch Polytechnic Institute of Technology (now Ara)",
+            "url": "https://www.ara.ac.nz/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": false
+}
