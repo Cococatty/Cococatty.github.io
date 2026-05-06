@@ -1,0 +1,29 @@
+{
+    "title": "Database Analyst and Support Technician",
+    "description": "I developed and enhanced core C# software modules, ensuring system stability by diagnosing issues and delivering timely fixes. I worked closely with clients across multiple regions, providing on-site training and hands-on technical support to drive successful adoption. I also managed and integrated data across diverse database systems, maintaining high data integrity and aligning structures with application requirements. By bridging technical development with customer needs, I helped ensure reliable system performance and a strong end-user experience.",
+    "type": "work",
+    "location": "Christchurch, New Zealand",
+    "organization": "Intelligenz Solutions",
+    "startDate": "Nov 2011",
+    "endDate": "Oct 2016",
+    "skills": [
+        "Git",
+        "SQL Server",
+        "Customer Support",
+        "ETL Pipelines",
+        "DevOps",
+        "Data Engineering",
+        "Tech and Business Documentation"
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "Intelligenz Solutions Website",
+            "url": "http://www.intelligenz.global/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": false
+}

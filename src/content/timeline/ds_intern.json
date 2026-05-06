@@ -1,0 +1,38 @@
+{
+    "title": "Data Scientist",
+    "description": "Delivered data analysis via Power BI and Python, supporting business decision-making with actionable insights. Developed and delivered full MLOps pipelines from data ingestion to model deployment and insights reporting, leveraging for scalable solutions. Collaborated cross-functionally to translate business needs into data-driven solutions, while maintaining comprehensive documentation for technical and business audiences.",
+    "type": "work",
+    "location": "Christchurch, New Zealand",
+    "organization": "Intelligenz Solutions",
+    "startDate": "Nov 2019",
+    "endDate": "Feb 2020",
+    "skills": [
+        "Git",
+        "Python",
+        "Scikit-learn",
+        "Data Visualization",
+        "Data Science",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "SQL Server",
+        "Big Data",
+        "Cloud Computing",
+        "ETL Pipelines",
+        "Azure",
+        "AWS",        
+        "MLOps",
+        "Data Engineering",
+        "Tech and Business Documentation"
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "Intelligenz Solutions Website",
+            "url": "http://www.intelligenz.global/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": false
+}

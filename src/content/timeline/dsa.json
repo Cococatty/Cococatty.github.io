@@ -1,0 +1,29 @@
+{
+    "title": "Data System Analyst, Data Custodian",
+    "description": "I developed and enhanced core C# software modules, ensuring system stability by diagnosing issues and delivering timely fixes. I worked closely with clients across multiple regions, providing on-site training and hands-on technical support to drive successful adoption. I also managed and integrated data across diverse database systems, maintaining high data integrity and aligning structures with application requirements. By bridging technical development with customer needs, I helped ensure reliable system performance and a strong end-user experience.",
+    "type": "work",
+    "location": "Christchurch, New Zealand",
+    "organization": "Statistics New Zealand",     
+    "startDate": "2016",
+    "endDate": "2020",
+    "skills": [
+        "Git",
+        "SQL Server",
+        "Customer Support",
+        "ETL Pipelines",
+        "DevOps",
+        "Data Engineering",
+        "Tech and Business Documentation"
+    ],
+    "achievements": ["Test"],
+    "links": [
+        {
+            "name": "Statistics New Zealand Website",
+            "url": "https://www.stats.govt.nz/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": false
+}
