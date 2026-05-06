@@ -1,0 +1,36 @@
+{
+    "title": "Master of Applied Data Science",
+    "description": "Distinction (GPA 7.3/9)",
+    "type": "education",
+    "location": "Christchurch, New Zealand",
+    "organization": "University of Canterbury",
+    "startDate": "Jul 2019",
+    "endDate": "Jun 2020",
+    "skills": [
+        "Computer Vision",
+        "Python",
+        "Data Science",
+        "Machine Learning",
+        "Deep Learning",
+        "Artificial Intelligence",
+        "Big Data",
+        "Azure",
+        "AWS",        
+        "MLOps",
+        "Data Engineering",
+        "Natural Language Processing",
+        "Hadoop",
+        "Spark", "Data Visualization"
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "",
+            "url": "https://www.canterbury.ac.nz/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": true
+}

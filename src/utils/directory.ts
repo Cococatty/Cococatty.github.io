@@ -70,19 +70,19 @@ export async function getDirectoryTree(): Promise<DirectoryNode[]> {
         addNode(basePathParts, project.title || project.id, `/projects/`);
     }
 
-    for (const skill of skillsData) {
-        const basePathParts = skill.basePath?.split('/') || [];
-        if (basePathParts[0] === 'content') basePathParts.shift();
-        if (basePathParts[0] === 'skills') basePathParts[0] = rootMap.skills;
-        addNode(basePathParts, skill.name || skill.id, `/skills/`);
-    }
+    // for (const skill of skillsData) {
+    //     const basePathParts = skill.basePath?.split('/') || [];
+    //     if (basePathParts[0] === 'content') basePathParts.shift();
+    //     if (basePathParts[0] === 'skills') basePathParts[0] = rootMap.skills;
+    //     addNode(basePathParts, skill.name || skill.id, `/skills/`);
+    // }
 
-    for (const item of timelineData) {
-        const basePathParts = item.basePath?.split('/') || [];
-        if (basePathParts[0] === 'content') basePathParts.shift();
-        if (basePathParts[0] === 'timeline') basePathParts[0] = rootMap.timeline;
-        addNode(basePathParts, item.title || item.id, `/timeline/`);
-    }
+    // for (const item of timelineData) {
+    //     const basePathParts = item.basePath?.split('/') || [];
+    //     if (basePathParts[0] === 'content') basePathParts.shift();
+    //     if (basePathParts[0] === 'timeline') basePathParts[0] = rootMap.timeline;
+    //     addNode(basePathParts, item.title || item.id, `/timeline/`);
+    // }
 
     function toArray(obj: Record<string, any>): DirectoryNode[] {
         const arr = Object.values(obj).map(node => {

@@ -159,8 +159,6 @@ analytics:
     umami:
         # Umami API address
         baseUrl: "https://cloud.umami.is"
-        # API key
-        # apiKey: ''
         # Tracking code
         code: '<script defer src="https://cloud.umami.is/script.js" data-website-id="8b30ae64-8c4e-4bdf-b359-64096031d618"></script>'
 

@@ -1,6 +1,8 @@
 ---
 import { i18n } from "@i18n/translation";
 import I18nKey from "@i18n/i18nKey";
+import { getDefaultLanguage } from "@utils/language";
+import { langToLocaleMap } from "@i18n/language";
 import Icon from "@components/common/icon.astro";
 
 
@@ -103,7 +105,8 @@ const getLinkIcon = (type: string) => {
 // 格式化日期
 const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString("zh-CN", { year: "numeric", month: "long" });
+    const locale = langToLocaleMap[getDefaultLanguage()] || "en-US";
+    return date.toLocaleDateString(locale, { year: "numeric", month: "long" });
 };
 
 // 计算持续时间
