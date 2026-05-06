@@ -1,0 +1,49 @@
+{
+    "title": "Machine Learning Engineer",
+    "description": "Delivered real-time AI object detection solutions on edge devices (Jetson NX), driving end-to-end development from data capture to deployment. Improved model performance and deployment efficiency through optimized pipelines, GPU utilization, and Dockerized workflows, while translating technical solutions into client-ready outcomes.",
+    "type": "work",
+    "location": "Auckland, New Zealand",
+    "organization": "Cubic Defence New Zealand",
+    "startDate": "Nov 2020",
+    "endDate": "Jul 2022",
+    "skills": [
+        "Computer Vision",
+        "Git",
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "Scikit-learn",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Docker",
+        "Embedded Systems",
+        "Edge Computing",
+        "Big Data",
+        "Cloud Computing",
+        "Azure",
+        "AWS",        
+        "MLOps",
+        "Data Engineering",
+        "Model Deployment",
+        "Model Optimization",
+        "Model Interpretability",
+        "Model Monitoring",
+        "Model Maintenance",
+        "Model Versioning",
+        "Model Testing",
+        "Model Validation",
+        "Tech and Business Documentation"
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "Cubic Defence Website",
+            "url": "https://www.cubic.com/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": false
+}

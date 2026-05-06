@@ -1,0 +1,49 @@
+{
+    "title": "AI Engineer/Data Scientist",
+    "description": "I led the design and delivery of an end-to-end Driver Monitoring System across cloud and edge environments, enabling real-time driver behaviour detection with privacy-preserving features. My role focused on architecting scalable computer vision and data pipelines, optimizing ML systems for low-latency and resource-constrained deployments, and building production-grade AWS infrastructure with robust CI/CD. I also drove engineering standards and cross-functional collaboration to translate business needs into scalable AI solutions, while fostering innovation through leading an internal AI community.",
+    "type": "work",
+    "location": "Auckland, New Zealand",
+    "organization": "EROAD",
+    "startDate": "Jul 2022",
+    "endDate": "Oct 2023",
+    "skills": [
+        "Computer Vision",
+        "Git",
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "Scikit-learn",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Docker",
+        "Embedded Systems",
+        "Edge Computing",
+        "Big Data",
+        "Cloud Computing",
+        "Azure",
+        "AWS",        
+        "MLOps",
+        "Data Engineering",
+        "Model Deployment",
+        "Model Optimization",
+        "Model Interpretability",
+        "Model Monitoring",
+        "Model Maintenance",
+        "Model Versioning",
+        "Model Testing",
+        "Model Validation",
+        "Tech and Business Documentation"
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "EROAD Website",
+            "url": "https://www.eroad.co.nz/",
+            "type": "other"
+        }
+    ],
+    "icon": "material-symbols:code",
+    "color": "#7C3AED",
+    "featured": false
+}

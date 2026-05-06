@@ -120,7 +120,10 @@ export const footerConfig: FooterConfig = config.footer;
 export const particleConfig: ParticleConfig = config.particle;
 
 // Music player configuration
-export const musicPlayerConfig: MusicPlayerConfig = config.musicPlayer;
+export const musicPlayerConfig: MusicPlayerConfig = {
+    ...config.musicPlayer,
+    autoplay: import.meta.env.DEV ? false : (config.musicPlayer.autoplay ?? false),
+};
 
 // Live2D character configuration
 export const pioConfig: PioConfig = config.pio;
