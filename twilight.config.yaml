@@ -168,7 +168,7 @@ analytics:
 navbar:
     links:
         - "Home"
-        - "Archive"
+        - "Archive"        
         - # Navigation name
             name: "Exhibition"            
             url: "/exhibition/"
@@ -181,6 +181,7 @@ navbar:
                 -   "Diary"
                 -   "Albums"
         - "HolmesRAG"
+        - "Timeline"
         - "About"
 
 # Sidebar configuration
