@@ -268,6 +268,7 @@ enum I18nKey {
     musicUnknownTrack = "musicUnknownTrack",
     musicSwitchToLocal = "musicSwitchToLocal",
     musicSwitchToMeting = "musicSwitchToMeting",
+    musicSwitchLyrics = "musicSwitchLyrics",
     musicProgress = "musicProgress",
     musicCollapse = "musicCollapse",
     musicVolume = "musicVolume",

@@ -272,6 +272,7 @@ export const zh: Translation = {
     [Key.musicUnknownTrack]: "未知歌曲",
     [Key.musicSwitchToLocal]: "切换到 Local 模式",
     [Key.musicSwitchToMeting]: "切换到 Meting 模式",
+    [Key.musicSwitchLyrics]: "切换歌词显示",
     [Key.musicProgress]: "播放进度",
     [Key.musicCollapse]: "折叠播放器",
     [Key.musicVolume]: "音量控制",

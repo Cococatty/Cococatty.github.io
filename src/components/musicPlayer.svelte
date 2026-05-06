@@ -886,7 +886,7 @@ onDestroy(() => {
             <!-- 歌词显示切换按钮 -->
             <button class="w-10 h-10 rounded-lg btn-plain"
                     onclick={toggleLyrics}
-                    title="切换歌词显示">
+                    title={i18n(Key.musicSwitchLyrics)}>
                 <Icon icon="material-symbols:lyrics" class="text-lg {showLyrics ? 'text-(--primary)' : 'opacity-90'}" />
             </button>
         </div>
