@@ -105,7 +105,7 @@ const getLinkIcon = (type: string) => {
 // 格式化日期
 const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    const locale = langToLocaleMap[getDefaultLanguage()] || "en-US";
+    const locale = "en-US";
     return date.toLocaleDateString(locale, { year: "numeric", month: "long" });
 };
 
